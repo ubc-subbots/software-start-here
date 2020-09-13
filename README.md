@@ -12,7 +12,7 @@ For this tutorial, you'll need a blank, >8 GB stoarge USB stick.
 
 For dual-booting: 
 * Windows instructions: https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/
-  Note: BIOS can also be accessed by restarting using Recovery options menu in windows. 
+  * Note: BIOS can also be accessed by restarting using Recovery options menu in windows. 
 * Mac Instructions: https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
   
 Once Ubuntu is installed, you will need to install a preferred IDE. Some suggestions are listed below: 
@@ -20,4 +20,9 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * Eclipse: https://www.eclipse.org/ide/
 * Clion: https://www.jetbrains.com/clion/ (can be tedious to setup, requires an account) 
 * VS Code: https://code.visualstudio.com/ (strenuous setup but very powerful IDE) 
+
+# ROS 2 Installation
+
+To install ROS 2, follow the tutorial here, https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/, please install the desktop version. 
+
   
