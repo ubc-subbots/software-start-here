@@ -21,8 +21,20 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * Clion: https://www.jetbrains.com/clion/ (can be tedious to setup, requires an account) 
 * VS Code: https://code.visualstudio.com/ (strenuous setup but very powerful IDE) 
 
+# Git command line tools 
+
+To use Git from the linux command line, follow the install here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 # ROS 2 Installation
 
 To install ROS 2, follow the tutorial here, https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/, please install the desktop version. 
 
-  
+Next, you will need to install the ROS 2 build tools (Colcon). Please follow the guide here: https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/
+
+# ROS 2 Beginners Guide
+
+The ROS 2 Wiki contains many helpful tutorials that teach the fundamentals of the operating system. We recommend completing as many of them as you need to from the Beginners set. As well, any other tutorials beyond would be benefical. 
+
+# The challenge 
+
+Using the Turtlesim package, write a node that commands the turtle to perform a sine motion. All of the information you need to complete this challenge using ROS 2 is available on the wiki. 
