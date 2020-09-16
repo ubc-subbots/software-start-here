@@ -8,9 +8,10 @@ This repository will act as a starting point for new developers in order to help
 
 ROS 2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution to operate, for our development work we will be using Ubuntu 20.04 preferably dual booted alongside windows (Mac users may need to explore virtual box options).
 
-For this tutorial, you'll need a blank, >8 GB stoarge USB stick. 
+For this tutorial, you'll need a blank, >4 GB stoarge USB stick. 
 
 For dual-booting: 
+Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. 
 * Windows instructions: https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/
   * Note: BIOS can also be accessed by restarting using Recovery options menu in windows. 
 * Mac Instructions: https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/
