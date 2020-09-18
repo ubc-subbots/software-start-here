@@ -42,5 +42,7 @@ Using the Turtlesim package, you will write a node that commands the turtle to p
 1. Open a new cmd prompt, clone this repository onto your machine and switch to the resulting folder.
 2. Create a new branch using the convention, challenge/{your name}.
 3. Inside this directory, create a folder named "src" (use cmd commands) and change directory to this folder.
-3. Create a ROS 2 C++ package inside the repository named "challenge" with a node named "solution" (ROS 2 tutorials refer to dev_ws/src, in your case this should be software-start-here/src).
-4. 
+4. Create a ROS 2 C++ package inside the repository named "challenge" with a node named "solution" (ROS 2 tutorials refer to dev_ws/src, in your case this should be software-start-here/src).
+5. Fill in your node so that it can command the turtlesim node to perform a sine motion. 
+6. **Bonus** Write a launch file to launch a turtlesim node and your node together. 
+7. push your node to Git and let Jake or Logan know that you've completed the challenge!
