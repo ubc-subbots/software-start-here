@@ -40,7 +40,7 @@ The [ROS 2 Wiki](https://index.ros.org/doc/ros2/Tutorials/) contains many helpfu
 
 Using the Turtlesim package, you will write a node that commands the turtle to perform a sine motion using the information available in the ROS 2 wiki. 
 1. Open a new cmd prompt, clone this repository onto your machine and switch to the resulting folder.
-2. Create a new branch using the convention, challenge/<your name>.
+2. Create a new branch using the convention, challenge/{your name}.
 3. Inside this directory, create a folder named "src" (use cmd commands) and change directory to this folder.
 3. Create a ROS 2 C++ package inside the repository named "challenge" with a node named "solution" (ROS 2 tutorials refer to dev_ws/src, in your case this should be software-start-here/src).
 4. 
