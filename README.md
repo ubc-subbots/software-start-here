@@ -30,7 +30,7 @@ To use Git from the linux command line, follow the install [here](https://git-sc
 
 To install ROS 2, follow the tutorial [here](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/), please install the desktop version. 
 
-Next, you will need to install the ROS 2 build tools (Colcon). Please follow the guide [here](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/)
+Next, you will need to install the ROS 2 build tools (Colcon). Please follow the guide [here](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#install-colcon)
 
 # ROS 2 Beginners Guide
 
