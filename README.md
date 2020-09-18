@@ -32,6 +32,10 @@ To install ROS 2, follow the tutorial [here](https://index.ros.org/doc/ros2/Inst
 
 Next, you will need to install the ROS 2 build tools (Colcon). Please follow the guide [here](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#install-colcon)
 
+# Gazebo 11.0 Installation 
+
+Kota do [this](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
+
 # ROS 2 Beginners Guide
 
 The [ROS 2 Wiki](https://index.ros.org/doc/ros2/Tutorials/) contains many helpful tutorials that teach the fundamentals of the operating system. We recommend completing as many of them as you need to from the Beginners set. As well, any other tutorials beyond would be benefical. 
