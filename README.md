@@ -24,7 +24,7 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 
 # Git command line tools 
 
-To use Git from the linux command line, follow the install [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+To use Git from the linux command line, follow the install [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
 
 # ROS 2 Installation
 
@@ -34,7 +34,7 @@ Next, you will need to install the ROS 2 build tools (Colcon). Please follow the
 
 # Gazebo 11.0 Installation 
 
-Kota do [this](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
+Gazebo is the simulation environment we will be using to test our robots firmware, use the first install option [here](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install) to download the tool
 
 # ROS 2 Beginners Guide
 
