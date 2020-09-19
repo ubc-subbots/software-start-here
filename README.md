@@ -11,6 +11,7 @@ For this tutorial, you'll need a blank, >4 GB stoarge USB stick.
 For dual-booting: 
 Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. 
 * [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
+  * Make bootable USB with [Rufus](https://rufus.ie/)
   * Note: BIOS can also be accessed by restarting using Recovery options menu in windows. 
 * [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
   
