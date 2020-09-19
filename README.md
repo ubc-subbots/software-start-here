@@ -30,7 +30,7 @@ To install ROS2, follow the tutorial [here](https://index.ros.org/doc/ros2/Insta
 
 Next, you will need to install the ROS2 build tools (Colcon). Please follow the guide [here](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#install-colcon)
 
-# Gazebo 11.0 Installation 
+# Gazebo 11 Installation 
 
 Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms, use the "Default installation" option [here](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install) to download the application and the instructions [here](http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros#Installgazebo_ros_pkgs) to install the ROS2 plugins.  
 
