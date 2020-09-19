@@ -34,7 +34,7 @@ Next, you will need to install the ROS 2 build tools (Colcon). Please follow the
 
 # Gazebo 11.0 Installation 
 
-Gazebo is the simulation environment we will be using to test our robots firmware, use the first install option [here](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install) to download the tool
+Gazebo is the simulation environment we will be using to test our robots firmware, use the first install option [here](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install) to download the tool and the instructions [here](http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros#Installgazebo_ros_pkgs) to install the ROS 2 plugins.  
 
 # ROS 2 Beginners Guide
 
