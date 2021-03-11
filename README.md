@@ -10,9 +10,24 @@ For this tutorial, you'll need a blank, >4 GB stoarge USB stick.
 
 For dual-booting: 
 Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. 
+* [Windows Subsystem for Linux (WSL) 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  * This option has not been throughly tested, however ROS2 and other GUI applications can install and run successfully
+  * The linked instructions require Windows 10 build 1903 or higher to install (check using 'winver')
+  * After enabling the kernel and installing Ubunutu 20.04, install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
+  * Start the service (XLanuch) and enter these configurations:
+     * First screen: select "Multiple Windows", Display number = -1
+     * Second Screen: select "Start no client"
+     * Third Screen: check "Clipboard", uncheck "Native opengl", check "Disable Access Control" 
+     * Select finish
+  * Finally, in your Ubuntu 20.04 terminal, run the command:
+
+`echo "export GAZEBO_IP=127.0.0.1" >> ~/.bashrc && echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 " >> ~/.bashrc && echo "export LIBGL_ALWAYS_INDIRECT=0" >> ~/.bashrc`
+
+  * You should now have a functional Ubuntu virtual machine
+
 * [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
   * Make bootable USB with [Rufus](https://rufus.ie/)
-  * Note: BIOS can also be accessed by restarting using Recovery options menu in windows. 
+  * Note: BIOS can also be accessed by restarting using Recovery options menu in windows.
 * [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
   
 Once Ubuntu is installed, you will need to install a preferred IDE. Some suggestions are listed below: 
