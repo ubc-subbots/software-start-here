@@ -23,7 +23,7 @@ Different brands of computer may encounter manufacturer-specific blocks, please 
 
 `echo "export GAZEBO_IP=127.0.0.1" >> ~/.bashrc && echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 " >> ~/.bashrc && echo "export LIBGL_ALWAYS_INDIRECT=0" >> ~/.bashrc`
 
-  * You should now have a functional Ubuntu virtual machine
+  * After a restart, you should now have a functional Ubuntu virtual machine, you can test your GUI by installing firefox (`sudo apt-get install -y firefox`) and running it with `firefox`
 
 * [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
   * Make bootable USB with [Rufus](https://rufus.ie/)
