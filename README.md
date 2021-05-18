@@ -13,6 +13,7 @@ Different brands of computer may encounter manufacturer-specific blocks, please 
 * [Windows Subsystem for Linux (WSL) 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
   * This option has not been throughly tested, however ROS2 and other GUI applications can install and run successfully
   * The linked instructions require Windows 10 build 1903 or higher to install (check using 'winver'), follow the manual instructions to ensure WSL is upgraded
+  * If you've installed Windows build 21364 or higher (check using the program, winver), you will be able to run GUI application autmatically, if you have not, continue with the next instruction
   * After enabling the kernel and installing Ubunutu 20.04, install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
   * Start the service (XLanuch) and enter these configurations:
      * First screen: select "Multiple Windows", Display number = -1
