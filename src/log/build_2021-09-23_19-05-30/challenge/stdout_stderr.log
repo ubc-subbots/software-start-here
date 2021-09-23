@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[100%] [32m[1mLinking CXX executable solution[0m
+[100%] Built target solution
+-- Install configuration: ""
+-- Installing: /home/krithik/software-start-here/src/install/challenge/lib/challenge/solution
+-- Set runtime path of "/home/krithik/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find
+  "/home/krithik/software-start-here/src/challenge/launch": No such file or
+  directory.
+
+

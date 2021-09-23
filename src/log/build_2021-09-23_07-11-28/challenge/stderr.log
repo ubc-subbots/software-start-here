@@ -1,0 +1,95 @@
+[01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:30:18:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+   30 |       time_+=0.01
+      |                  [01;31m[K^[m[K
+      |                  [32m[K;[m[K
+   31 |       [32m[Kauto[m[K msg = geometry_msgs::msg::Twist();
+      |       [32m[K~~~~[m[K        
+[01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   32 |       [01;31m[Kmsg[m[K.linear.x = 1;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:32:7:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/rolling/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:4[m[K:
+[01m[K/opt/ros/rolling/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:4[m[K:
+[01m[K/opt/ros/rolling/include/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/rolling/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/rolling/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:4[m[K:
+[01m[K/opt/ros/rolling/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/action_msgs/msg/detail/goal_info__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/rolling/include/action_msgs/msg/detail/goal_status__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/rolling/include/action_msgs/msg/goal_status.hpp:7[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/client_goal_handle.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:5[m[K:
+[01m[K/opt/ros/rolling/include/unique_identifier_msgs/msg/detail/uuid__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kunique_identifier_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/action_msgs/msg/detail/goal_status__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/rolling/include/action_msgs/msg/goal_status.hpp:7[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/client_goal_handle.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:5[m[K:
+[01m[K/opt/ros/rolling/include/action_msgs/msg/detail/goal_info__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kaction_msgs::msg[m[K’
+   32 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:6[m[K:
+[01m[K/opt/ros/rolling/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/turtlesim/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:7[m[K:
+[01m[K/opt/ros/rolling/include/turtlesim/msg/detail/pose__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

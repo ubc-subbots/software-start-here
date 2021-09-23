@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000620] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.007168] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.007344] (challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/krithik/software-start-here/src/challenge', '-DCMAKE_INSTALL_PREFIX=/home/krithik/software-start-here/src/install/challenge'], 'cwd': '/home/krithik/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'krithik'), ('SSH_AGENT_PID', '2308'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/krithik'), ('OLDPWD', '/home/krithik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/krithik/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'krithik'), ('JOURNAL_STREAM', '8:46406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krithik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/opt/ros/foxy/bin:/home/krithik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/krithik-Inspiron-5502:@/tmp/.ICE-unix/2350,unix/krithik-Inspiron-5502:/tmp/.ICE-unix/2350'), ('INVOCATION_ID', '275ec62319b94bc9be620f3c9cc22450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73292799_03fd_48ba_a19e_00f40f2ea126'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.477'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krithik/software-start-here/src/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy')]), 'shell': False}
+[0.089184] (challenge) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099537] (-) TimerEvent: {}
+[0.143479] (challenge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.146187] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.191465] (challenge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.192396] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199677] (-) TimerEvent: {}
+[0.237464] (challenge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.246379] (challenge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.246766] (challenge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.249239] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299851] (-) TimerEvent: {}
+[0.304073] (challenge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.304783] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.357019] (challenge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.364090] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.364308] (challenge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.365225] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.379324] (challenge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.379440] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400018] (-) TimerEvent: {}
+[0.420801] (challenge) StdoutLine: {'line': b'-- Found turtlesim: 1.3.2 (/opt/ros/rolling/share/turtlesim/cmake)\n'}
+[0.435793] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c\n'}
+[0.438595] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.5.0 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.486565] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.500174] (-) TimerEvent: {}
+[0.504305] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.547592] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp\n'}
+[0.600331] (-) TimerEvent: {}
+[0.629301] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 3.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[0.665993] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 13.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.694570] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 4.0.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.695923] (challenge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.23.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.700495] (-) TimerEvent: {}
+[0.707985] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.708538] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.760967] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.761127] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800621] (-) TimerEvent: {}
+[0.810619] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.810753] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.860025] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.860283] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.900806] (-) TimerEvent: {}
+[0.939764] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.940532] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000961] (-) TimerEvent: {}
+[1.024773] (challenge) StdoutLine: {'line': b'-- Found rclcpp_action: 13.0.0 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[1.046127] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.090030] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.090551] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.090777] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/krithik/software-start-here/src/challenge/include>\n'}
+[1.090827] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.091031] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.091109] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.091408] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.091890] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.091967] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.092035] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.094059] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.099244] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.100020] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/krithik/software-start-here/src/build/challenge\n'}
+[1.101039] (-) TimerEvent: {}
+[1.105250] (challenge) CommandEnded: {'returncode': 0}
+[1.107282] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[1.107314] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/krithik/software-start-here/src/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/krithik/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'krithik'), ('SSH_AGENT_PID', '2308'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/krithik'), ('OLDPWD', '/home/krithik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/krithik/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'krithik'), ('JOURNAL_STREAM', '8:46406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krithik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/opt/ros/foxy/bin:/home/krithik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/krithik-Inspiron-5502:@/tmp/.ICE-unix/2350,unix/krithik-Inspiron-5502:/tmp/.ICE-unix/2350'), ('INVOCATION_ID', '275ec62319b94bc9be620f3c9cc22450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73292799_03fd_48ba_a19e_00f40f2ea126'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.477'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krithik/software-start-here/src/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy')]), 'shell': False}
+[1.132382] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[1.157081] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[1.201223] (-) TimerEvent: {}
+[1.301510] (-) TimerEvent: {}
+[1.401769] (-) TimerEvent: {}
+[1.502026] (-) TimerEvent: {}
+[1.602291] (-) TimerEvent: {}
+[1.702616] (-) TimerEvent: {}
+[1.802950] (-) TimerEvent: {}
+[1.903266] (-) TimerEvent: {}
+[2.003613] (-) TimerEvent: {}
+[2.103928] (-) TimerEvent: {}
+[2.204261] (-) TimerEvent: {}
+[2.304577] (-) TimerEvent: {}
+[2.404922] (-) TimerEvent: {}
+[2.505260] (-) TimerEvent: {}
+[2.605499] (-) TimerEvent: {}
+[2.613467] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Solution::turtle_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.613616] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/krithik/software-start-here/src/challenge/src/solution.cpp:27:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.613668] (challenge) StderrLine: {'line': b'   27 |     void turtle_callback(\x1b[01;35m\x1b[Kconst turtlesim::msg::Pose::SharedPtr msg\x1b[m\x1b[K) const\n'}
+[2.613709] (challenge) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.705594] (-) TimerEvent: {}
+[2.805877] (-) TimerEvent: {}
+[2.906138] (-) TimerEvent: {}
+[3.006456] (-) TimerEvent: {}
+[3.106776] (-) TimerEvent: {}
+[3.207091] (-) TimerEvent: {}
+[3.307417] (-) TimerEvent: {}
+[3.407738] (-) TimerEvent: {}
+[3.508051] (-) TimerEvent: {}
+[3.608388] (-) TimerEvent: {}
+[3.708713] (-) TimerEvent: {}
+[3.809045] (-) TimerEvent: {}
+[3.909370] (-) TimerEvent: {}
+[4.009601] (-) TimerEvent: {}
+[4.109874] (-) TimerEvent: {}
+[4.210134] (-) TimerEvent: {}
+[4.310450] (-) TimerEvent: {}
+[4.410784] (-) TimerEvent: {}
+[4.511106] (-) TimerEvent: {}
+[4.611427] (-) TimerEvent: {}
+[4.711729] (-) TimerEvent: {}
+[4.812034] (-) TimerEvent: {}
+[4.912338] (-) TimerEvent: {}
+[5.012644] (-) TimerEvent: {}
+[5.112864] (-) TimerEvent: {}
+[5.213172] (-) TimerEvent: {}
+[5.313462] (-) TimerEvent: {}
+[5.413698] (-) TimerEvent: {}
+[5.513941] (-) TimerEvent: {}
+[5.614184] (-) TimerEvent: {}
+[5.714480] (-) TimerEvent: {}
+[5.814786] (-) TimerEvent: {}
+[5.915103] (-) TimerEvent: {}
+[6.015405] (-) TimerEvent: {}
+[6.115706] (-) TimerEvent: {}
+[6.216015] (-) TimerEvent: {}
+[6.316315] (-) TimerEvent: {}
+[6.416617] (-) TimerEvent: {}
+[6.516931] (-) TimerEvent: {}
+[6.617271] (-) TimerEvent: {}
+[6.717534] (-) TimerEvent: {}
+[6.758392] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[6.817627] (-) TimerEvent: {}
+[6.917885] (-) TimerEvent: {}
+[6.995118] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[7.002185] (challenge) CommandEnded: {'returncode': 0}
+[7.018008] (-) TimerEvent: {}
+[7.020035] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[7.030988] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/krithik/software-start-here/src/build/challenge'], 'cwd': '/home/krithik/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'krithik'), ('SSH_AGENT_PID', '2308'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/krithik'), ('OLDPWD', '/home/krithik'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1724'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/krithik/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'krithik'), ('JOURNAL_STREAM', '8:46406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'krithik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/opt/ros/foxy/bin:/home/krithik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/krithik-Inspiron-5502:@/tmp/.ICE-unix/2350,unix/krithik-Inspiron-5502:/tmp/.ICE-unix/2350'), ('INVOCATION_ID', '275ec62319b94bc9be620f3c9cc22450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/73292799_03fd_48ba_a19e_00f40f2ea126'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.477'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/krithik/software-start-here/src/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling:/opt/ros/foxy')]), 'shell': False}
+[7.038428] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.038631] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/lib/challenge/solution\n'}
+[7.041896] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/krithik/software-start-here/src/install/challenge/lib/challenge/solution" to ""\n'}
+[7.042042] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[7.042159] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[7.042270] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[7.042356] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[7.042424] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/path.sh\n'}
+[7.042507] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/path.dsv\n'}
+[7.042606] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.bash\n'}
+[7.042686] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.sh\n'}
+[7.042760] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.zsh\n'}
+[7.042830] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.dsv\n'}
+[7.042903] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/package.dsv\n'}
+[7.043001] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[7.043091] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[7.043155] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[7.043214] (challenge) StdoutLine: {'line': b'-- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/package.xml\n'}
+[7.044522] (challenge) CommandEnded: {'returncode': 0}
+[7.083450] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[7.084204] (-) EventReactorShutdown: {}

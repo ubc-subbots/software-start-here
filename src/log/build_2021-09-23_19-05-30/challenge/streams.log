@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/krithik/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/krithik/software-start-here/src/build/challenge -- -j8 -l8
+[0.036s] [35m[1mScanning dependencies of target solution[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.606s] [100%] [32m[1mLinking CXX executable solution[0m
+[2.717s] [100%] Built target solution
+[2.724s] Invoked command in '/home/krithik/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/krithik/software-start-here/src/build/challenge -- -j8 -l8
+[2.754s] Invoking command in '/home/krithik/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/krithik/software-start-here/src/build/challenge
+[2.762s] -- Install configuration: ""
+[2.762s] -- Installing: /home/krithik/software-start-here/src/install/challenge/lib/challenge/solution
+[2.763s] -- Set runtime path of "/home/krithik/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+[2.763s] CMake Error at cmake_install.cmake:61 (file):
+[2.764s]   file INSTALL cannot find
+[2.764s]   "/home/krithik/software-start-here/src/challenge/launch": No such file or
+[2.764s]   directory.
+[2.764s] 
+[2.764s] 
+[2.765s] Invoked command in '/home/krithik/software-start-here/src/build/challenge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/krithik/software-start-here/src/build/challenge

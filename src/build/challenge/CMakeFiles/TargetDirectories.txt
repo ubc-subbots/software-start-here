@@ -1,0 +1,10 @@
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/install/strip.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/install/local.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/install.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/list_install_components.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/edit_cache.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/test.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/solution.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/krithik/software-start-here/src/build/challenge/CMakeFiles/uninstall.dir

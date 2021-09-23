@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/krithik/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/krithik/software-start-here/src/build/challenge -- -j8 -l8
+[0.035s] [35m[1mScanning dependencies of target solution[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.709s] [100%] [32m[1mLinking CXX executable solution[0m
+[2.820s] [100%] Built target solution
+[2.827s] Invoked command in '/home/krithik/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/krithik/software-start-here/src/build/challenge -- -j8 -l8
+[2.850s] Invoking command in '/home/krithik/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/krithik/software-start-here/src/build/challenge
+[2.855s] -- Install configuration: ""
+[2.855s] -- Installing: /home/krithik/software-start-here/src/install/challenge/lib/challenge/solution
+[2.856s] -- Set runtime path of "/home/krithik/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+[2.856s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[2.856s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[2.856s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[2.856s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[2.857s] -- Installing: /home/krithik/software-start-here/src/install/challenge/share/challenge/package.dsv
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[2.857s] -- Up-to-date: /home/krithik/software-start-here/src/install/challenge/share/challenge/package.xml
+[2.858s] Invoked command in '/home/krithik/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/krithik/software-start-here/src/build/challenge
