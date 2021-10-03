@@ -1,0 +1,26 @@
+[0.033s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.103s] [35m[1mScanning dependencies of target solution[0m
+[0.147s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.428s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.717s] [100%] Built target solution
+[3.737s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[3.828s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/itaiboss/ros2_ws/src/build/challenge
+[3.843s] -- Install configuration: ""
+[3.844s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/lib/challenge/solution
+[3.846s] -- Set runtime path of "/home/itaiboss/ros2_ws/src/install/challenge/lib/challenge/solution" to ""
+[3.847s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.848s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.848s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.849s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.850s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/environment/path.sh
+[3.851s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/environment/path.dsv
+[3.852s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/local_setup.bash
+[3.853s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/local_setup.sh
+[3.854s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/local_setup.zsh
+[3.854s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/local_setup.dsv
+[3.855s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/package.dsv
+[3.872s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.873s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.873s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.873s] -- Installing: /home/itaiboss/ros2_ws/src/install/challenge/share/challenge/package.xml
+[3.873s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/itaiboss/ros2_ws/src/build/challenge

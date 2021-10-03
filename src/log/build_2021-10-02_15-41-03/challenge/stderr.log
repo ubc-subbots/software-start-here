@@ -1,0 +1,40 @@
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   44 |     rclcpp::Publisher<[01;31m[Kgeometry_msg[m[K::msg::Twist>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Kgeometry_msgs[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |     rclcpp::Publisher<geometry_msg::msg::Twist[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |     rclcpp::Publisher<geometry_msg::msg::Twist>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   44 |     rclcpp::Publisher<geometry_msg::msg::Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~[m[K
+      |                                                            [32m[Krcl_publisher_t[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:45:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t solution::count_[m[K’
+   45 |     size_t [01;31m[Kcount_[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:32:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint solution::count_[m[K’
+   32 |     int [01;36m[Kcount_[m[K;
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   25 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 20);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::timer_callback()[m[K’:
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:38:26:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""sin[m[K’
+   38 |       message.linear.y = [01;31m[K5sin[m[K(count_)
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   41 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:36:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   36 |     int [01;35m[Ktime[m[K;
+      |         [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,73 @@
+[0.029s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.101s] [35m[1mScanning dependencies of target solution[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.479s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:22:14:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ksolution[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.479s]    22 |     solution([01;31m[K)[m[K : Node("solution"), count_(0)
+[1.479s]       |              [01;31m[K^[m[K
+[1.483s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[1.483s]    43 |     rclcpp::Publisher<[01;31m[Kgeometry_msg[m[K::msg::Twist>::SharedPtr publisher_;
+[1.484s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[1.484s]       |                       [32m[Kgeometry_msgs[m[K
+[1.484s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.484s]    43 |     rclcpp::Publisher<geometry_msg::msg::Twist[01;31m[K>[m[K::SharedPtr publisher_;
+[1.484s]       |                                               [01;31m[K^[m[K
+[1.484s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.484s]    43 |     rclcpp::Publisher<geometry_msg::msg::Twist>::[01;31m[KSharedPtr[m[K publisher_;
+[1.484s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[1.484s]       |                                                           [32m[K;[m[K
+[1.485s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.487s]    43 |     rclcpp::Publisher<geometry_msg::msg::Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.487s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[1.487s]       |                                                            [32m[Krcl_publisher_t[m[K
+[1.487s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t Solution::count_[m[K’
+[1.487s]    44 |     size_t [01;31m[Kcount_[m[K;
+[1.487s]       |            [01;31m[K^~~~~~[m[K
+[1.487s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:31:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Solution::count_[m[K’
+[1.488s]    31 |     int [01;36m[Kcount_[m[K;
+[1.488s]       |         [01;36m[K^~~~~~[m[K
+[1.488s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kint Solution::solution()[m[K’:
+[1.488s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:22:18:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[1.488s]    22 |     solution() : [01;31m[KNode[m[K("solution"), count_(0)
+[1.488s]       |                  [01;31m[K^~~~[m[K
+[1.489s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.489s]    24 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 20);
+[1.489s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.489s]       |       [32m[Krcl_publisher_t[m[K
+[1.493s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:26:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolution[m[K’ is not a class, namespace, or enumeration
+[1.493s]    26 |       20ms, std::bind(&[01;31m[Ksolution[m[K::timer_callback, this));
+[1.493s]       |                        [01;31m[K^~~~~~~~[m[K
+[1.493s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:27:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.493s]    27 |     [01;35m[K}[m[K
+[1.493s]       |     [01;35m[K^[m[K
+[1.493s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[1.493s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:37:26:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""sin[m[K’
+[1.494s]    37 |       message.linear.y = [01;31m[K5sin[m[K(count_)
+[1.494s]       |                          [01;31m[K^~~~[m[K
+[1.495s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:40:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.496s]    40 |       [01;31m[Kpublisher_[m[K->publish(message);
+[1.496s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.496s]       |       [32m[Krcl_publisher_t[m[K
+[1.496s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:35:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.496s]    35 |     int [01;35m[Ktime[m[K;
+[1.496s]       |         [01;35m[K^~~~[m[K
+[1.497s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.497s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolution[m[K’ was not declared in this scope; did you mean ‘[01m[KSolution[m[K’?
+[1.498s]    50 |   rclcpp::spin(std::make_shared<[01;31m[Ksolution[m[K>());
+[1.498s]       |                                 [01;31m[K^~~~~~~~[m[K
+[1.498s]       |                                 [32m[KSolution[m[K
+[1.498s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.498s]    50 |   rclcpp::spin(std::make_shared<solution>([01;31m[K)[m[K);
+[1.498s]       |                                           [01;31m[K^[m[K
+[1.498s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.498s]                  from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:3[m[K:
+[1.498s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.498s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.499s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.499s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.499s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.499s]    50 |   rclcpp::spin(std::make_shared<solution>([01;31m[K)[m[K);
+[1.499s]       |                                           [01;31m[K^[m[K
+[2.156s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.157s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.157s] make: *** [Makefile:141: all] Error 2
+[2.163s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2

@@ -1,0 +1,16 @@
+[0.027s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.126s] [35m[1mScanning dependencies of target solution[0m
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.786s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:9:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+[1.786s]     9 | using std::[01;31m[Kplaceholder[m[K::_1
+[1.786s]       |            [01;31m[K^~~~~~~~~~~[m[K
+[1.787s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:9:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kusing[m[K’
+[1.787s]     9 | using std::placeholder::_1
+[1.787s]       |                           [01;31m[K^[m[K
+[1.787s]       |                           [32m[K;[m[K
+[1.787s]    10 | [32m[Kusing[m[K namespace std::chrono_literals;
+[1.788s]       | [32m[K~~~~~[m[K                      
+[2.885s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.885s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.886s] make: *** [Makefile:141: all] Error 2
+[2.895s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2

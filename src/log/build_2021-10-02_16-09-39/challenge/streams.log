@@ -1,0 +1,36 @@
+[0.036s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.076s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.299s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.338s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.665s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.704s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.847s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.881s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.957s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.959s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.959s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/itaiboss/ros2_ws/src/challenge/include>
+[0.959s] -- Configured cppcheck exclude dirs and/or files: 
+[0.960s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.960s] -- Configured cpplint exclude dirs and/or files: 
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.962s] -- Added test 'uncrustify' to check C / C++ code style
+[0.962s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.966s] -- Configuring done
+[0.978s] -- Generating done
+[0.981s] -- Build files have been written to: /home/itaiboss/ros2_ws/src/build/challenge
+[1.020s] [35m[1mScanning dependencies of target solution[0m
+[1.060s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.077s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcstudio: No such file or directory
+[1.077s]     1 | #include [01;31m[K<cstudio>[m[K
+[1.077s]       |          [01;31m[K^~~~~~~~~[m[K
+[1.077s] compilation terminated.
+[1.080s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.081s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.083s] make: *** [Makefile:141: all] Error 2
+[1.088s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2

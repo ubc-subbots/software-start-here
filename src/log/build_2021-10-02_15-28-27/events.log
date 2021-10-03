@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.002586] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.002659] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.025165] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.025527] (challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/itaiboss/ros2_ws/src/challenge', '-DCMAKE_INSTALL_PREFIX=/home/itaiboss/ros2_ws/src/install/challenge'], 'cwd': '/home/itaiboss/ros2_ws/src/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'itaiboss'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', ':/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/itaiboss'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'itaiboss'), ('JOURNAL_STREAM', '8:84598'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'itaiboss'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4708,unix/ubuntu:/tmp/.ICE-unix/4708'), ('INVOCATION_ID', '21bb163920034e1c826d4c102b4b12ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5033d1ab_e56a_4e77_ac8a_68bbcfc10524'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.285'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/itaiboss/ros2_ws/src/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.071556] (challenge) StderrLine: {'line': b'CMake Error at CMakeLists.txt:52:\n'}
+[0.072362] (challenge) StderrLine: {'line': b'  Parse error.  Function missing ending ")".  Instead found unterminated\n'}
+[0.072482] (challenge) StderrLine: {'line': b'  string with text "rclcpp_action)\n'}
+[0.072588] (challenge) StderrLine: {'line': b'\n'}
+[0.072693] (challenge) StderrLine: {'line': b'  \n'}
+[0.072797] (challenge) StderrLine: {'line': b'\n'}
+[0.073447] (challenge) StderrLine: {'line': b'  add_executable(solution src/solution.cpp)\n'}
+[0.073554] (challenge) StderrLine: {'line': b'\n'}
+[0.073660] (challenge) StderrLine: {'line': b'  target_include_directories(solution PUBLIC\n'}
+[0.073766] (challenge) StderrLine: {'line': b'\n'}
+[0.073870] (challenge) StderrLine: {'line': b'    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>\n'}
+[0.073997] (challenge) StderrLine: {'line': b'    $<INSTALL_INTERFACE:include>)\n'}
+[0.074765] (challenge) StderrLine: {'line': b'\n'}
+[0.074878] (challenge) StderrLine: {'line': b'  \n'}
+[0.074997] (challenge) StderrLine: {'line': b'\n'}
+[0.075107] (challenge) StderrLine: {'line': b'  ament_target_dependencies(solution ${dependencies})\n'}
+[0.075212] (challenge) StderrLine: {'line': b'\n'}
+[0.075328] (challenge) StderrLine: {'line': b'  \n'}
+[0.075435] (challenge) StderrLine: {'line': b'\n'}
+[0.076059] (challenge) StderrLine: {'line': b'  \n'}
+[0.076164] (challenge) StderrLine: {'line': b'\n'}
+[0.076268] (challenge) StderrLine: {'line': b'  install(TARGETS solution\n'}
+[0.076371] (challenge) StderrLine: {'line': b'\n'}
+[0.076476] (challenge) StderrLine: {'line': b'    DESTINATION lib/${PROJECT_NAME})\n'}
+[0.076578] (challenge) StderrLine: {'line': b'\n'}
+[0.077210] (challenge) StderrLine: {'line': b'  \n'}
+[0.077315] (challenge) StderrLine: {'line': b'\n'}
+[0.077418] (challenge) StderrLine: {'line': b'  if(BUILD_TESTING)\n'}
+[0.077521] (challenge) StderrLine: {'line': b'\n'}
+[0.077624] (challenge) StderrLine: {'line': b'    find_package(ament_lint_auto REQUIRED)\n'}
+[0.077728] (challenge) StderrLine: {'line': b'    # the following line skips the linter which checks for copyrights\n'}
+[0.078355] (challenge) StderrLine: {'line': b'    # uncomment the line when a copyright and license is not present in all source files\n'}
+[0.078461] (challenge) StderrLine: {'line': b'    #set(ament_cmake_copyright_FOUND TRUE)\n'}
+[0.078746] (challenge) StderrLine: {'line': b'    # the following line skips cpplint (only works in a git repo)\n'}
+[0.078852] (challenge) StderrLine: {'line': b'    # uncomment the line when this package is not in a git repo\n'}
+[0.078956] (challenge) StderrLine: {'line': b'    #set(ament_cmake_cpplint_FOUND TRUE)\n'}
+[0.079582] (challenge) StderrLine: {'line': b'    ament_lint_auto_find_test_dependencies()\n'}
+[0.079687] (challenge) StderrLine: {'line': b'\n'}
+[0.079792] (challenge) StderrLine: {'line': b'  endif()\n'}
+[0.079895] (challenge) StderrLine: {'line': b'\n'}
+[0.079999] (challenge) StderrLine: {'line': b'  \n'}
+[0.080102] (challenge) StderrLine: {'line': b'\n'}
+[0.080908] (challenge) StderrLine: {'line': b'  ament_package()\n'}
+[0.081347] (challenge) StderrLine: {'line': b'\n'}
+[0.081451] (challenge) StderrLine: {'line': b'  ".\n'}
+[0.081554] (challenge) StderrLine: {'line': b'\n'}
+[0.081658] (challenge) StderrLine: {'line': b'\n'}
+[0.081764] (challenge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.086946] (challenge) CommandEnded: {'returncode': 1}
+[0.100981] (-) TimerEvent: {}
+[0.118402] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 1}
+[0.136712] (-) EventReactorShutdown: {}

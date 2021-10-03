@@ -1,0 +1,2 @@
+Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': /usr/bin/cmake /home/itaiboss/ros2_ws/src/challenge -DCMAKE_INSTALL_PREFIX=/home/itaiboss/ros2_ws/src/install/challenge
+Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '1': /usr/bin/cmake /home/itaiboss/ros2_ws/src/challenge -DCMAKE_INSTALL_PREFIX=/home/itaiboss/ros2_ws/src/install/challenge

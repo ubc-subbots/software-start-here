@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.002800] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.002899] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.017625] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.023025] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.023435] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/itaiboss/ros2_ws/src/build/challenge', '--', '-j2', '-l2'], 'cwd': '/home/itaiboss/ros2_ws/src/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'itaiboss'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/itaiboss'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'itaiboss'), ('JOURNAL_STREAM', '8:84598'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'itaiboss'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4708,unix/ubuntu:/tmp/.ICE-unix/4708'), ('INVOCATION_ID', '21bb163920034e1c826d4c102b4b12ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5033d1ab_e56a_4e77_ac8a_68bbcfc10524'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.285'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/itaiboss/ros2_ws/src/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100412] (-) TimerEvent: {}
+[0.103876] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.141378] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.200997] (-) TimerEvent: {}
+[0.302437] (-) TimerEvent: {}
+[0.403127] (-) TimerEvent: {}
+[0.504655] (-) TimerEvent: {}
+[0.605349] (-) TimerEvent: {}
+[0.706891] (-) TimerEvent: {}
+[0.807656] (-) TimerEvent: {}
+[0.908438] (-) TimerEvent: {}
+[1.009304] (-) TimerEvent: {}
+[1.110258] (-) TimerEvent: {}
+[1.210904] (-) TimerEvent: {}
+[1.311552] (-) TimerEvent: {}
+[1.412603] (-) TimerEvent: {}
+[1.481974] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:22:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ksolution\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.482221] (challenge) StderrLine: {'line': b'   22 |     solution(\x1b[01;31m\x1b[K)\x1b[m\x1b[K : Node("solution"), count_(0)\n'}
+[1.482355] (challenge) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.485949] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.486271] (challenge) StderrLine: {'line': b'   43 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kgeometry_msg\x1b[m\x1b[K::msg::Twist>::SharedPtr publisher_;\n'}
+[1.486394] (challenge) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.486503] (challenge) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kgeometry_msgs\x1b[m\x1b[K\n'}
+[1.486649] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.486783] (challenge) StderrLine: {'line': b'   43 |     rclcpp::Publisher<geometry_msg::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.486887] (challenge) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.486992] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.487099] (challenge) StderrLine: {'line': b'   43 |     rclcpp::Publisher<geometry_msg::msg::Twist>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.487203] (challenge) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.487308] (challenge) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.488132] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:43:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.488280] (challenge) StderrLine: {'line': b'   43 |     rclcpp::Publisher<geometry_msg::msg::Twist>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.489627] (challenge) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.489733] (challenge) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.489838] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Ksize_t Solution::count_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.489943] (challenge) StderrLine: {'line': b'   44 |     size_t \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[1.490046] (challenge) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.490288] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:31:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Solution::count_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.490409] (challenge) StderrLine: {'line': b'   31 |     int \x1b[01;36m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[1.490513] (challenge) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.490616] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint Solution::solution()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.490721] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:22:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[1.490831] (challenge) StderrLine: {'line': b'   22 |     solution() : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("solution"), count_(0)\n'}
+[1.490935] (challenge) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.491750] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.491905] (challenge) StderrLine: {'line': b'   24 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 20);\n'}
+[1.492015] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.492121] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.495481] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:26:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksolution\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[1.495666] (challenge) StderrLine: {'line': b'   26 |       20ms, std::bind(&\x1b[01;31m\x1b[Ksolution\x1b[m\x1b[K::timer_callback, this));\n'}
+[1.495792] (challenge) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.495898] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:27:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[1.496006] (challenge) StderrLine: {'line': b'   27 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[1.496111] (challenge) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.496216] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Solution::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.496326] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:37:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""sin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.496440] (challenge) StderrLine: {'line': b'   37 |       message.linear.y = \x1b[01;31m\x1b[K5sin\x1b[m\x1b[K(count_)\n'}
+[1.496544] (challenge) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.498329] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:40:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.498471] (challenge) StderrLine: {'line': b'   40 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[1.498580] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.498685] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.498790] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:35:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.498897] (challenge) StderrLine: {'line': b'   35 |     int \x1b[01;35m\x1b[Ktime\x1b[m\x1b[K;\n'}
+[1.499002] (challenge) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.500111] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.500305] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksolution\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSolution\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.500421] (challenge) StderrLine: {'line': b'   50 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[Ksolution\x1b[m\x1b[K>());\n'}
+[1.500526] (challenge) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.500630] (challenge) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KSolution\x1b[m\x1b[K\n'}
+[1.500736] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.500842] (challenge) StderrLine: {'line': b'   50 |   rclcpp::spin(std::make_shared<solution>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[1.500945] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.501049] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[1.501153] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:3\x1b[m\x1b[K:\n'}
+[1.501257] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.501363] (challenge) StderrLine: {'line': b'  714 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.501466] (challenge) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.501569] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.501686] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:50:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.501790] (challenge) StderrLine: {'line': b'   50 |   rclcpp::spin(std::make_shared<solution>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[1.501894] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.513091] (-) TimerEvent: {}
+[1.614927] (-) TimerEvent: {}
+[1.716926] (-) TimerEvent: {}
+[1.817986] (-) TimerEvent: {}
+[1.918851] (-) TimerEvent: {}
+[2.019689] (-) TimerEvent: {}
+[2.120585] (-) TimerEvent: {}
+[2.159158] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[2.159384] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[2.159503] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.164106] (challenge) CommandEnded: {'returncode': 2}
+[2.222242] (-) TimerEvent: {}
+[2.227992] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[2.241687] (-) EventReactorShutdown: {}

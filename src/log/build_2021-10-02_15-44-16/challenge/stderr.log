@@ -1,0 +1,102 @@
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::timer_callback()[m[K’:
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   39 |       [01;31m[Kmsg[m[K.linear.x = 2;
+      |       [01;31m[K^~~[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:39:7:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/action_msgs/msg/detail/goal_info__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/action_msgs/msg/detail/goal_status__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/action_msgs/msg/goal_status.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/unique_identifier_msgs/msg/detail/uuid__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kunique_identifier_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/action_msgs/msg/detail/goal_status__struct.hpp:19[m[K,
+                 from [01m[K/opt/ros/foxy/include/action_msgs/msg/goal_status.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/client_goal_handle.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/client.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/action_msgs/msg/detail/goal_info__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kaction_msgs::msg[m[K’
+   32 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:8[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/turtlesim/msg/pose.hpp:7[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:9[m[K:
+[01m[K/opt/ros/foxy/include/turtlesim/msg/detail/pose__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:12[m[K:
+[01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   26 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:6[m[K:
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:40:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   40 |      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+      |                                                                  [01;31m[K^~~~[m[K
+
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

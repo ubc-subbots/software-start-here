@@ -1,0 +1,50 @@
+[0.025s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': /usr/bin/cmake /home/itaiboss/ros2_ws/src/challenge -DCMAKE_INSTALL_PREFIX=/home/itaiboss/ros2_ws/src/install/challenge
+[0.069s] CMake Error at CMakeLists.txt:52:
+[0.070s]   Parse error.  Function missing ending ")".  Instead found unterminated
+[0.070s]   string with text "rclcpp_action)
+[0.070s] 
+[0.070s]   
+[0.070s] 
+[0.071s]   add_executable(solution src/solution.cpp)
+[0.071s] 
+[0.071s]   target_include_directories(solution PUBLIC
+[0.071s] 
+[0.071s]     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+[0.071s]     $<INSTALL_INTERFACE:include>)
+[0.072s] 
+[0.072s]   
+[0.072s] 
+[0.072s]   ament_target_dependencies(solution ${dependencies})
+[0.073s] 
+[0.073s]   
+[0.073s] 
+[0.073s]   
+[0.074s] 
+[0.074s]   install(TARGETS solution
+[0.074s] 
+[0.074s]     DESTINATION lib/${PROJECT_NAME})
+[0.074s] 
+[0.075s]   
+[0.075s] 
+[0.075s]   if(BUILD_TESTING)
+[0.075s] 
+[0.075s]     find_package(ament_lint_auto REQUIRED)
+[0.075s]     # the following line skips the linter which checks for copyrights
+[0.076s]     # uncomment the line when a copyright and license is not present in all source files
+[0.076s]     #set(ament_cmake_copyright_FOUND TRUE)
+[0.076s]     # the following line skips cpplint (only works in a git repo)
+[0.076s]     # uncomment the line when this package is not in a git repo
+[0.076s]     #set(ament_cmake_cpplint_FOUND TRUE)
+[0.077s]     ament_lint_auto_find_test_dependencies()
+[0.077s] 
+[0.077s]   endif()
+[0.077s] 
+[0.077s]   
+[0.077s] 
+[0.079s]   ament_package()
+[0.079s] 
+[0.079s]   ".
+[0.079s] 
+[0.079s] 
+[0.079s] -- Configuring incomplete, errors occurred!
+[0.085s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '1': /usr/bin/cmake /home/itaiboss/ros2_ws/src/challenge -DCMAKE_INSTALL_PREFIX=/home/itaiboss/ros2_ws/src/install/challenge

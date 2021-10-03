@@ -1,0 +1,12 @@
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:9:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+    9 | using std::[01;31m[Kplaceholder[m[K::_1
+      |            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:9:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kusing[m[K’
+    9 | using std::placeholder::_1
+      |                           [01;31m[K^[m[K
+      |                           [32m[K;[m[K
+   10 | [32m[Kusing[m[K namespace std::chrono_literals;
+      | [32m[K~~~~~[m[K                      
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

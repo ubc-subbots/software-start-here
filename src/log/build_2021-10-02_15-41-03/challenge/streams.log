@@ -1,0 +1,69 @@
+[0.031s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.081s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.106s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.658s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.698s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.856s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.894s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.993s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.993s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.994s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/itaiboss/ros2_ws/src/challenge/include>
+[0.994s] -- Configured cppcheck exclude dirs and/or files: 
+[0.995s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.996s] -- Configured cpplint exclude dirs and/or files: 
+[0.996s] -- Added test 'lint_cmake' to check CMake code style
+[0.997s] -- Added test 'uncrustify' to check C / C++ code style
+[0.999s] -- Configured uncrustify additional arguments: 
+[0.999s] -- Added test 'xmllint' to check XML markup files
+[1.002s] -- Configuring done
+[1.020s] -- Generating done
+[1.022s] -- Build files have been written to: /home/itaiboss/ros2_ws/src/build/challenge
+[1.075s] [35m[1mScanning dependencies of target solution[0m
+[1.117s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.758s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[2.758s]    44 |     rclcpp::Publisher<[01;31m[Kgeometry_msg[m[K::msg::Twist>::SharedPtr publisher_;
+[2.758s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[2.758s]       |                       [32m[Kgeometry_msgs[m[K
+[2.758s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.758s]    44 |     rclcpp::Publisher<geometry_msg::msg::Twist[01;31m[K>[m[K::SharedPtr publisher_;
+[2.758s]       |                                               [01;31m[K^[m[K
+[2.759s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.759s]    44 |     rclcpp::Publisher<geometry_msg::msg::Twist>::[01;31m[KSharedPtr[m[K publisher_;
+[2.759s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.759s]       |                                                           [32m[K;[m[K
+[2.762s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:44:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.762s]    44 |     rclcpp::Publisher<geometry_msg::msg::Twist>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.762s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[2.763s]       |                                                            [32m[Krcl_publisher_t[m[K
+[2.763s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:45:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t solution::count_[m[K’
+[2.763s]    45 |     size_t [01;31m[Kcount_[m[K;
+[2.763s]       |            [01;31m[K^~~~~~[m[K
+[2.763s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:32:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint solution::count_[m[K’
+[2.763s]    32 |     int [01;36m[Kcount_[m[K;
+[2.763s]       |         [01;36m[K^~~~~~[m[K
+[2.768s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[Ksolution::solution()[m[K’:
+[2.768s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.768s]    25 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 20);
+[2.768s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.768s]       |       [32m[Krcl_publisher_t[m[K
+[2.786s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::timer_callback()[m[K’:
+[2.786s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:38:26:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""sin[m[K’
+[2.786s]    38 |       message.linear.y = [01;31m[K5sin[m[K(count_)
+[2.786s]       |                          [01;31m[K^~~~[m[K
+[2.790s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[2.790s]    41 |       [01;31m[Kpublisher_[m[K->publish(message);
+[2.793s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.793s]       |       [32m[Krcl_publisher_t[m[K
+[2.793s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:36:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.794s]    36 |     int [01;35m[Ktime[m[K;
+[2.794s]       |         [01;35m[K^~~~[m[K
+[3.880s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[3.880s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[3.881s] make: *** [Makefile:141: all] Error 2
+[3.892s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2

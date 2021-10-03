@@ -1,0 +1,14 @@
+[0.039s] Invoking command in '/home/itaiboss/ros2_ws/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
+[0.101s] [35m[1mScanning dependencies of target solution[0m
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.548s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid solution::timer_callback()[m[K’:
+[1.548s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:38:26:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""sin[m[K’
+[1.548s]    38 |       message.linear.y = [01;31m[K5sin[m[K(count_)
+[1.548s]       |                          [01;31m[K^~~~[m[K
+[1.554s] [01m[K/home/itaiboss/ros2_ws/src/challenge/src/solution.cpp:36:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.555s]    36 |     int [01;35m[Ktime[m[K;
+[1.555s]       |         [01;35m[K^~~~[m[K
+[2.487s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.487s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.488s] make: *** [Makefile:141: all] Error 2
+[2.495s] Invoked command in '/home/itaiboss/ros2_ws/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/itaiboss/ros2_ws/src/build/challenge -- -j2 -l2
