@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+[0.044s] [35m[1mScanning dependencies of target solution[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.114s] [01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:39:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t MinimalPublisher::count_[m[K’
+[1.114s]    39 |     size_t [01;31m[Kcount_[m[K;
+[1.114s]       |            [01;31m[K^~~~~~[m[K
+[1.114s] [01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:28:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::count_[m[K’
+[1.114s]    28 |     int [01;36m[Kcount_[m[K;
+[1.114s]       |         [01;36m[K^~~~~~[m[K
+[1.942s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.942s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.943s] make: *** [Makefile:141: all] Error 2
+[1.944s] Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8

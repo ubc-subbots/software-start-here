@@ -1,0 +1,4 @@
+Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sav/Desktop/software-start-here/build/challenge
+Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sav/Desktop/software-start-here/build/challenge

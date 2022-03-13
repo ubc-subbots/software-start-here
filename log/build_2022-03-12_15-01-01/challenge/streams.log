@@ -1,0 +1,11 @@
+[0.011s] Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+[0.044s] [35m[1mScanning dependencies of target solution[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.147s] [01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.h: No such file or directory
+[0.147s]     8 | #include [01;31m[K<geometry_msgs/msg/Twist.h>[m[K
+[0.147s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.148s] compilation terminated.
+[0.154s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[0.154s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[0.154s] make: *** [Makefile:141: all] Error 2
+[0.156s] Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8

@@ -1,0 +1,58 @@
+[0.009s] Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sav/Desktop/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/sav/Desktop/software-start-here/install/challenge
+[0.051s] -- The C compiler identification is GNU 9.4.0
+[0.092s] -- The CXX compiler identification is GNU 9.4.0
+[0.095s] -- Check for working C compiler: /usr/bin/cc
+[0.150s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.151s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.218s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.286s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.365s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.384s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.535s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.603s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.604s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sav/Desktop/software-start-here/src/challenge/include>
+[0.604s] -- Configured cppcheck exclude dirs and/or files: 
+[0.605s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.605s] -- Configured cpplint exclude dirs and/or files: 
+[0.606s] -- Added test 'lint_cmake' to check CMake code style
+[0.606s] -- Added test 'uncrustify' to check C / C++ code style
+[0.606s] -- Configured uncrustify additional arguments: 
+[0.607s] -- Added test 'xmllint' to check XML markup files
+[0.608s] -- Configuring done
+[0.611s] -- Generating done
+[0.612s] -- Build files have been written to: /home/sav/Desktop/software-start-here/build/challenge
+[0.615s] Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sav/Desktop/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/sav/Desktop/software-start-here/install/challenge
+[0.619s] Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+[0.660s] [35m[1mScanning dependencies of target solution[0m
+[0.671s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.702s] [100%] [32m[1mLinking CXX executable solution[0m
+[0.749s] [100%] Built target solution
+[0.763s] Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sav/Desktop/software-start-here/build/challenge -- -j8 -l8
+[0.797s] Invoking command in '/home/sav/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sav/Desktop/software-start-here/build/challenge
+[0.806s] -- Install configuration: ""
+[0.806s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/lib/challenge/solution
+[0.806s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[0.806s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/environment/path.sh
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/local_setup.bash
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/local_setup.sh
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[0.807s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/package.dsv
+[0.808s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[0.808s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[0.808s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[0.808s] -- Installing: /home/sav/Desktop/software-start-here/install/challenge/share/challenge/package.xml
+[0.810s] Invoked command in '/home/sav/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sav/Desktop/software-start-here/build/challenge

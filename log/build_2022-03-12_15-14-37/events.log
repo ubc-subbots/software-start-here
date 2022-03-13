@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000351] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.007038] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.008154] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.008200] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sav/Desktop/software-start-here/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/sav/Desktop/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'sav'), ('SSH_AGENT_PID', '1183'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sav'), ('OLDPWD', '/home/sav/Desktop/software-start-here/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '928'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sav'), ('JOURNAL_STREAM', '8:33749'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sav-ThinkPad-E490:@/tmp/.ICE-unix/1226,unix/sav-ThinkPad-E490:/tmp/.ICE-unix/1226'), ('INVOCATION_ID', '97c73b63fccd416bb272c415c2453a8f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff588fd5_9b86_4fdf_aa8a_846c9ec1d9a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sav/Desktop/software-start-here/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.044415] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.064359] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.099002] (-) TimerEvent: {}
+[0.199350] (-) TimerEvent: {}
+[0.299679] (-) TimerEvent: {}
+[0.400005] (-) TimerEvent: {}
+[0.500311] (-) TimerEvent: {}
+[0.600627] (-) TimerEvent: {}
+[0.700946] (-) TimerEvent: {}
+[0.801292] (-) TimerEvent: {}
+[0.901603] (-) TimerEvent: {}
+[1.001910] (-) TimerEvent: {}
+[1.102266] (-) TimerEvent: {}
+[1.119765] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:39:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Ksize_t MinimalPublisher::count_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.119967] (challenge) StderrLine: {'line': b'   39 |     size_t \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[1.120026] (challenge) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.120077] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:28:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint MinimalPublisher::count_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.120129] (challenge) StderrLine: {'line': b'   28 |     int \x1b[01;36m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[1.120177] (challenge) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.122995] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.123106] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.123168] (challenge) StderrLine: {'line': b'   22 |       publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::Twist>("turtle1/cmd_vel", 10);\n'}
+[1.123227] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.123280] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.123332] (challenge) StderrLine: {'line': b'   22 |       publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<geometry_msgs::msg::Twist>\x1b[m\x1b[K("turtle1/cmd_vel", 10);\n'}
+[1.123383] (challenge) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.123434] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.123502] (challenge) StderrLine: {'line': b'   22 | te_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.123554] (challenge) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.123606] (challenge) StderrLine: {'line': b'\n'}
+[1.123665] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.123717] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.123769] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.123820] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:7\x1b[m\x1b[K:\n'}
+[1.123871] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.123927] (challenge) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.123979] (challenge) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.124030] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.124083] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.124135] (challenge) StderrLine: {'line': b'   22 | te_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.124187] (challenge) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.124237] (challenge) StderrLine: {'line': b'\n'}
+[1.133305] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.133499] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:31:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.133569] (challenge) StderrLine: {'line': b'   31 |       auto message = \x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::Twist();\n'}
+[1.133642] (challenge) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.202400] (-) TimerEvent: {}
+[1.302699] (-) TimerEvent: {}
+[1.403005] (-) TimerEvent: {}
+[1.490746] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[1.491009] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[1.491182] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.492837] (challenge) CommandEnded: {'returncode': 2}
+[1.503148] (-) TimerEvent: {}
+[1.523524] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[1.534201] (-) EventReactorShutdown: {}

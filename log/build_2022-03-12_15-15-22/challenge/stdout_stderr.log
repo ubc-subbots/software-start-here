@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:39:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksize_t MinimalPublisher::count_[m[K’
+   39 |     size_t [01;31m[Kcount_[m[K;
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:28:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::count_[m[K’
+   28 |     int [01;36m[Kcount_[m[K;
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   22 |       publisher_ = this->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>("turtle1/cmd_vel", 10);
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   22 |       publisher_ = this->[01;31m[Kcreate_publisher<geometry_msgs::msg::Twist>[m[K("turtle1/cmd_vel", 10);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [16], int)[m[K’
+   22 | te_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:22:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 | te_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/sav/Desktop/software-start-here/src/challenge/src/solution.cpp:31:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   31 |       auto message = [01;31m[Kgeometry_msgs[m[K::msg::Twist();
+      |                      [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
