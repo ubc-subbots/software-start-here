@@ -1,0 +1,40 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mark/coding/software-start-here/build/challenge
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target solution[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/publisher_member_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable solution[0m
+[ 75%] Built target solution
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/mark/coding/software-start-here/install/challenge/lib/challenge/solution
+-- Set runtime path of "/home/mark/coding/software-start-here/install/challenge/lib/challenge/solution" to ""
+-- Installing: /home/mark/coding/software-start-here/install/challenge/lib/challenge/listener
+-- Set runtime path of "/home/mark/coding/software-start-here/install/challenge/lib/challenge/listener" to ""
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/path.sh
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/path.dsv
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.bash
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.sh
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.zsh
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.dsv
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/package.dsv
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/package.xml

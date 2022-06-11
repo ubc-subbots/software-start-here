@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.001415] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.001499] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.018521] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.020437] (challenge) Command: {'cmd': ['/usr/bin/cmake', '/home/mark/coding/software-start-here/src/challenge', '-DCMAKE_INSTALL_PREFIX=/home/mark/coding/software-start-here/install/challenge'], 'cwd': '/home/mark/coding/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mark'), ('SSH_AGENT_PID', '2644'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark/coding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:53536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mark-HP-Spectre-x360-Convertible-15-eb0xxx:@/tmp/.ICE-unix/2682,unix/mark-HP-Spectre-x360-Convertible-15-eb0xxx:/tmp/.ICE-unix/2682'), ('INVOCATION_ID', 'b11bcf6414244ee4ae2509349c53a732'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9018e9fb_083f_4238_8ee8_7af8df463873'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/coding/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055293] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099643] (-) TimerEvent: {}
+[0.100080] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199784] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.400637] (-) TimerEvent: {}
+[0.501027] (-) TimerEvent: {}
+[0.516696] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.595607] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601155] (-) TimerEvent: {}
+[0.603381] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.701338] (-) TimerEvent: {}
+[0.801803] (-) TimerEvent: {}
+[0.879083] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901994] (-) TimerEvent: {}
+[1.002499] (-) TimerEvent: {}
+[1.009940] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.013380] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.102663] (-) TimerEvent: {}
+[1.203109] (-) TimerEvent: {}
+[1.303548] (-) TimerEvent: {}
+[1.390890] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.403705] (-) TimerEvent: {}
+[1.504153] (-) TimerEvent: {}
+[1.604641] (-) TimerEvent: {}
+[1.644806] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.671092] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.674337] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/mark/coding/software-start-here/build/challenge\n'}
+[1.687015] (challenge) CommandEnded: {'returncode': 0}
+[1.693871] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[1.694026] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mark/coding/software-start-here/build/challenge', '--', '-j12', '-l12'], 'cwd': '/home/mark/coding/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mark'), ('SSH_AGENT_PID', '2644'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark/coding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:53536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mark-HP-Spectre-x360-Convertible-15-eb0xxx:@/tmp/.ICE-unix/2682,unix/mark-HP-Spectre-x360-Convertible-15-eb0xxx:/tmp/.ICE-unix/2682'), ('INVOCATION_ID', 'b11bcf6414244ee4ae2509349c53a732'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9018e9fb_083f_4238_8ee8_7af8df463873'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/coding/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.704801] (-) TimerEvent: {}
+[1.792092] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.792545] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[1.804947] (-) TimerEvent: {}
+[1.883731] (challenge) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.885548] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.905104] (-) TimerEvent: {}
+[2.005707] (-) TimerEvent: {}
+[2.106346] (-) TimerEvent: {}
+[2.206985] (-) TimerEvent: {}
+[2.307703] (-) TimerEvent: {}
+[2.408282] (-) TimerEvent: {}
+[2.508840] (-) TimerEvent: {}
+[2.609398] (-) TimerEvent: {}
+[2.709963] (-) TimerEvent: {}
+[2.810542] (-) TimerEvent: {}
+[2.911115] (-) TimerEvent: {}
+[3.011703] (-) TimerEvent: {}
+[3.112258] (-) TimerEvent: {}
+[3.212816] (-) TimerEvent: {}
+[3.313368] (-) TimerEvent: {}
+[3.413941] (-) TimerEvent: {}
+[3.514530] (-) TimerEvent: {}
+[3.615113] (-) TimerEvent: {}
+[3.715717] (-) TimerEvent: {}
+[3.816293] (-) TimerEvent: {}
+[3.916872] (-) TimerEvent: {}
+[4.017454] (-) TimerEvent: {}
+[4.118032] (-) TimerEvent: {}
+[4.218606] (-) TimerEvent: {}
+[4.319182] (-) TimerEvent: {}
+[4.419770] (-) TimerEvent: {}
+[4.520367] (-) TimerEvent: {}
+[4.620940] (-) TimerEvent: {}
+[4.721538] (-) TimerEvent: {}
+[4.822139] (-) TimerEvent: {}
+[4.922720] (-) TimerEvent: {}
+[5.023327] (-) TimerEvent: {}
+[5.123968] (-) TimerEvent: {}
+[5.224596] (-) TimerEvent: {}
+[5.325216] (-) TimerEvent: {}
+[5.425814] (-) TimerEvent: {}
+[5.526395] (-) TimerEvent: {}
+[5.626971] (-) TimerEvent: {}
+[5.727575] (-) TimerEvent: {}
+[5.828193] (-) TimerEvent: {}
+[5.928790] (-) TimerEvent: {}
+[6.029386] (-) TimerEvent: {}
+[6.129961] (-) TimerEvent: {}
+[6.230539] (-) TimerEvent: {}
+[6.331110] (-) TimerEvent: {}
+[6.431701] (-) TimerEvent: {}
+[6.532275] (-) TimerEvent: {}
+[6.632853] (-) TimerEvent: {}
+[6.733458] (-) TimerEvent: {}
+[6.834076] (-) TimerEvent: {}
+[6.934695] (-) TimerEvent: {}
+[7.035314] (-) TimerEvent: {}
+[7.135900] (-) TimerEvent: {}
+[7.236528] (-) TimerEvent: {}
+[7.337142] (-) TimerEvent: {}
+[7.437729] (-) TimerEvent: {}
+[7.538355] (-) TimerEvent: {}
+[7.638977] (-) TimerEvent: {}
+[7.739600] (-) TimerEvent: {}
+[7.840243] (-) TimerEvent: {}
+[7.940887] (-) TimerEvent: {}
+[8.041553] (-) TimerEvent: {}
+[8.142212] (-) TimerEvent: {}
+[8.242837] (-) TimerEvent: {}
+[8.343459] (-) TimerEvent: {}
+[8.444085] (-) TimerEvent: {}
+[8.544655] (-) TimerEvent: {}
+[8.645241] (-) TimerEvent: {}
+[8.745830] (-) TimerEvent: {}
+[8.846398] (-) TimerEvent: {}
+[8.946965] (-) TimerEvent: {}
+[9.047529] (-) TimerEvent: {}
+[9.148114] (-) TimerEvent: {}
+[9.248684] (-) TimerEvent: {}
+[9.349283] (-) TimerEvent: {}
+[9.449852] (-) TimerEvent: {}
+[9.550444] (-) TimerEvent: {}
+[9.651045] (-) TimerEvent: {}
+[9.751637] (-) TimerEvent: {}
+[9.852229] (-) TimerEvent: {}
+[9.952795] (-) TimerEvent: {}
+[10.053383] (-) TimerEvent: {}
+[10.153997] (-) TimerEvent: {}
+[10.254592] (-) TimerEvent: {}
+[10.355164] (-) TimerEvent: {}
+[10.455748] (-) TimerEvent: {}
+[10.556296] (-) TimerEvent: {}
+[10.656843] (-) TimerEvent: {}
+[10.757386] (-) TimerEvent: {}
+[10.779951] (challenge) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[10.857535] (-) TimerEvent: {}
+[10.958103] (-) TimerEvent: {}
+[11.058656] (-) TimerEvent: {}
+[11.159228] (-) TimerEvent: {}
+[11.194000] (challenge) StdoutLine: {'line': b'[ 75%] Built target solution\n'}
+[11.259412] (-) TimerEvent: {}
+[11.359978] (-) TimerEvent: {}
+[11.460516] (-) TimerEvent: {}
+[11.561052] (-) TimerEvent: {}
+[11.661590] (-) TimerEvent: {}
+[11.762131] (-) TimerEvent: {}
+[11.862669] (-) TimerEvent: {}
+[11.963204] (-) TimerEvent: {}
+[12.063753] (-) TimerEvent: {}
+[12.164284] (-) TimerEvent: {}
+[12.264831] (-) TimerEvent: {}
+[12.365377] (-) TimerEvent: {}
+[12.465924] (-) TimerEvent: {}
+[12.566459] (-) TimerEvent: {}
+[12.666999] (-) TimerEvent: {}
+[12.767534] (-) TimerEvent: {}
+[12.868084] (-) TimerEvent: {}
+[12.968625] (-) TimerEvent: {}
+[13.069160] (-) TimerEvent: {}
+[13.169693] (-) TimerEvent: {}
+[13.270228] (-) TimerEvent: {}
+[13.370733] (-) TimerEvent: {}
+[13.471242] (-) TimerEvent: {}
+[13.571755] (-) TimerEvent: {}
+[13.672260] (-) TimerEvent: {}
+[13.772769] (-) TimerEvent: {}
+[13.873252] (-) TimerEvent: {}
+[13.973733] (-) TimerEvent: {}
+[14.074242] (-) TimerEvent: {}
+[14.174756] (-) TimerEvent: {}
+[14.275233] (-) TimerEvent: {}
+[14.375743] (-) TimerEvent: {}
+[14.476245] (-) TimerEvent: {}
+[14.576744] (-) TimerEvent: {}
+[14.677242] (-) TimerEvent: {}
+[14.777752] (-) TimerEvent: {}
+[14.878294] (-) TimerEvent: {}
+[14.978827] (-) TimerEvent: {}
+[15.079343] (-) TimerEvent: {}
+[15.179867] (-) TimerEvent: {}
+[15.280393] (-) TimerEvent: {}
+[15.380953] (-) TimerEvent: {}
+[15.481512] (-) TimerEvent: {}
+[15.541664] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[15.581676] (-) TimerEvent: {}
+[15.682205] (-) TimerEvent: {}
+[15.782774] (-) TimerEvent: {}
+[15.883310] (-) TimerEvent: {}
+[15.983914] (-) TimerEvent: {}
+[16.084476] (-) TimerEvent: {}
+[16.104342] (challenge) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[16.132694] (challenge) CommandEnded: {'returncode': 0}
+[16.184715] (-) TimerEvent: {}
+[16.194195] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[16.223798] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mark/coding/software-start-here/build/challenge'], 'cwd': '/home/mark/coding/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mark'), ('SSH_AGENT_PID', '2644'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mark'), ('OLDPWD', '/home/mark/coding'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mark'), ('JOURNAL_STREAM', '8:53536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mark'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mark-HP-Spectre-x360-Convertible-15-eb0xxx:@/tmp/.ICE-unix/2682,unix/mark-HP-Spectre-x360-Convertible-15-eb0xxx:/tmp/.ICE-unix/2682'), ('INVOCATION_ID', 'b11bcf6414244ee4ae2509349c53a732'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9018e9fb_083f_4238_8ee8_7af8df463873'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '77'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mark/coding/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[16.246095] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.246686] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/lib/challenge/solution\n'}
+[16.249150] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/mark/coding/software-start-here/install/challenge/lib/challenge/solution" to ""\n'}
+[16.249728] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/lib/challenge/listener\n'}
+[16.254427] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/mark/coding/software-start-here/install/challenge/lib/challenge/listener" to ""\n'}
+[16.254958] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[16.255383] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[16.256080] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[16.256576] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[16.256945] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/path.sh\n'}
+[16.257332] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/environment/path.dsv\n'}
+[16.257723] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.bash\n'}
+[16.258112] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.sh\n'}
+[16.258530] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.zsh\n'}
+[16.258922] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/local_setup.dsv\n'}
+[16.259320] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/package.dsv\n'}
+[16.259656] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[16.260023] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[16.260381] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[16.260674] (challenge) StdoutLine: {'line': b'-- Installing: /home/mark/coding/software-start-here/install/challenge/share/challenge/package.xml\n'}
+[16.264263] (challenge) CommandEnded: {'returncode': 0}
+[16.284863] (-) TimerEvent: {}
+[16.382892] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[16.384932] (-) TimerEvent: {}
+[16.385203] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+[0.031s] Invoking command in '/home/mark/coding/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mark/coding/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/mark/coding/software-start-here/install/challenge
+[0.069s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.127s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.628s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.192s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.614s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.891s] -- Configuring done
+[1.893s] CMake Error at CMakeLists.txt:23 (add_executable):
+[1.894s]   Cannot find source file:
+[1.894s] 
+[1.894s]     src/subscriber_member_function.cpp
+[1.894s] 
+[1.894s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.895s]   .hpp .hxx .in .txx
+[1.895s] 
+[1.895s] 
+[1.896s] CMake Error at CMakeLists.txt:19 (add_executable):
+[1.896s]   Cannot find source file:
+[1.896s] 
+[1.897s]     src/publisher_member_function.cpp
+[1.897s] 
+[1.897s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.897s]   .hpp .hxx .in .txx
+[1.898s] 
+[1.898s] 
+[1.898s] CMake Error at CMakeLists.txt:23 (add_executable):
+[1.898s]   No SOURCES given to target: listener
+[1.898s] 
+[1.899s] 
+[1.899s] CMake Error at CMakeLists.txt:19 (add_executable):
+[1.899s]   No SOURCES given to target: talker
+[1.899s] 
+[1.900s] 
+[1.900s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.911s] Invoked command in '/home/mark/coding/software-start-here/build/challenge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mark/coding/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/mark/coding/software-start-here/install/challenge
