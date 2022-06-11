@@ -1,0 +1,32 @@
+[0.019s] Invoking command in '/home/subbots/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/subbots/software-start-here/build/challenge -- -j1 -l1
+[0.059s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.324s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.627s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.674s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.951s] -- Looking for pthread.h
+[1.039s] -- Looking for pthread.h - found
+[1.039s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.129s] -- Looking for pthread_create in pthreads
+[1.213s] -- Looking for pthread_create in pthreads - not found
+[1.214s] -- Looking for pthread_create in pthread
+[1.311s] -- Looking for pthread_create in pthread - found
+[1.313s] -- Found Threads: TRUE  
+[1.587s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.640s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.640s]   ament_target_dependencies() the first argument must be a valid target name
+[1.641s] Call Stack (most recent call first):
+[1.642s]   CMakeLists.txt:28 (ament_target_dependencies)
+[1.642s] 
+[1.643s] 
+[1.645s] -- Configuring incomplete, errors occurred!
+[1.645s] See also "/home/subbots/software-start-here/build/challenge/CMakeFiles/CMakeOutput.log".
+[1.645s] See also "/home/subbots/software-start-here/build/challenge/CMakeFiles/CMakeError.log".
+[1.651s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.657s] Invoked command in '/home/subbots/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/subbots/software-start-here/build/challenge -- -j1 -l1

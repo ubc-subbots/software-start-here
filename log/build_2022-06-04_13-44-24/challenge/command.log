@@ -1,0 +1,6 @@
+Invoking command in '/home/subbots/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/subbots/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/subbots/software-start-here/install/challenge
+Invoked command in '/home/subbots/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/subbots/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/subbots/software-start-here/install/challenge
+Invoking command in '/home/subbots/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/subbots/software-start-here/build/challenge -- -j1 -l1
+Invoked command in '/home/subbots/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/subbots/software-start-here/build/challenge -- -j1 -l1
+Invoking command in '/home/subbots/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/subbots/software-start-here/build/challenge
+Invoked command in '/home/subbots/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/subbots/software-start-here/build/challenge
