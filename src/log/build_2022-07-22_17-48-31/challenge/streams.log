@@ -1,0 +1,67 @@
+[0.021s] Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaclyn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jaclyn/software-start-here/src/install/challenge
+[0.109s] -- The C compiler identification is GNU 9.4.0
+[0.191s] -- The CXX compiler identification is GNU 9.4.0
+[0.199s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.304s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.423s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++
+[0.551s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.553s] -- Detecting CXX compiler ABI info
+[0.674s] -- Detecting CXX compiler ABI info - done
+[0.688s] -- Detecting CXX compile features
+[0.689s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.724s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.724s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.976s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.020s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.162s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.205s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.471s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.474s] -- Looking for pthread.h
+[1.588s] -- Looking for pthread.h - found
+[1.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.706s] -- Looking for pthread_create in pthreads
+[1.800s] -- Looking for pthread_create in pthreads - not found
+[1.800s] -- Looking for pthread_create in pthread
+[1.913s] -- Looking for pthread_create in pthread - found
+[1.915s] -- Found Threads: TRUE  
+[2.098s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.172s] -- Configuring done
+[2.181s] -- Generating done
+[2.182s] -- Build files have been written to: /home/jaclyn/software-start-here/src/build/challenge
+[2.189s] Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaclyn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jaclyn/software-start-here/src/install/challenge
+[2.193s] Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaclyn/software-start-here/src/build/challenge -- -j16 -l16
+[2.243s] [35m[1mScanning dependencies of target solution[0m
+[2.292s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[5.683s] [100%] [32m[1mLinking CXX executable solution[0m
+[5.882s] [100%] Built target solution
+[5.894s] Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaclyn/software-start-here/src/build/challenge -- -j16 -l16
+[5.942s] Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaclyn/software-start-here/src/build/challenge
+[5.953s] -- Install configuration: ""
+[5.953s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/lib/challenge/solution
+[5.954s] -- Set runtime path of "/home/jaclyn/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+[5.954s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[5.954s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[5.955s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[5.956s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/package.dsv
+[5.956s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[5.956s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[5.956s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[5.956s] -- Installing: /home/jaclyn/software-start-here/src/install/challenge/share/challenge/package.xml
+[5.959s] Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaclyn/software-start-here/src/build/challenge

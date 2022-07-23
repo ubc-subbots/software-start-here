@@ -1,0 +1,6 @@
+Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaclyn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jaclyn/software-start-here/src/install/challenge
+Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jaclyn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/jaclyn/software-start-here/src/install/challenge
+Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaclyn/software-start-here/src/build/challenge -- -j16 -l16
+Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jaclyn/software-start-here/src/build/challenge -- -j16 -l16
+Invoking command in '/home/jaclyn/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaclyn/software-start-here/src/build/challenge
+Invoked command in '/home/jaclyn/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jaclyn/software-start-here/src/build/challenge
