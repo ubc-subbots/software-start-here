@@ -1,4 +1,6 @@
 /home/jaclyn/software-start-here/src/install/challenge/lib/challenge/solution
+/home/jaclyn/software-start-here/src/install/challenge/share/challenge//launch/__pycache__/turtlesim_solution_launch.cpython-38.pyc
+/home/jaclyn/software-start-here/src/install/challenge/share/challenge//launch/turtlesim_solution_launch.py
 /home/jaclyn/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
 /home/jaclyn/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
 /home/jaclyn/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh

@@ -22,6 +22,7 @@ find_package(ament_cmake REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
 
+
 add_executable(solution src/solution.cpp)
 ament_target_dependencies(solution geometry_msgs rclcpp)
 target_include_directories(solution PUBLIC
@@ -41,5 +42,11 @@ if(BUILD_TESTING)
   #set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+# Install launch files.
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 
 ament_package()
