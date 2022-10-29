@@ -1,0 +1,7 @@
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:33:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   33 |  auto message = geometry_msgs::msg::Twist[01;31m[K;[m[K
+      |                                          [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

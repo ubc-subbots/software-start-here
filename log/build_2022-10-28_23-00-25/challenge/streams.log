@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/home/navrajb/software/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8
+[0.092s] [35m[1mScanning dependencies of target solution[0m
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[4.070s] [100%] [32m[1mLinking CXX executable solution[0m
+[4.315s] [100%] Built target solution
+[4.334s] Invoked command in '/home/navrajb/software/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8
+[4.382s] Invoking command in '/home/navrajb/software/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/navrajb/software/software-start-here/build/challenge
+[4.396s] -- Install configuration: ""
+[4.396s] -- Installing: /home/navrajb/software/software-start-here/install/challenge/lib/challenge/solution
+[4.398s] -- Set runtime path of "/home/navrajb/software/software-start-here/install/challenge/lib/challenge/solution" to ""
+[4.398s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/path.sh
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.bash
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.sh
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[4.399s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[4.400s] -- Installing: /home/navrajb/software/software-start-here/install/challenge/share/challenge/package.dsv
+[4.400s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[4.400s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[4.400s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[4.400s] -- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/package.xml
+[4.401s] Invoked command in '/home/navrajb/software/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/navrajb/software/software-start-here/build/challenge

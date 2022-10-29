@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/home/navrajb/software/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8
+[0.072s] [35m[1mScanning dependencies of target solution[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.459s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.459s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:36:32:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kdouble[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator^[m[K’
+[1.459s]    36 |    message.linear.x = [32m[K0.05*(-1)[m[K[01;31m[K^[m[K[34m[Kseconds[m[K;
+[1.459s]       |                       [32m[K~~~~~~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~[m[K
+[1.459s]       |                           [32m[K|[m[K     [34m[K|[m[K
+[1.459s]       |                           [32m[K|[m[K     [34m[Kint[m[K
+[1.459s]       |                           [32m[Kdouble[m[K
+[2.382s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.382s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.382s] make: *** [Makefile:141: all] Error 2
+[2.387s] Invoked command in '/home/navrajb/software/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8

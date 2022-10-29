@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000276] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.013954] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.015174] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.016511] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navrajb/software/software-start-here/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/navrajb/software/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'navrajb'), ('SSH_AGENT_PID', '1741'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/navrajb'), ('OLDPWD', '/home/navrajb/software/software-start-here/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/navrajb/software/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'navrajb'), ('JOURNAL_STREAM', '8:51330'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'navrajb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/navrajb-Precision-3520:@/tmp/.ICE-unix/1778,unix/navrajb-Precision-3520:/tmp/.ICE-unix/1778'), ('INVOCATION_ID', '6eced6c21adb4949b279ee27bd50682b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/84466142_6dda_4dc8_b7d2_0a904f5fa0f3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/navrajb/software/software-start-here/install/challenge:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navrajb/software/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/navrajb/software/software-start-here/install/challenge:/opt/ros/foxy')]), 'shell': False}
+[0.069728] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.099134] (-) TimerEvent: {}
+[0.101609] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.199274] (-) TimerEvent: {}
+[0.299601] (-) TimerEvent: {}
+[0.399935] (-) TimerEvent: {}
+[0.500277] (-) TimerEvent: {}
+[0.600605] (-) TimerEvent: {}
+[0.700912] (-) TimerEvent: {}
+[0.801190] (-) TimerEvent: {}
+[0.901491] (-) TimerEvent: {}
+[1.001816] (-) TimerEvent: {}
+[1.102106] (-) TimerEvent: {}
+[1.202376] (-) TimerEvent: {}
+[1.301906] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.302102] (challenge) StderrLine: {'line': b'   40 |     rclcpp::Publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[1.302404] (-) TimerEvent: {}
+[1.302571] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.302659] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.302741] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:8\x1b[m\x1b[K:\n'}
+[1.302808] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:121:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.302888] (challenge) StderrLine: {'line': b'  121 | using \x1b[01;36m\x1b[KString\x1b[m\x1b[K =\n'}
+[1.302951] (challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.303014] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.303080] (challenge) StderrLine: {'line': b'   40 |     rclcpp::Publisher<geometry_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[1.303144] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.303206] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[1.303268] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:8\x1b[m\x1b[K:\n'}
+[1.303330] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:121:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.303399] (challenge) StderrLine: {'line': b'  121 | using \x1b[01;36m\x1b[KString\x1b[m\x1b[K =\n'}
+[1.303462] (challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.303524] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.303587] (challenge) StderrLine: {'line': b'   40 |     rclcpp::Publisher<geometry_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.303650] (challenge) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.303712] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.303778] (challenge) StderrLine: {'line': b'   40 |     rclcpp::Publisher<geometry_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.303840] (challenge) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.303902] (challenge) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.304306] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.304409] (challenge) StderrLine: {'line': b'   40 |     rclcpp::Publisher<geometry_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.304483] (challenge) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.304550] (challenge) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.306817] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.306929] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.307004] (challenge) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",1);\n'}
+[1.307080] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.307146] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.310313] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:22:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.310479] (challenge) StderrLine: {'line': b'   22 |       \x1b[01;31m\x1b[K50ms\x1b[m\x1b[K, std::bind(&MinimalPublisher::timer_callback, this));\n'}
+[1.310614] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.316696] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.316846] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:28:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.316944] (challenge) StderrLine: {'line': b'   28 |  auto message = geometry_msgs::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K twist;\n'}
+[1.317014] (challenge) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.317080] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[1.317145] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:9\x1b[m\x1b[K:\n'}
+[1.317213] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.317279] (challenge) StderrLine: {'line': b'  133 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[1.317343] (challenge) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.319062] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:37:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.319177] (challenge) StderrLine: {'line': b'   37 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[1.319254] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.319326] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.402561] (-) TimerEvent: {}
+[1.502862] (-) TimerEvent: {}
+[1.603168] (-) TimerEvent: {}
+[1.703462] (-) TimerEvent: {}
+[1.803761] (-) TimerEvent: {}
+[1.904059] (-) TimerEvent: {}
+[1.910062] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[1.910394] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[1.910643] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.913088] (challenge) CommandEnded: {'returncode': 2}
+[1.963004] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[1.974551] (-) EventReactorShutdown: {}

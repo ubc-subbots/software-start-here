@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000760] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.015268] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.016186] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.017591] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navrajb/software/software-start-here/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/navrajb/software/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'navrajb'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/navrajb'), ('OLDPWD', '/home/navrajb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'navrajb'), ('JOURNAL_STREAM', '8:48594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'navrajb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/navrajb-Precision-3520:@/tmp/.ICE-unix/1670,unix/navrajb-Precision-3520:/tmp/.ICE-unix/1670'), ('INVOCATION_ID', 'ae34e5ea13634dd68519c0f453d247f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d52c58c2_a361_44d9_9f34_ec08861f2155'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navrajb/software/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.082535] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.099574] (-) TimerEvent: {}
+[0.126090] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.199717] (-) TimerEvent: {}
+[0.300018] (-) TimerEvent: {}
+[0.400260] (-) TimerEvent: {}
+[0.500540] (-) TimerEvent: {}
+[0.600818] (-) TimerEvent: {}
+[0.701083] (-) TimerEvent: {}
+[0.801368] (-) TimerEvent: {}
+[0.901744] (-) TimerEvent: {}
+[1.002016] (-) TimerEvent: {}
+[1.102323] (-) TimerEvent: {}
+[1.202621] (-) TimerEvent: {}
+[1.302920] (-) TimerEvent: {}
+[1.403216] (-) TimerEvent: {}
+[1.503562] (-) TimerEvent: {}
+[1.603865] (-) TimerEvent: {}
+[1.704159] (-) TimerEvent: {}
+[1.710945] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.711186] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:35:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktime_passed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.711355] (challenge) StderrLine: {'line': b'   35 |     int \x1b[01;35m\x1b[Ktime_passed\x1b[m\x1b[K = time(0);\n'}
+[1.711491] (challenge) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804286] (-) TimerEvent: {}
+[1.904568] (-) TimerEvent: {}
+[2.004866] (-) TimerEvent: {}
+[2.105114] (-) TimerEvent: {}
+[2.205404] (-) TimerEvent: {}
+[2.305666] (-) TimerEvent: {}
+[2.405953] (-) TimerEvent: {}
+[2.506227] (-) TimerEvent: {}
+[2.606502] (-) TimerEvent: {}
+[2.706781] (-) TimerEvent: {}
+[2.807067] (-) TimerEvent: {}
+[2.907493] (-) TimerEvent: {}
+[3.007858] (-) TimerEvent: {}
+[3.108136] (-) TimerEvent: {}
+[3.208463] (-) TimerEvent: {}
+[3.308851] (-) TimerEvent: {}
+[3.409089] (-) TimerEvent: {}
+[3.509412] (-) TimerEvent: {}
+[3.609818] (-) TimerEvent: {}
+[3.710182] (-) TimerEvent: {}
+[3.722127] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[3.810304] (-) TimerEvent: {}
+[3.910627] (-) TimerEvent: {}
+[3.958263] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[3.976060] (challenge) CommandEnded: {'returncode': 0}
+[4.007323] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[4.010857] (-) TimerEvent: {}
+[4.022503] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/navrajb/software/software-start-here/build/challenge'], 'cwd': '/home/navrajb/software/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'navrajb'), ('SSH_AGENT_PID', '1633'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/navrajb'), ('OLDPWD', '/home/navrajb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1447'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'navrajb'), ('JOURNAL_STREAM', '8:48594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'navrajb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/navrajb-Precision-3520:@/tmp/.ICE-unix/1670,unix/navrajb-Precision-3520:/tmp/.ICE-unix/1670'), ('INVOCATION_ID', 'ae34e5ea13634dd68519c0f453d247f7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d52c58c2_a361_44d9_9f34_ec08861f2155'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navrajb/software/software-start-here/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.036071] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.036520] (challenge) StdoutLine: {'line': b'-- Installing: /home/navrajb/software/software-start-here/install/challenge/lib/challenge/solution\n'}
+[4.038296] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/navrajb/software/software-start-here/install/challenge/lib/challenge/solution" to ""\n'}
+[4.038603] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[4.038828] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[4.039119] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[4.039761] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[4.039971] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/path.sh\n'}
+[4.040105] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/environment/path.dsv\n'}
+[4.040233] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.bash\n'}
+[4.040361] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.sh\n'}
+[4.040488] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.zsh\n'}
+[4.040612] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/local_setup.dsv\n'}
+[4.040735] (challenge) StdoutLine: {'line': b'-- Installing: /home/navrajb/software/software-start-here/install/challenge/share/challenge/package.dsv\n'}
+[4.040890] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[4.041012] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[4.041133] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[4.041303] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/navrajb/software/software-start-here/install/challenge/share/challenge/package.xml\n'}
+[4.042364] (challenge) CommandEnded: {'returncode': 0}
+[4.111161] (-) TimerEvent: {}
+[4.117815] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[4.118883] (-) EventReactorShutdown: {}

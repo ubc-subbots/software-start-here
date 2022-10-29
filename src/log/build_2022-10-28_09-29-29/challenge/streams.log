@@ -1,0 +1,34 @@
+[0.015s] Invoking command in '/home/navrajb/software/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8
+[0.049s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.256s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.495s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.534s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.741s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.742s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.742s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/navrajb/software/software-start-here/src/challenge/include>
+[0.743s] -- Configured cppcheck exclude dirs and/or files: 
+[0.743s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.743s] -- Configured cpplint exclude dirs and/or files: 
+[0.744s] -- Added test 'lint_cmake' to check CMake code style
+[0.745s] -- Added test 'uncrustify' to check C / C++ code style
+[0.745s] -- Configured uncrustify additional arguments: 
+[0.746s] -- Added test 'xmllint' to check XML markup files
+[0.749s] -- Configuring done
+[0.759s] -- Generating done
+[0.760s] -- Build files have been written to: /home/navrajb/software/software-start-here/src/build/challenge
+[0.787s] [35m[1mScanning dependencies of target solution[0m
+[0.800s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.007s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs: No such file or directory
+[1.007s]     9 | #include [01;31m[K"geometry_msgs"[m[K
+[1.007s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.007s] compilation terminated.
+[1.009s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.010s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.010s] make: *** [Makefile:141: all] Error 2
+[1.014s] Invoked command in '/home/navrajb/software/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8

@@ -1,0 +1,16 @@
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:22:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   22 |       [01;31m[K50ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:29:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+   29 |  auto message = geometry_msgs::[01;31m[KTwist[m[K;
+      |                                [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+  133 | using [01;36m[KTwist[m[K =
+      |       [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

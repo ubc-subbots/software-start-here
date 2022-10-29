@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/navrajb/software/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8
+[0.048s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.524s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.686s] CMake Error at CMakeLists.txt:29 (catkin_package):
+[0.687s]   Unknown CMake command "catkin_package".
+[0.687s] 
+[0.687s] 
+[0.688s] -- Configuring incomplete, errors occurred!
+[0.688s] See also "/home/navrajb/software/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".
+[0.689s] See also "/home/navrajb/software/software-start-here/src/build/challenge/CMakeFiles/CMakeError.log".
+[0.694s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.696s] Invoked command in '/home/navrajb/software/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8

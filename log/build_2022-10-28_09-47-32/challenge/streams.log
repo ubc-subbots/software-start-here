@@ -1,0 +1,55 @@
+[0.016s] Invoking command in '/home/navrajb/software/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8
+[0.068s] [35m[1mScanning dependencies of target solution[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.318s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kstd_msgs::msg::String[m[K’?
+[1.318s]    40 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+[1.318s]       |                                           [01;31m[K^~~~~~[m[K
+[1.319s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[1.319s]                  from [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.319s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::String[m[K’ declared here
+[1.319s]   121 | using [01;36m[KString[m[K =
+[1.319s]       |       [01;36m[K^~~~~~[m[K
+[1.319s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[Kstd_msgs::msg::String[m[K’?
+[1.319s]    40 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+[1.319s]       |                                           [01;31m[K^~~~~~[m[K
+[1.319s] In file included from [01m[K/opt/ros/foxy/include/std_msgs/msg/string.hpp:7[m[K,
+[1.319s]                  from [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[1.319s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Kstd_msgs::msg::String[m[K’ declared here
+[1.319s]   121 | using [01;36m[KString[m[K =
+[1.319s]       |       [01;36m[K^~~~~~[m[K
+[1.320s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.320s]    40 |     rclcpp::Publisher<geometry_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[1.320s]       |                                                 [01;31m[K^[m[K
+[1.320s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.320s]    40 |     rclcpp::Publisher<geometry_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[1.320s]       |                                                    [01;31m[K^~~~~~~~~[m[K
+[1.320s]       |                                                             [32m[K;[m[K
+[1.320s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.320s]    40 |     rclcpp::Publisher<geometry_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[1.321s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[1.321s]       |                                                              [32m[Krcl_publisher_t[m[K
+[1.323s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[1.323s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.323s]    20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("turtle1/cmd_vel", 1);
+[1.323s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.323s]       |       [32m[Krcl_publisher_t[m[K
+[1.326s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:22:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.326s]    22 |       [01;31m[K50ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+[1.327s]       |       [01;31m[K^~~~[m[K
+[1.333s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.333s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:28:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[1.333s]    28 |  auto message = geometry_msgs::[01;31m[KTwist[m[K twist;
+[1.333s]       |                                [01;31m[K^~~~~[m[K
+[1.333s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.334s]                  from [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:9[m[K:
+[1.334s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[1.334s]   133 | using [01;36m[KTwist[m[K =
+[1.334s]       |       [01;36m[K^~~~~[m[K
+[1.336s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:37:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.336s]    37 |       [01;31m[Kpublisher_[m[K->publish(message);
+[1.336s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.336s]       |       [32m[Krcl_publisher_t[m[K
+[1.938s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.938s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.938s] make: *** [Makefile:141: all] Error 2
+[1.941s] Invoked command in '/home/navrajb/software/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8

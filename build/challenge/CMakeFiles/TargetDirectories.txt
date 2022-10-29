@@ -1,0 +1,10 @@
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/install/strip.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/install/local.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/install.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/list_install_components.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/edit_cache.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/test.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/solution.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/navrajb/software/software-start-here/build/challenge/CMakeFiles/uninstall.dir

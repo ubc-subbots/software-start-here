@@ -1,0 +1,16 @@
+[0.019s] Invoking command in '/home/navrajb/software/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8
+[0.122s] [35m[1mScanning dependencies of target solution[0m
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.671s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.671s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:33:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[1.671s]    33 |  auto message = geometry_msgs::[01;31m[KTwist[m[K;
+[1.671s]       |                                [01;31m[K^~~~~[m[K
+[1.671s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.671s]                  from [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:12[m[K:
+[1.671s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/twist__struct.hpp:133:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[1.671s]   133 | using [01;36m[KTwist[m[K =
+[1.671s]       |       [01;36m[K^~~~~[m[K
+[2.594s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.594s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.594s] make: *** [Makefile:141: all] Error 2
+[2.599s] Invoked command in '/home/navrajb/software/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/build/challenge -- -j8 -l8

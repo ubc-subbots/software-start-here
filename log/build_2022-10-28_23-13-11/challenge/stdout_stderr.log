@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:40:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kanguar[m[K’; did you mean ‘[01m[Kangular[m[K’?
+   40 |  message.[01;31m[Kanguar[m[K.x = 1;
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kangular[m[K
+[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:35:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_passed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |     int [01;35m[Ktime_passed[m[K = time(0);
+      |         [01;35m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
