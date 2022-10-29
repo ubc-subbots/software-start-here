@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[100%] [32m[1mLinking CXX executable solution[0m
+[100%] Built target solution
+-- Install configuration: ""
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/lib/challenge/solution
+-- Set runtime path of "/home/navrajb/software/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/package.dsv
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+-- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/package.xml

@@ -1,3 +1,6 @@
+source;share/challenge/hook/cmake_prefix_path.ps1
+source;share/challenge/hook/cmake_prefix_path.dsv
+source;share/challenge/hook/cmake_prefix_path.sh
 source;share/challenge/local_setup.bash
 source;share/challenge/local_setup.dsv
 source;share/challenge/local_setup.ps1

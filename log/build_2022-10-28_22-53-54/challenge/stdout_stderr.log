@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target solution[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
-[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
-[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:38:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
-   38 |    message.linear.y = [01;31m[Kx[m[K;
-      |                       [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/navrajb/software/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8
+[0.099s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.132s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.367s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.700s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.770s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.949s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.032s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.034s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/navrajb/software/software-start-here/src/challenge/include>
+[1.034s] -- Configured cppcheck exclude dirs and/or files: 
+[1.035s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.035s] -- Configured cpplint exclude dirs and/or files: 
+[1.036s] -- Added test 'lint_cmake' to check CMake code style
+[1.037s] -- Added test 'uncrustify' to check C / C++ code style
+[1.037s] -- Configured uncrustify additional arguments: 
+[1.038s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring done
+[1.053s] -- Generating done
+[1.055s] -- Build files have been written to: /home/navrajb/software/software-start-here/src/build/challenge
+[1.084s] [35m[1mScanning dependencies of target solution[0m
+[1.206s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.800s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.800s] [01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:16:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.800s]    16 |     : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+[2.800s]       |                                  [01;31m[K^~~~~~[m[K
+[3.779s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[3.780s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[3.780s] make: *** [Makefile:141: all] Error 2
+[3.783s] Invoked command in '/home/navrajb/software/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8

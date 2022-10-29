@@ -1,8 +1,0 @@
-[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
-[01m[K/home/navrajb/software/software-start-here/src/challenge/src/solution.cpp:38:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klinears[m[K’; did you mean ‘[01m[Klinear[m[K’?
-   38 |    message.[01;31m[Klinears[m[K.y = sin(time_passed);
-      |            [01;31m[K^~~~~~~[m[K
-      |            [32m[Klinear[m[K
-make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2
