@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/navrajb/software/software-start-here/src/build/challenge': /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8
+[0.062s] [35m[1mScanning dependencies of target solution[0m
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.212s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.421s] [100%] Built target solution
+[3.435s] Invoked command in '/home/navrajb/software/software-start-here/src/build/challenge' returned '0': /usr/bin/cmake --build /home/navrajb/software/software-start-here/src/build/challenge -- -j8 -l8
+[3.476s] Invoking command in '/home/navrajb/software/software-start-here/src/build/challenge': /usr/bin/cmake --install /home/navrajb/software/software-start-here/src/build/challenge
+[3.486s] -- Install configuration: ""
+[3.486s] -- Installing: /home/navrajb/software/software-start-here/src/install/challenge/lib/challenge/solution
+[3.488s] -- Set runtime path of "/home/navrajb/software/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+[3.488s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.488s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.488s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[3.489s] -- Installing: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/package.dsv
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.489s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.490s] -- Up-to-date: /home/navrajb/software/software-start-here/src/install/challenge/share/challenge/package.xml
+[3.492s] Invoked command in '/home/navrajb/software/software-start-here/src/build/challenge' returned '0': /usr/bin/cmake --install /home/navrajb/software/software-start-here/src/build/challenge

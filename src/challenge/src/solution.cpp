@@ -13,7 +13,7 @@ class MinimalPublisher : public rclcpp::Node
 
   public:
     MinimalPublisher()
-    : Node("minimal_publisher"), count_(0)
+    : Node("minimal_publisher")
     {
       publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 50);
       timer_ = this->create_wall_timer(
@@ -36,7 +36,6 @@ class MinimalPublisher : public rclcpp::Node
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
-    size_t count_;
 
 };
 
