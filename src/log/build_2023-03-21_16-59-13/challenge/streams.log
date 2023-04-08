@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/path/to/your/ament/installation /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+[0.025s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.141s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.215s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.244s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.275s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.275s] CMake Error at /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:54 (message):
+[0.276s]   The RMW implementation has been specified as 'rmw_fastrtps_cpp' via the
+[0.276s]   default when rmw_implementation was built, but it is not available at this
+[0.276s]   time.
+[0.276s] 
+[0.276s]   
+[0.276s] 
+[0.276s]   Currently available middlewares:
+[0.276s] 
+[0.276s]   ''
+[0.276s] Call Stack (most recent call first):
+[0.276s]   /opt/ros/foxy/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[0.276s]   /opt/ros/foxy/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.276s]   /opt/ros/foxy/share/rcl/cmake/rclConfig.cmake:41 (include)
+[0.276s]   /opt/ros/foxy/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.276s]   /opt/ros/foxy/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[0.276s]   /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.277s]   /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.277s]   /opt/ros/foxy/share/rclcpp_action/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.277s]   /opt/ros/foxy/share/rclcpp_action/cmake/rclcpp_actionConfig.cmake:41 (include)
+[0.277s]   CMakeLists.txt:22 (find_package)
+[0.277s] 
+[0.277s] 
+[0.277s] -- Configuring incomplete, errors occurred!
+[0.277s] See also "/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".
+[0.278s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.280s] Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/path/to/your/ament/installation /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8

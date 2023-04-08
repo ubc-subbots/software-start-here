@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amraj/Subbots/software-start-here/src/install/py_launch_example:/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+[0.027s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.141s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.347s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.373s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.470s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.507s] CMake Error at CMakeLists.txt:55 (install):
+[0.507s]   install TARGETS given target "solution" which does not exist.
+[0.507s] 
+[0.507s] 
+[0.508s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.509s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.509s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amraj/Subbots/software-start-here/src/challenge/include>
+[0.509s] -- Configured cppcheck exclude dirs and/or files: 
+[0.509s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.509s] -- Configured cpplint exclude dirs and/or files: 
+[0.510s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.510s] -- Added test 'lint_cmake' to check CMake code style
+[0.510s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.511s] -- Added test 'uncrustify' to check C / C++ code style
+[0.511s] -- Configured uncrustify additional arguments: 
+[0.511s] -- Added test 'xmllint' to check XML markup files
+[0.512s] -- Configuring incomplete, errors occurred!
+[0.512s] See also "/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".
+[0.512s] See also "/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/CMakeError.log".
+[0.517s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.519s] Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amraj/Subbots/software-start-here/src/install/py_launch_example:/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8

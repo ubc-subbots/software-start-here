@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+[0.024s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.140s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.228s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.334s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.360s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.466s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.506s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.507s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.507s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amraj/Subbots/software-start-here/src/challenge/include>
+[0.507s] -- Configured cppcheck exclude dirs and/or files: 
+[0.507s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.508s] -- Configured cpplint exclude dirs and/or files: 
+[0.508s] -- Added test 'lint_cmake' to check CMake code style
+[0.508s] -- Added test 'uncrustify' to check C / C++ code style
+[0.508s] -- Configured uncrustify additional arguments: 
+[0.509s] -- Added test 'xmllint' to check XML markup files
+[0.510s] -- Configuring done
+[0.517s] -- Generating done
+[0.518s] -- Build files have been written to: /home/amraj/Subbots/software-start-here/src/build/challenge
+[0.534s] [35m[1mScanning dependencies of target SineWave[0m
+[0.558s] [ 50%] [32mBuilding CXX object CMakeFiles/SineWave.dir/src/solution.cpp.o[0m
+[2.275s] [100%] [32m[1mLinking CXX executable SineWave[0m
+[2.391s] [100%] Built target SineWave
+[2.398s] Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+[2.420s] Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amraj/Subbots/software-start-here/src/build/challenge
+[2.425s] -- Install configuration: ""
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/lib/challenge/SineWave
+[2.426s] -- Set runtime path of "/home/amraj/Subbots/software-start-here/src/install/challenge/lib/challenge/SineWave" to ""
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[2.426s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[2.426s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[2.426s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[2.426s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[2.426s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[2.426s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/package.dsv
+[2.427s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[2.427s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[2.427s] -- Up-to-date: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[2.427s] -- Installing: /home/amraj/Subbots/software-start-here/src/install/challenge/share/challenge/package.xml
+[2.428s] Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/amraj/Subbots/software-start-here/src/build/challenge

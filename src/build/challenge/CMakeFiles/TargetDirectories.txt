@@ -1,0 +1,10 @@
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/install/strip.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/install/local.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/install.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/list_install_components.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/edit_cache.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/test.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/SineWave.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/amraj/Subbots/software-start-here/src/build/challenge/CMakeFiles/uninstall.dir

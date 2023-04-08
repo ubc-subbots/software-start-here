@@ -1,0 +1,4 @@
+Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/amraj/Subbots/software-start-here/src/build/challenge -- -j8 -l8
+Invoking command in '/home/amraj/Subbots/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amraj/Subbots/software-start-here/src/build/challenge
+Invoked command in '/home/amraj/Subbots/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/amraj/Subbots/software-start-here/src/build/challenge

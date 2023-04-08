@@ -1,0 +1,33 @@
+[0.403s] Invoking command in '/home/amraj/Subbots/software-start-here/src/py_launch_example': PYTHONPATH=/home/amraj/Subbots/software-start-here/src/build/py_launch_example/prefix_override:/home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_launch_example build --build-base /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build install --record /home/amraj/Subbots/software-start-here/src/build/py_launch_example/install.log --install-scripts $base/lib/py_launch_example --single-version-externally-managed
+[0.521s] running egg_info
+[0.522s] creating ../build/py_launch_example/py_launch_example.egg-info
+[0.522s] writing ../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.522s] writing dependency_links to ../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.522s] writing entry points to ../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.522s] writing requirements to ../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.522s] writing top-level names to ../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.524s] writing manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.545s] reading manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.545s] writing manifest file '../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.546s] running build
+[0.546s] running build_py
+[0.546s] creating /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build
+[0.546s] creating /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build/lib
+[0.546s] creating /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build/lib/py_launch_example
+[0.546s] copying py_launch_example/__init__.py -> /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build/lib/py_launch_example
+[0.546s] running install
+[0.546s] running install_lib
+[0.547s] creating /home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages/py_launch_example
+[0.547s] copying /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages/py_launch_example
+[0.547s] byte-compiling /home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages/py_launch_example/__init__.py to __init__.cpython-38.pyc
+[0.548s] running install_data
+[0.548s] creating /home/amraj/Subbots/software-start-here/src/install/py_launch_example/share/ament_index
+[0.548s] creating /home/amraj/Subbots/software-start-here/src/install/py_launch_example/share/ament_index/resource_index
+[0.548s] creating /home/amraj/Subbots/software-start-here/src/install/py_launch_example/share/ament_index/resource_index/packages
+[0.548s] copying resource/py_launch_example -> /home/amraj/Subbots/software-start-here/src/install/py_launch_example/share/ament_index/resource_index/packages
+[0.548s] copying package.xml -> /home/amraj/Subbots/software-start-here/src/install/py_launch_example/share/py_launch_example
+[0.549s] running install_egg_info
+[0.549s] Copying ../build/py_launch_example/py_launch_example.egg-info to /home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages/py_launch_example-0.0.0-py3.8.egg-info
+[0.550s] running install_scripts
+[0.560s] writing list of installed files to '/home/amraj/Subbots/software-start-here/src/build/py_launch_example/install.log'
+[0.575s] Invoked command in '/home/amraj/Subbots/software-start-here/src/py_launch_example' returned '0': PYTHONPATH=/home/amraj/Subbots/software-start-here/src/build/py_launch_example/prefix_override:/home/amraj/Subbots/software-start-here/src/install/py_launch_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_launch_example build --build-base /home/amraj/Subbots/software-start-here/src/build/py_launch_example/build install --record /home/amraj/Subbots/software-start-here/src/build/py_launch_example/install.log --install-scripts $base/lib/py_launch_example --single-version-externally-managed
