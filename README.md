@@ -31,6 +31,21 @@ Different brands of computer may encounter manufacturer-specific blocks, please 
   * Note: BIOS can also be accessed by restarting using Recovery options menu in windows.
 * [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
   
+# Windows - Docker
+There is a new option, to use Docker for development
+* Install [Docker](https://www.docker.com/get-started/)
+* Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+* install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
+* Run `docker pull hashaam1217/ubc_subbots:1.1`
+* Start the service (XLanuch) and enter these configurations:
+     * First screen: select "Multiple Windows", Display number = -1
+     * Second Screen: select "Start no client"
+     * Third Screen: check "Clipboard", uncheck "Native opengl", check "Disable Access Control" 
+     * Select finish
+* Run `docker run -it --rm --name ubc_subbots -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix hashaam1217/ubc_subbots:1.1` in terminal as adminstrator
+* To open another terminal connected to the same terminal run `docker exec -it ubc_subbots /bin/bash`
+
+
 Once Ubuntu is installed, you will need to install a preferred IDE. Some suggestions are listed below: 
 
 * [Eclipse](https://www.eclipse.org/ide/)
