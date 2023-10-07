@@ -42,7 +42,7 @@ There is a new option, to use Docker for development
      * Second Screen: select "Start no client"
      * Third Screen: check "Clipboard", uncheck "Native opengl", check "Disable Access Control" 
      * Select finish
-* Run `docker run -it --rm --name ubc_subbots -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix hashaam1217/ubc_subbots:1.1` in terminal as adminstrator
+* Run `docker run -it --name ubc_subbots -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix hashaam1217/ubc_subbots:1.1` in terminal as adminstrator
 * To open another terminal connected to the same OS, run `docker exec -it ubc_subbots /bin/bash`
 * It should be already installed with all tools neccessary to work with ROS2.
 * This is a stateless system, you're changes are not saved so make you sure you push your changes to github before exiting
