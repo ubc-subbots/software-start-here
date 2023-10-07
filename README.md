@@ -46,7 +46,13 @@ There is a new option, to use Docker for development
 * To open another terminal connected to the same OS, run `docker exec -it ubc_subbots /bin/bash`
 * It should be already installed with all tools neccessary to work with ROS2.
 * This is a stateless system, you're changes are not saved so make you sure you push your changes to github before exiting
-* (Saved images are currently in progress)
+
+### Saving your image (optional)
+* If you want to save your image you can do it in a few steps.
+* Use `docker ps -a` to view the last container you have opened.
+* We can use `docker commit [Your old container ID or name] [Name of the new image]` to save our last workspace for future use.
+* For example the name of the first container is "ubc_subbots". We can use `docker commit ubc_subbots my_local_image` to save your last container for future use.
+* You will have to modify the run command like this: `docker run -it -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix my_local_image`
 
 Once Ubuntu is installed, you will need to install a preferred IDE. Some suggestions are listed below: 
 
