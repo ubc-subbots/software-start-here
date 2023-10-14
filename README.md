@@ -60,6 +60,11 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * [Clion](https://www.jetbrains.com/clion/) (can be tedious to setup, requires an account) 
 * [VS Code](https://code.visualstudio.com/) (strenuous setup but very powerful IDE) 
 
+### Minor troubleshooting
+* If you get:
+* docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "ba09d34e252debcbbff86e893e2396195996d24a7aa4be900e704f67091e0a20". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+* Run `docker rm ubc_subbots`
 # Git command line tools 
 
 To use Git from the linux command line, follow the install [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
