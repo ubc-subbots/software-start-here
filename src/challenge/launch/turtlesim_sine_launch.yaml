@@ -1,0 +1,13 @@
+launch:
+
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+    name: "turtle1"
+    namespace: "turtle1"
+
+- node:
+    pkg: "challenge"
+    exec: "solution"
+    name: "turtle_controller"
+    namespace: "controller"

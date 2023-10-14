@@ -1,0 +1,51 @@
+[0.168s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[0.188s] -- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.309s] -- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[0.337s] -- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[0.456s] -- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+[0.471s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.579s] -- Found geometry_msgs: 4.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.606s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.650s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.652s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/strawberryshadow/Desktop/software-start-here/src/challenge/include>
+[0.652s] -- Configured cppcheck exclude dirs and/or files: 
+[0.653s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.653s] -- Configured cpplint exclude dirs and/or files: 
+[0.653s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.654s] -- Added test 'lint_cmake' to check CMake code style
+[0.654s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.655s] -- Added test 'uncrustify' to check C / C++ code style
+[0.655s] -- Configured uncrustify additional arguments: 
+[0.655s] -- Added test 'xmllint' to check XML markup files
+[0.657s] -- Configuring done
+[0.662s] -- Generating done
+[0.663s] -- Build files have been written to: /home/strawberryshadow/Desktop/software-start-here/build/challenge
+[0.685s] [35m[1mScanning dependencies of target solution[0m
+[0.705s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.376s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.508s] [100%] Built target solution
+[3.518s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[3.552s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/strawberryshadow/Desktop/software-start-here/build/challenge
+[3.564s] -- Install configuration: ""
+[3.564s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/lib/challenge/solution
+[3.566s] -- Set runtime path of "/home/strawberryshadow/Desktop/software-start-here/install/challenge/lib/challenge/solution" to ""
+[3.566s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.566s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.566s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.566s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.566s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/path.sh
+[3.566s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.bash
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.sh
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[3.567s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[3.567s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/package.dsv
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.567s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.567s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/package.xml
+[3.570s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/strawberryshadow/Desktop/software-start-here/build/challenge

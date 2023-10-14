@@ -1,0 +1,26 @@
+[0.168s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[0.201s] [35m[1mScanning dependencies of target solution[0m
+[0.221s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.937s] [100%] [32m[1mLinking CXX executable solution[0m
+[3.063s] [100%] Built target solution
+[3.076s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[3.104s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/strawberryshadow/Desktop/software-start-here/build/challenge
+[3.110s] -- Install configuration: ""
+[3.110s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/lib/challenge/solution
+[3.111s] -- Set runtime path of "/home/strawberryshadow/Desktop/software-start-here/install/challenge/lib/challenge/solution" to ""
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/path.sh
+[3.112s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[3.113s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.bash
+[3.113s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.sh
+[3.114s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[3.115s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[3.115s] -- Installing: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/package.dsv
+[3.115s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[3.115s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[3.115s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[3.115s] -- Up-to-date: /home/strawberryshadow/Desktop/software-start-here/install/challenge/share/challenge/package.xml
+[3.116s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --install /home/strawberryshadow/Desktop/software-start-here/build/challenge
