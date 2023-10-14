@@ -1,0 +1,2 @@
+Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '2': /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12

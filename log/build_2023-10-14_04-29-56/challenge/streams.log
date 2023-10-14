@@ -1,0 +1,17 @@
+[0.138s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[0.167s] [35m[1mScanning dependencies of target solution[0m
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.600s] [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[1.600s] [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksin[m[K’ cannot be used as a function
+[1.600s]    32 |       double sin=sin(((count_++)*2.0*PI/20.0)[01;31m[K)[m[K;
+[1.600s]       |                                              [01;31m[K^[m[K
+[1.600s] [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:33:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist[m[K’
+[1.600s]    33 |       twist.linear.x = sin
+[1.600s]       |                           [01;31m[K^[m[K
+[1.600s]       |                           [32m[K;[m[K
+[1.600s]    34 |       [32m[Ktwist[m[K.linear.y = 0;
+[1.600s]       |       [32m[K~~~~~[m[K                
+[2.163s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.163s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.163s] make: *** [Makefile:141: all] Error 2
+[2.165s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12

@@ -1,0 +1,11 @@
+[0.129s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[0.162s] [35m[1mScanning dependencies of target solution[0m
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.613s] [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[1.613s] [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksin[m[K’ cannot be used as a function
+[1.613s]    32 |       double sin=sin(((count_++)*2.0*PI/20.0)[01;31m[K)[m[K;
+[1.614s]       |                                              [01;31m[K^[m[K
+[2.084s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.084s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.084s] make: *** [Makefile:141: all] Error 2
+[2.087s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12

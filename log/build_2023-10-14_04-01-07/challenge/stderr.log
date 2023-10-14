@@ -1,0 +1,51 @@
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |     rclcpp::Publisher<std_msgs::msg::float[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   36 |     rclcpp::Publisher<std_msgs::msg::float>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[KPublisher[m[K’?
+   36 |     rclcpp::Publisher<std_msgs::msg::float>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+      |                                                        [32m[KPublisher[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:38:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   38 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+   20 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KPublisher[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   20 |       publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::float>[m[K("turtle_movement", 10);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisher::create_publisher<<expression error> >(const char [16], int)[m[K’
+   20 |       publisher_ = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[01m[K/opt/ros/rolling/include/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:86:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |       publisher_ = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   22 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:28:37:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfloat[m[K’
+   28 |       auto message = std_msgs::msg::[01;31m[Kfloat[m[K();
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+   31 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KPublisher[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

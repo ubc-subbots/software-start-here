@@ -1,0 +1,11 @@
+[0.149s] Invoking command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12
+[0.179s] [35m[1mScanning dependencies of target solution[0m
+[0.198s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.872s] [100%] [32m[1mLinking CXX executable solution[0m
+[2.996s] /usr/bin/ld: CMakeFiles/solution.dir/src/solution.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<geometry_msgs::msg::Twist_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()':
+[2.996s] solution.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN13geometry_msgs3msg6Twist_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN13geometry_msgs3msg6Twist_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()'
+[3.004s] collect2: error: ld returned 1 exit status
+[3.005s] make[2]: *** [CMakeFiles/solution.dir/build.make:139: solution] Error 1
+[3.005s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[3.005s] make: *** [Makefile:141: all] Error 2
+[3.008s] Invoked command in '/home/strawberryshadow/Desktop/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy /usr/bin/cmake --build /home/strawberryshadow/Desktop/software-start-here/build/challenge -- -j12 -l12

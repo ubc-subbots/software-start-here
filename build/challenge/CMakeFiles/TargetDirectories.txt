@@ -1,0 +1,10 @@
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/install/strip.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/install/local.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/install.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/list_install_components.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/edit_cache.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/test.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/solution.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/strawberryshadow/Desktop/software-start-here/build/challenge/CMakeFiles/uninstall.dir

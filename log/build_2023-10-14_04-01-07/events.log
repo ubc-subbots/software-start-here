@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000119] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.099630] (-) TimerEvent: {}
+[0.144527] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.145066] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.145546] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/strawberryshadow/Desktop/software-start-here/build/challenge', '--', '-j12', '-l12'], 'cwd': '/home/strawberryshadow/Desktop/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'strawberryshadow'), ('SSH_AGENT_PID', '1689'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/strawberryshadow/Desktop/triton/install/triton_gate/lib:/home/strawberryshadow/Desktop/triton/install/triton_vision_utils/lib:/home/strawberryshadow/Desktop/triton/install/triton_object_recognition/lib:/home/strawberryshadow/Desktop/triton/install/triton_gazebo/lib:/home/strawberryshadow/Desktop/triton/install/triton_example/lib:/home/strawberryshadow/Desktop/triton/install/triton_controls/lib:/home/strawberryshadow/Desktop/triton/install/triton_interfaces/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/strawberryshadow'), ('OLDPWD', '/home/strawberryshadow/Desktop/software-start-here/src/challenge'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/strawberryshadow/Desktop/triton/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'strawberryshadow'), ('JOURNAL_STREAM', '8:35355'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'strawberryshadow'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/rolling/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lwspectre:@/tmp/.ICE-unix/1776,unix/lwspectre:/tmp/.ICE-unix/1776'), ('INVOCATION_ID', '4fcb0e7c9c17490787dae5aff5666a31'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25d0bd0c_8e25_40f4_b1c1_ca06fb0c97af'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/strawberryshadow/Desktop/triton/install/triton_gate:/home/strawberryshadow/Desktop/triton/install/triton_vision_utils:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_pid_controller:/home/strawberryshadow/Desktop/triton/install/triton_object_recognition:/home/strawberryshadow/Desktop/triton/install/triton_gazebo:/home/strawberryshadow/Desktop/triton/install/triton_example:/home/strawberryshadow/Desktop/triton/install/triton_controls:/home/strawberryshadow/Desktop/triton/install/triton_interfaces:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/strawberryshadow/Desktop/software-start-here/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/strawberryshadow/Desktop/triton/install/triton_teleop/lib/python3.8/site-packages:/home/strawberryshadow/Desktop/triton/install/triton_pipeline/lib/python3.8/site-packages:/home/strawberryshadow/Desktop/triton/install/triton_gazebo/lib/python3.8/site-packages:/home/strawberryshadow/Desktop/triton/install/triton_controls/lib/python3.8/site-packages:/home/strawberryshadow/Desktop/triton/install/triton_interfaces/lib/python3.8/site-packages:/home/strawberryshadow/Desktop/triton/install/triton_bringup/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/strawberryshadow/Desktop/triton/install/triton_gate:/home/strawberryshadow/Desktop/triton/install/triton_vision_utils:/home/strawberryshadow/Desktop/triton/install/triton_pid_controller:/home/strawberryshadow/Desktop/triton/install/triton_object_recognition:/home/strawberryshadow/Desktop/triton/install/triton_gazebo:/home/strawberryshadow/Desktop/triton/install/triton_example:/home/strawberryshadow/Desktop/triton/install/triton_controls:/home/strawberryshadow/Desktop/triton/install/triton_interfaces:/home/strawberryshadow/Desktop/triton/install/triton_teleop:/home/strawberryshadow/Desktop/triton/install/triton_pipeline:/home/strawberryshadow/Desktop/triton/install/triton_bringup:/opt/ros/rolling:/opt/ros/foxy')]), 'shell': False}
+[0.165895] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.199821] (-) TimerEvent: {}
+[0.283688] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.299987] (-) TimerEvent: {}
+[0.308537] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c\n'}
+[0.310504] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.390999] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp\n'}
+[0.400160] (-) TimerEvent: {}
+[0.427367] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.428741] (challenge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.442244] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500340] (-) TimerEvent: {}
+[0.548760] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.592696] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.592948] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.593032] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/strawberryshadow/Desktop/software-start-here/src/challenge/include>\n'}
+[0.593078] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.593325] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.593408] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.593687] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.594069] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.594131] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.594231] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.595840] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600519] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[0.600646] (-) TimerEvent: {}
+[0.601352] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/strawberryshadow/Desktop/software-start-here/build/challenge\n'}
+[0.619347] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.672457] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.700876] (-) TimerEvent: {}
+[0.801313] (-) TimerEvent: {}
+[0.901759] (-) TimerEvent: {}
+[1.002218] (-) TimerEvent: {}
+[1.102687] (-) TimerEvent: {}
+[1.203153] (-) TimerEvent: {}
+[1.303561] (-) TimerEvent: {}
+[1.403909] (-) TimerEvent: {}
+[1.504352] (-) TimerEvent: {}
+[1.604682] (-) TimerEvent: {}
+[1.705074] (-) TimerEvent: {}
+[1.805443] (-) TimerEvent: {}
+[1.905908] (-) TimerEvent: {}
+[2.006355] (-) TimerEvent: {}
+[2.075772] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.076037] (challenge) StderrLine: {'line': b'   36 |     rclcpp::Publisher<std_msgs::msg::float\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[2.076139] (challenge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.076232] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.076324] (challenge) StderrLine: {'line': b'   36 |     rclcpp::Publisher<std_msgs::msg::float>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[2.076413] (challenge) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.076817] (challenge) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.076945] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:36:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.077043] (challenge) StderrLine: {'line': b'   36 |     rclcpp::Publisher<std_msgs::msg::float>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.077131] (challenge) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.077218] (challenge) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[2.077303] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:38:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.077394] (challenge) StderrLine: {'line': b'   38 | }\n'}
+[2.077478] (challenge) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.077565] (challenge) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.078044] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisher::Publisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.078341] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.078444] (challenge) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10);\n'}
+[2.078533] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.078617] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[2.078701] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.078784] (challenge) StderrLine: {'line': b'   20 |       publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::float>\x1b[m\x1b[K("turtle_movement", 10);\n'}
+[2.078865] (challenge) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.078957] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPublisher::create_publisher<<expression error> >(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.079044] (challenge) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.079129] (challenge) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.079213] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.079297] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.079384] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.079464] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:8\x1b[m\x1b[K:\n'}
+[2.079545] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.079747] (challenge) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.079852] (challenge) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.079941] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.080027] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:20:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.080111] (challenge) StderrLine: {'line': b'   20 |       publisher_ = this->create_publisher<std_msgs::msg::float>("turtle_movement", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.080203] (challenge) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.080286] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:22:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.080368] (challenge) StderrLine: {'line': b'   22 |       500ms, std::bind(&\x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K::timer_callback, this));\n'}
+[2.080449] (challenge) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080531] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Publisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.080612] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:28:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.080694] (challenge) StderrLine: {'line': b'   28 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K();\n'}
+[2.080775] (challenge) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.080854] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.080939] (challenge) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.081021] (challenge) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.081106] (challenge) StderrLine: {'line': b'      |       \x1b[32m\x1b[KPublisher\x1b[m\x1b[K\n'}
+[2.106570] (-) TimerEvent: {}
+[2.207001] (-) TimerEvent: {}
+[2.307606] (-) TimerEvent: {}
+[2.322752] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[2.323077] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[2.323185] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.325560] (challenge) CommandEnded: {'returncode': 2}
+[2.408643] (-) TimerEvent: {}
+[2.443222] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[2.453746] (-) EventReactorShutdown: {}

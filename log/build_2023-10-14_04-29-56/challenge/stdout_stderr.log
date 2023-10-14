@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:32:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksin[m[K’ cannot be used as a function
+   32 |       double sin=sin(((count_++)*2.0*PI/20.0)[01;31m[K)[m[K;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:33:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktwist[m[K’
+   33 |       twist.linear.x = sin
+      |                           [01;31m[K^[m[K
+      |                           [32m[K;[m[K
+   34 |       [32m[Ktwist[m[K.linear.y = 0;
+      |       [32m[K~~~~~[m[K                
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:32:10:[m[K [01;31m[Kerror: [m[Kassignment of function ‘[01m[Kdouble sin(double)[m[K’
+   32 |       [01;31m[Ksin=sin(((count_++)*2.0*PI/20.0))[m[K;
+      |       [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:33:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble(double) noexcept[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   33 |       twist.linear.x = [01;31m[Ksin[m[K
+      |                        [01;31m[K^~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kdouble(double) noexcept[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:8[m[K:
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kdouble (*)(double) noexcept[m[K’ [[01;35m[K-Wformat=[m[K]
+   41 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%f'"[m[K, [32m[Ksin[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~[m[K
+      |                                                           [32m[K|[m[K
+      |                                                           [32m[Kdouble (*)(double) noexcept[m[K
+[01m[K/home/strawberryshadow/Desktop/software-start-here/src/challenge/src/solution.cpp:41:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   41 |       RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%f[m[K'", sin);
+      |                                                     [01;36m[K~^[m[K
+      |                                                      [01;36m[K|[m[K
+      |                                                      [01;36m[Kdouble[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
