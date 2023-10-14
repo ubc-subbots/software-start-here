@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000305] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.098791] (-) TimerEvent: {}
+[0.199326] (-) TimerEvent: {}
+[0.202664] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.203586] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.204854] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/software/Challenge/software-start-here/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/software/Challenge/software-start-here/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '86b6b7b8bd1c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/software'), ('OLDPWD', '/home/software/Challenge/software-start-here/src/challenge'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/software/Challenge/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/software/Challenge/software-start-here/build/challenge'), ('PYTHONPATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[0.256886] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.286781] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.299466] (-) TimerEvent: {}
+[0.399938] (-) TimerEvent: {}
+[0.500392] (-) TimerEvent: {}
+[0.600886] (-) TimerEvent: {}
+[0.701348] (-) TimerEvent: {}
+[0.801829] (-) TimerEvent: {}
+[0.902292] (-) TimerEvent: {}
+[1.002780] (-) TimerEvent: {}
+[1.103240] (-) TimerEvent: {}
+[1.203717] (-) TimerEvent: {}
+[1.304168] (-) TimerEvent: {}
+[1.404641] (-) TimerEvent: {}
+[1.505080] (-) TimerEvent: {}
+[1.605869] (-) TimerEvent: {}
+[1.706317] (-) TimerEvent: {}
+[1.806769] (-) TimerEvent: {}
+[1.881752] (challenge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.882045] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.882168] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.882275] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.882429] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.882540] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.882641] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.882739] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.882842] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.882921] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.883004] (challenge) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/software/Challenge/software-start-here/src/challenge/src/solution.cpp:12\x1b[m\x1b[K:\n'}
+[1.883085] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/software/Challenge/software-start-here/src/challenge/src/solution.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleSimController::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.883169] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/software/Challenge/software-start-here/src/challenge/src/solution.cpp:41:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_i\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ki_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.883248] (challenge) StderrLine: {'line': b'   41 |       RCLCPP_INFO(this->get_logger(), "i: \'%i\'", \x1b[01;31m\x1b[K_i\x1b[m\x1b[K);\n'}
+[1.883325] (challenge) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.906910] (-) TimerEvent: {}
+[2.007313] (-) TimerEvent: {}
+[2.107761] (-) TimerEvent: {}
+[2.208183] (-) TimerEvent: {}
+[2.308652] (-) TimerEvent: {}
+[2.409137] (-) TimerEvent: {}
+[2.509625] (-) TimerEvent: {}
+[2.610066] (-) TimerEvent: {}
+[2.710477] (-) TimerEvent: {}
+[2.810950] (-) TimerEvent: {}
+[2.911484] (-) TimerEvent: {}
+[3.007173] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[3.007629] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2\n'}
+[3.007748] (challenge) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.010257] (challenge) CommandEnded: {'returncode': 2}
+[3.013159] (-) TimerEvent: {}
+[3.114961] (-) TimerEvent: {}
+[3.217020] (-) TimerEvent: {}
+[3.261300] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[3.272614] (-) EventReactorShutdown: {}

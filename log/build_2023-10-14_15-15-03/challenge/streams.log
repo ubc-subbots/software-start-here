@@ -1,0 +1,78 @@
+[0.170s] Invoking command in '/home/software/Challenge/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/software/Challenge/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/software/Challenge/software-start-here/install/challenge
+[0.453s] -- The C compiler identification is GNU 9.4.0
+[0.635s] -- The CXX compiler identification is GNU 9.4.0
+[0.653s] -- Check for working C compiler: /usr/bin/cc
+[0.737s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.739s] -- Detecting C compiler ABI info
+[0.813s] -- Detecting C compiler ABI info - done
+[0.828s] -- Detecting C compile features
+[0.828s] -- Detecting C compile features - done
+[0.834s] -- Check for working CXX compiler: /usr/bin/c++
+[0.921s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.923s] -- Detecting CXX compiler ABI info
+[1.008s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Detecting CXX compile features
+[1.025s] -- Detecting CXX compile features - done
+[1.041s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.095s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.559s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.747s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.963s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.014s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.436s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.542s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.550s] -- Looking for pthread.h
+[2.642s] -- Looking for pthread.h - found
+[2.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.723s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.723s] -- Looking for pthread_create in pthreads
+[2.790s] -- Looking for pthread_create in pthreads - not found
+[2.790s] -- Looking for pthread_create in pthread
+[2.869s] -- Looking for pthread_create in pthread - found
+[2.870s] -- Found Threads: TRUE  
+[3.145s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.200s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.328s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.330s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.330s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/software/Challenge/software-start-here/src/challenge/include>
+[3.330s] -- Configured cppcheck exclude dirs and/or files: 
+[3.332s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.332s] -- Configured cpplint exclude dirs and/or files: 
+[3.333s] -- Added test 'lint_cmake' to check CMake code style
+[3.336s] -- Added test 'uncrustify' to check C / C++ code style
+[3.336s] -- Configured uncrustify additional arguments: 
+[3.339s] -- Added test 'xmllint' to check XML markup files
+[3.349s] -- Configuring done
+[3.363s] -- Generating done
+[3.365s] -- Build files have been written to: /home/software/Challenge/software-start-here/build/challenge
+[3.375s] Invoked command in '/home/software/Challenge/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/software/Challenge/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/software/Challenge/software-start-here/install/challenge
+[3.379s] Invoking command in '/home/software/Challenge/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/software/Challenge/software-start-here/build/challenge -- -j16 -l16
+[3.428s] [35m[1mScanning dependencies of target solution[0m
+[3.729s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[8.056s] [100%] [32m[1mLinking CXX executable solution[0m
+[19.646s] [100%] Built target solution
+[19.659s] Invoked command in '/home/software/Challenge/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/software/Challenge/software-start-here/build/challenge -- -j16 -l16
+[19.704s] Invoking command in '/home/software/Challenge/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/software/Challenge/software-start-here/build/challenge
+[19.719s] -- Install configuration: ""
+[19.719s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution
+[19.722s] -- Set runtime path of "/home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution" to ""
+[19.722s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[19.722s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[19.723s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[19.723s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[19.723s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.sh
+[19.724s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[19.724s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.bash
+[19.724s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.sh
+[19.725s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[19.725s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[19.725s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.dsv
+[19.725s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[19.726s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[19.726s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[19.726s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.xml
+[19.730s] Invoked command in '/home/software/Challenge/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/software/Challenge/software-start-here/build/challenge

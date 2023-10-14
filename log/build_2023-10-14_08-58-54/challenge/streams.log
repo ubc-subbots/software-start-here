@@ -1,0 +1,52 @@
+[0.217s] Invoking command in '/home/software/Challenge/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/software/Challenge/software-start-here/build/challenge -- -j16 -l16
+[0.248s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.510s] -- Found turtlesim: 1.2.6 (/home/software/Challenge/software-start-here/install/turtlesim/share/turtlesim/cmake)
+[0.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.877s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.922s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.110s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.154s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.236s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.237s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.237s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/software/Challenge/software-start-here/src/challenge/include>
+[1.237s] -- Configured cppcheck exclude dirs and/or files: 
+[1.238s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.238s] -- Configured cpplint exclude dirs and/or files: 
+[1.238s] -- Added test 'lint_cmake' to check CMake code style
+[1.240s] -- Added test 'uncrustify' to check C / C++ code style
+[1.240s] -- Configured uncrustify additional arguments: 
+[1.241s] -- Added test 'xmllint' to check XML markup files
+[1.244s] -- Configuring done
+[1.256s] -- Generating done
+[1.258s] -- Build files have been written to: /home/software/Challenge/software-start-here/build/challenge
+[1.287s] [35m[1mScanning dependencies of target solution[0m
+[1.306s] make[2]: Warning: File '/home/software/Challenge/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp' has modification time 22534 s in the future
+[1.321s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[5.123s] [100%] [32m[1mLinking CXX executable solution[0m
+[5.288s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.298s] [100%] Built target solution
+[5.309s] Invoked command in '/home/software/Challenge/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/software/Challenge/software-start-here/build/challenge -- -j16 -l16
+[5.350s] Invoking command in '/home/software/Challenge/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/software/Challenge/software-start-here/build/challenge
+[5.360s] -- Install configuration: ""
+[5.360s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution
+[5.362s] -- Set runtime path of "/home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution" to ""
+[5.362s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[5.362s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[5.362s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[5.363s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[5.363s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.sh
+[5.363s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[5.364s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.bash
+[5.364s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.sh
+[5.364s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[5.365s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[5.365s] -- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.dsv
+[5.365s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[5.365s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[5.365s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[5.365s] -- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.xml
+[5.367s] Invoked command in '/home/software/Challenge/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/software/Challenge/software-start-here/build/challenge

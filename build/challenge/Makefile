@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hashaam/Challenge/temp/software-start-here/src/challenge
+CMAKE_SOURCE_DIR = /home/software/Challenge/software-start-here/src/challenge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hashaam/Challenge/temp/software-start-here/build/challenge
+CMAKE_BINARY_DIR = /home/software/Challenge/software-start-here/build/challenge
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hashaam/Challenge/temp/software-start-here/build/challenge/CMakeFiles /home/hashaam/Challenge/temp/software-start-here/build/challenge/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/software/Challenge/software-start-here/build/challenge/CMakeFiles /home/software/Challenge/software-start-here/build/challenge/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hashaam/Challenge/temp/software-start-here/build/challenge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/software/Challenge/software-start-here/build/challenge/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

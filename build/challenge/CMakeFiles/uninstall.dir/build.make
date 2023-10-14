@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hashaam/Challenge/temp/software-start-here/src/challenge
+CMAKE_SOURCE_DIR = /home/software/Challenge/software-start-here/src/challenge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hashaam/Challenge/temp/software-start-here/build/challenge
+CMAKE_BINARY_DIR = /home/software/Challenge/software-start-here/build/challenge
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hashaam/Challenge/temp/software-start-here/build/challenge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hashaam/Challenge/temp/software-start-here/src/challenge /home/hashaam/Challenge/temp/software-start-here/src/challenge /home/hashaam/Challenge/temp/software-start-here/build/challenge /home/hashaam/Challenge/temp/software-start-here/build/challenge /home/hashaam/Challenge/temp/software-start-here/build/challenge/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/software/Challenge/software-start-here/build/challenge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/software/Challenge/software-start-here/src/challenge /home/software/Challenge/software-start-here/src/challenge /home/software/Challenge/software-start-here/build/challenge /home/software/Challenge/software-start-here/build/challenge /home/software/Challenge/software-start-here/build/challenge/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

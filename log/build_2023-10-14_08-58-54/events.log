@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000269] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.098762] (-) TimerEvent: {}
+[0.200923] (-) TimerEvent: {}
+[0.209542] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.212133] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.212230] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/software/Challenge/software-start-here/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/software/Challenge/software-start-here/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '86b6b7b8bd1c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/software'), ('OLDPWD', '/home/software/Challenge/software-start-here/src/challenge'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/software/Challenge/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/software/Challenge/software-start-here/build/challenge'), ('PYTHONPATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[0.248156] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.274933] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.301094] (-) TimerEvent: {}
+[0.401629] (-) TimerEvent: {}
+[0.502026] (-) TimerEvent: {}
+[0.509664] (challenge) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/home/software/Challenge/software-start-here/install/turtlesim/share/turtlesim/cmake)\n'}
+[0.539918] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.544222] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.602182] (-) TimerEvent: {}
+[0.702632] (-) TimerEvent: {}
+[0.717281] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802796] (-) TimerEvent: {}
+[0.877249] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.902922] (-) TimerEvent: {}
+[0.922259] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.924018] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.003153] (-) TimerEvent: {}
+[1.103724] (-) TimerEvent: {}
+[1.110402] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.153735] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.203887] (-) TimerEvent: {}
+[1.235730] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.236718] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.237000] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/software/Challenge/software-start-here/src/challenge/include>\n'}
+[1.237203] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.237928] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.238068] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.238583] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.239712] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.240080] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.240774] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.243974] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.255741] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.258213] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/software/Challenge/software-start-here/build/challenge\n'}
+[1.287275] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[1.304004] (-) TimerEvent: {}
+[1.306064] (challenge) StderrLine: {'line': b"make[2]: Warning: File '/home/software/Challenge/software-start-here/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp' has modification time 22534 s in the future\n"}
+[1.321587] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[1.404212] (-) TimerEvent: {}
+[1.504719] (-) TimerEvent: {}
+[1.605173] (-) TimerEvent: {}
+[1.705639] (-) TimerEvent: {}
+[1.806134] (-) TimerEvent: {}
+[1.906665] (-) TimerEvent: {}
+[2.007137] (-) TimerEvent: {}
+[2.107601] (-) TimerEvent: {}
+[2.208060] (-) TimerEvent: {}
+[2.308599] (-) TimerEvent: {}
+[2.409042] (-) TimerEvent: {}
+[2.509514] (-) TimerEvent: {}
+[2.609974] (-) TimerEvent: {}
+[2.710598] (-) TimerEvent: {}
+[2.811425] (-) TimerEvent: {}
+[2.911888] (-) TimerEvent: {}
+[3.012343] (-) TimerEvent: {}
+[3.112803] (-) TimerEvent: {}
+[3.213251] (-) TimerEvent: {}
+[3.313747] (-) TimerEvent: {}
+[3.414190] (-) TimerEvent: {}
+[3.514698] (-) TimerEvent: {}
+[3.615184] (-) TimerEvent: {}
+[3.715637] (-) TimerEvent: {}
+[3.816120] (-) TimerEvent: {}
+[3.916552] (-) TimerEvent: {}
+[4.016958] (-) TimerEvent: {}
+[4.117396] (-) TimerEvent: {}
+[4.217847] (-) TimerEvent: {}
+[4.318315] (-) TimerEvent: {}
+[4.418759] (-) TimerEvent: {}
+[4.519165] (-) TimerEvent: {}
+[4.619634] (-) TimerEvent: {}
+[4.720131] (-) TimerEvent: {}
+[4.820601] (-) TimerEvent: {}
+[4.921270] (-) TimerEvent: {}
+[5.021776] (-) TimerEvent: {}
+[5.122226] (-) TimerEvent: {}
+[5.122766] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[5.222392] (-) TimerEvent: {}
+[5.288191] (challenge) StderrLine: {'line': b'make[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.297751] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[5.309329] (challenge) CommandEnded: {'returncode': 0}
+[5.322565] (-) TimerEvent: {}
+[5.335710] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[5.349534] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/software/Challenge/software-start-here/build/challenge'], 'cwd': '/home/software/Challenge/software-start-here/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '86b6b7b8bd1c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/software'), ('OLDPWD', '/home/software/Challenge/software-start-here/src/challenge'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/software/Challenge/software-start-here/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/software/Challenge/software-start-here/build/challenge'), ('PYTHONPATH', '/home/software/Challenge/software-start-here/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/software/Challenge/software-start-here/install/challenge:/home/software/Challenge/software-start-here/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[5.359776] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.360284] (challenge) StdoutLine: {'line': b'-- Installing: /home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution\n'}
+[5.361787] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/software/Challenge/software-start-here/install/challenge/lib/challenge/solution" to ""\n'}
+[5.362121] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[5.362284] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[5.362682] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[5.362809] (challenge) StdoutLine: {'line': b'-- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[5.363227] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.sh\n'}
+[5.363427] (challenge) StdoutLine: {'line': b'-- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/environment/path.dsv\n'}
+[5.363779] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.bash\n'}
+[5.364131] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.sh\n'}
+[5.364323] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.zsh\n'}
+[5.364594] (challenge) StdoutLine: {'line': b'-- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/local_setup.dsv\n'}
+[5.365028] (challenge) StdoutLine: {'line': b'-- Installing: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.dsv\n'}
+[5.365165] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[5.365279] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[5.365442] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[5.365577] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/software/Challenge/software-start-here/install/challenge/share/challenge/package.xml\n'}
+[5.366988] (challenge) CommandEnded: {'returncode': 0}
+[5.423303] (-) TimerEvent: {}
+[5.529421] (-) TimerEvent: {}
+[5.629930] (-) TimerEvent: {}
+[5.733612] (-) TimerEvent: {}
+[5.773834] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[5.776068] (-) EventReactorShutdown: {}
