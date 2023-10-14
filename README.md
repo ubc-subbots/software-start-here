@@ -61,10 +61,14 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * [VS Code](https://code.visualstudio.com/) (strenuous setup but very powerful IDE) 
 
 ### Minor troubleshooting
-* If you get:
-* docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "ba09d34e252debcbbff86e893e2396195996d24a7aa4be900e704f67091e0a20". You have to remove (or rename) that container to be able to reuse that name.
-See 'docker run --help'.
-* Run `docker rm ubc_subbots`
+* If you get: "docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "ba09d34e252debcbbff86e893e2396195996d24a7aa4be900e704f67091e0a20". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'."
+Run `docker rm ubc_subbots`
+
+* If you get: "docker: error during connect: in the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect: Post "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create": open //./pipe/docker_engine: The system cannot find the file specified.
+See 'docker run --help'."
+You might want to launch the docker app before you type in terminal commands.
+
 # Git command line tools 
 
 To use Git from the linux command line, follow the install [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
