@@ -1,0 +1,25 @@
+[0.055s] Invoking command in '/home/straydogs/ros2_test/build/sine_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle
+[0.062s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.159s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.321s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.416s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.445s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.445s]   ament_package_xml() package name 'sine_turtle' in '/package.xml' does not
+[0.446s]   match current PROJECT_NAME 'challenge'.  You must call project() with the
+[0.446s]   same package name before.
+[0.446s] Call Stack (most recent call first):
+[0.446s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.446s]   CMakeLists.txt:46 (ament_lint_auto_find_test_dependencies)
+[0.446s] 
+[0.446s] 
+[0.446s] -- Configuring incomplete, errors occurred!
+[0.446s] See also "/home/straydogs/ros2_test/build/sine_turtle/CMakeFiles/CMakeOutput.log".
+[0.446s] See also "/home/straydogs/ros2_test/build/sine_turtle/CMakeFiles/CMakeError.log".
+[0.451s] Invoked command in '/home/straydogs/ros2_test/build/sine_turtle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle

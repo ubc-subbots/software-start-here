@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/straydogs/ros2_test/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::goto_goal()[m[K’:
+[01m[K/home/straydogs/ros2_test/challenge/src/solution.cpp:59:14:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kdouble direction[m[K’
+   59 |       double [01;31m[Kdirection[m[K;
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/straydogs/ros2_test/challenge/src/solution.cpp:47:11:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kint direction[m[K’
+   47 |       int [01;36m[Kdirection[m[K;
+      |           [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/challenge
+Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/challenge
+Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge
+Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge

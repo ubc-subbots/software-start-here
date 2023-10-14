@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.000220] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.057927] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.057980] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.058103] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/straydogs/ros2_test/build/challenge', '--', '-j20', '-l20'], 'cwd': '/home/straydogs/ros2_test/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'straydogs'), ('GIO_MODULE_DIR', '/home/straydogs/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/straydogs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/straydogs/ros2_test/challenge'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/143/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/straydogs/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/143/usr/share/code/code'), ('MANAGERPID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5587'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'straydogs'), ('JOURNAL_STREAM', '8:31605'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'straydogs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ToTheStrayDogs:@/tmp/.ICE-unix/2098,unix/ToTheStrayDogs:/tmp/.ICE-unix/2098'), ('GTK_EXE_PREFIX', '/snap/code/143/usr'), ('INVOCATION_ID', '4a9d97aeb09546e39042c3a8f9d1cdab'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/143/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed7863c782.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/straydogs/snap/code/143/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '39'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b31b5bd8-1b4a-40e5-a555-c38a1dcbb25f'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/straydogs/ros2_test/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/straydogs/snap/code/143/.local/share:/home/straydogs/snap/code/143:/snap/code/143/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.073060] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.084798] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099794] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.209381] (challenge) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[0.225072] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.228241] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.267108] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.282140] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.300244] (-) TimerEvent: {}
+[0.321833] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.390178] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400412] (-) TimerEvent: {}
+[0.412358] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.413151] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.413752] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500517] (-) TimerEvent: {}
+[0.535650] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.535774] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.576129] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.576262] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.600628] (-) TimerEvent: {}
+[0.609942] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.610069] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.653931] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.654582] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700725] (-) TimerEvent: {}
+[0.734823] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.753385] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.787328] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.789538] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.789607] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/straydogs/ros2_test/challenge/include>\n'}
+[0.789641] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.791676] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.791743] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.791920] (challenge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.792840] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.793140] (challenge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.795297] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.795360] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.795591] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.796872] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800895] (-) TimerEvent: {}
+[0.801119] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[0.802020] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/straydogs/ros2_test/build/challenge\n'}
+[0.816738] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.835339] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.901096] (-) TimerEvent: {}
+[1.001447] (-) TimerEvent: {}
+[1.101783] (-) TimerEvent: {}
+[1.202021] (-) TimerEvent: {}
+[1.302327] (-) TimerEvent: {}
+[1.402640] (-) TimerEvent: {}
+[1.502959] (-) TimerEvent: {}
+[1.603272] (-) TimerEvent: {}
+[1.703592] (-) TimerEvent: {}
+[1.803899] (-) TimerEvent: {}
+[1.904221] (-) TimerEvent: {}
+[2.004438] (-) TimerEvent: {}
+[2.104769] (-) TimerEvent: {}
+[2.205085] (-) TimerEvent: {}
+[2.305446] (-) TimerEvent: {}
+[2.405766] (-) TimerEvent: {}
+[2.506093] (-) TimerEvent: {}
+[2.606419] (-) TimerEvent: {}
+[2.706785] (-) TimerEvent: {}
+[2.807123] (-) TimerEvent: {}
+[2.907460] (-) TimerEvent: {}
+[3.007802] (-) TimerEvent: {}
+[3.108131] (-) TimerEvent: {}
+[3.208460] (-) TimerEvent: {}
+[3.308742] (-) TimerEvent: {}
+[3.333778] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[3.408928] (-) TimerEvent: {}
+[3.485370] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[3.491123] (challenge) CommandEnded: {'returncode': 0}
+[3.503607] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[3.508015] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/straydogs/ros2_test/build/challenge'], 'cwd': '/home/straydogs/ros2_test/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'straydogs'), ('GIO_MODULE_DIR', '/home/straydogs/snap/code/common/.cache/gio-modules'), ('SSH_AGENT_PID', '2061'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/straydogs'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/straydogs/ros2_test/challenge'), ('TERM_PROGRAM_VERSION', '1.83.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/143/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/straydogs/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/143/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/143/usr/share/code/code'), ('MANAGERPID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5587'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'straydogs'), ('JOURNAL_STREAM', '8:31605'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'straydogs'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ToTheStrayDogs:@/tmp/.ICE-unix/2098,unix/ToTheStrayDogs:/tmp/.ICE-unix/2098'), ('GTK_EXE_PREFIX', '/snap/code/143/usr'), ('INVOCATION_ID', '4a9d97aeb09546e39042c3a8f9d1cdab'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/143/usr/lib/locale'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed7863c782.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/straydogs/snap/code/143/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '39'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b31b5bd8-1b4a-40e5-a555-c38a1dcbb25f'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/straydogs/ros2_test/build/challenge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/straydogs/snap/code/143/.local/share:/home/straydogs/snap/code/143:/snap/code/143/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.509098] (-) TimerEvent: {}
+[3.513020] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.513096] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/lib/challenge/solution\n'}
+[3.514042] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/straydogs/ros2_test/install/challenge/lib/challenge/solution" to ""\n'}
+[3.514135] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[3.514172] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[3.514199] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[3.514228] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[3.514260] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/path.sh\n'}
+[3.514285] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/path.dsv\n'}
+[3.514435] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.bash\n'}
+[3.514472] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.sh\n'}
+[3.514500] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.zsh\n'}
+[3.514526] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.dsv\n'}
+[3.514551] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/package.dsv\n'}
+[3.514576] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[3.514606] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[3.514633] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[3.514659] (challenge) StdoutLine: {'line': b'-- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/package.xml\n'}
+[3.515396] (challenge) CommandEnded: {'returncode': 0}
+[3.609493] (-) TimerEvent: {}
+[3.642437] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[3.643070] (-) EventReactorShutdown: {}

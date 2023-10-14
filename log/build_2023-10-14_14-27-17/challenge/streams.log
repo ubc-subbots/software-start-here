@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+[0.077s] [35m[1mScanning dependencies of target solution[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.829s] [100%] [32m[1mLinking CXX executable solution[0m
+[2.964s] [100%] Built target solution
+[2.971s] Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+[2.989s] Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge
+[2.994s] -- Install configuration: ""
+[2.994s] -- Installing: /home/straydogs/ros2_test/install/challenge/lib/challenge/solution
+[2.995s] -- Set runtime path of "/home/straydogs/ros2_test/install/challenge/lib/challenge/solution" to ""
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/path.sh
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/environment/path.dsv
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.bash
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.sh
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.zsh
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/local_setup.dsv
+[2.995s] -- Installing: /home/straydogs/ros2_test/install/challenge/share/challenge/package.dsv
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/ament_index/resource_index/packages/challenge
+[2.995s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[2.996s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[2.996s] -- Up-to-date: /home/straydogs/ros2_test/install/challenge/share/challenge/package.xml
+[2.996s] Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge

@@ -1,0 +1,126 @@
+[1.621s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.622s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc06ba3b4c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc06ba3b4c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc06b9d0bb0>)
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.697s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/straydogs/ros2_test'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.707s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['ignore', 'ignore_ament_install']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ignore'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ignore_ament_install'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['colcon_pkg']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'colcon_pkg'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['colcon_meta']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'colcon_meta'
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['ros']
+[1.708s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ros'
+[1.710s] DEBUG:colcon.colcon_core.package_identification:Package 'challenge' with type 'ros.ament_cmake' and name 'challenge'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.711s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.904s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_target' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_clean_first' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_force_configure' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'ament_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.025s] DEBUG:colcon.colcon_core.verb:Building package 'challenge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/straydogs/ros2_test/build/challenge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/straydogs/ros2_test/install/challenge', 'merge_install': False, 'path': '/home/straydogs/ros2_test/challenge', 'symlink_install': False, 'test_result_base': None}
+[2.051s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.078s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.079s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/straydogs/ros2_test/challenge' with build type 'ament_cmake'
+[2.079s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/straydogs/ros2_test/challenge'
+[2.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+[6.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+[6.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge
+[6.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge)
+[6.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/straydogs/ros2_test/build/challenge
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge' for CMake module files
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge' for CMake config files
+[6.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge', 'cmake_prefix_path')
+[6.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.ps1'
+[6.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.dsv'
+[6.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.sh'
+[6.945s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib'
+[6.945s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/bin'
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib/pkgconfig/challenge.pc'
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib/python3.8/site-packages'
+[6.946s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/bin'
+[6.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.ps1'
+[6.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/straydogs/ros2_test/install/challenge/share/challenge/package.dsv'
+[6.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.sh'
+[6.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.bash'
+[6.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.zsh'
+[6.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/straydogs/ros2_test/install/challenge/share/colcon-core/packages/challenge)
+[7.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge)
+[7.048s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge' for CMake module files
+[7.049s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge' for CMake config files
+[7.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge', 'cmake_prefix_path')
+[7.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.ps1'
+[7.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.dsv'
+[7.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/straydogs/ros2_test/install/challenge/share/challenge/hook/cmake_prefix_path.sh'
+[7.077s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib'
+[7.077s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/bin'
+[7.077s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib/pkgconfig/challenge.pc'
+[7.077s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/lib/python3.8/site-packages'
+[7.077s] Level 1:colcon.colcon_core.environment:checking '/home/straydogs/ros2_test/install/challenge/bin'
+[7.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.ps1'
+[7.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/straydogs/ros2_test/install/challenge/share/challenge/package.dsv'
+[7.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.sh'
+[7.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.bash'
+[7.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/straydogs/ros2_test/install/challenge/share/challenge/package.zsh'
+[7.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/straydogs/ros2_test/install/challenge/share/colcon-core/packages/challenge)
+[7.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.107s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.140s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.149s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/straydogs/ros2_test/install/local_setup.ps1'
+[7.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/straydogs/ros2_test/install/_local_setup_util_ps1.py'
+[7.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/straydogs/ros2_test/install/setup.ps1'
+[7.206s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/straydogs/ros2_test/install/local_setup.sh'
+[7.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/straydogs/ros2_test/install/_local_setup_util_sh.py'
+[7.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/straydogs/ros2_test/install/setup.sh'
+[7.235s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/straydogs/ros2_test/install/local_setup.bash'
+[7.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/straydogs/ros2_test/install/setup.bash'
+[7.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/straydogs/ros2_test/install/local_setup.zsh'
+[7.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/straydogs/ros2_test/install/setup.zsh'

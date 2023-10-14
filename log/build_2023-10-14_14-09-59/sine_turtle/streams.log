@@ -1,0 +1,51 @@
+[0.052s] Invoking command in '/home/straydogs/ros2_test/build/sine_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle
+[0.283s] -- The C compiler identification is GNU 9.4.0
+[0.323s] -- The CXX compiler identification is GNU 9.4.0
+[0.325s] -- Check for working C compiler: /usr/bin/cc
+[0.364s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.364s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.411s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.523s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.615s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.674s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.690s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.822s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.823s] -- Looking for pthread.h
+[0.864s] -- Looking for pthread.h - found
+[0.864s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.907s] -- Looking for pthread_create in pthreads
+[0.944s] -- Looking for pthread_create in pthreads - not found
+[0.944s] -- Looking for pthread_create in pthread
+[0.987s] -- Looking for pthread_create in pthread - found
+[0.987s] -- Found Threads: TRUE  
+[1.069s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.088s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.119s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.120s]   ament_package_xml() package name 'sine_turtle' in '/package.xml' does not
+[1.120s]   match current PROJECT_NAME 'challenge'.  You must call project() with the
+[1.120s]   same package name before.
+[1.120s] Call Stack (most recent call first):
+[1.120s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.120s]   CMakeLists.txt:46 (ament_lint_auto_find_test_dependencies)
+[1.120s] 
+[1.120s] 
+[1.120s] -- Configuring incomplete, errors occurred!
+[1.120s] See also "/home/straydogs/ros2_test/build/sine_turtle/CMakeFiles/CMakeOutput.log".
+[1.120s] See also "/home/straydogs/ros2_test/build/sine_turtle/CMakeFiles/CMakeError.log".
+[1.125s] Invoked command in '/home/straydogs/ros2_test/build/sine_turtle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle

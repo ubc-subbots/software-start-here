@@ -1,0 +1,2 @@
+Invoking command in '/home/straydogs/ros2_test/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20
+Invoked command in '/home/straydogs/ros2_test/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/straydogs/ros2_test/build/challenge -- -j20 -l20

@@ -1,0 +1,10 @@
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/install/strip.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/install/local.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/install.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/list_install_components.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/rebuild_cache.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/edit_cache.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/test.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/solution.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/challenge_uninstall.dir
+/home/straydogs/ros2_test/build/challenge/CMakeFiles/uninstall.dir

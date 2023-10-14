@@ -1,0 +1,4 @@
+[01m[K/home/straydogs/ros2_test/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::goto_goal()[m[K’:
+[01m[K/home/straydogs/ros2_test/challenge/src/solution.cpp:57:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdirection[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+   57 |       [01;35m[Kspeed.linear.x = direction * 1.0[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K

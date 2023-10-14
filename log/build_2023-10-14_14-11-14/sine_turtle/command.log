@@ -1,0 +1,2 @@
+Invoking command in '/home/straydogs/ros2_test/build/sine_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle
+Invoked command in '/home/straydogs/ros2_test/build/sine_turtle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/straydogs/ros2_test/challenge -DCMAKE_INSTALL_PREFIX=/home/straydogs/ros2_test/install/sine_turtle
