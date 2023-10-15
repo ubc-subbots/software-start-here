@@ -9,16 +9,16 @@
 #include "turtlesim/msg/pose.hpp"
 #include "std_msgs/msg/string.hpp"
 
-class GoToGoal : public rclcpp::Node
+class SineTurtle : public rclcpp::Node
 {
   double direction = 1;
   
   public:
-    GoToGoal() : Node("sine_wave")
+    SineTurtle() : Node("sine_wave")
     {
       velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-      pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GoToGoal::pose_callback, this, std::placeholders::_1));
-      timer_ = this->create_wall_timer(std::chrono::nanoseconds (10), std::bind(&GoToGoal::goto_goal, this));
+      pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&SineTurtle::pose_callback, this, std::placeholders::_1));
+      timer_ = this->create_wall_timer(std::chrono::nanoseconds (10), std::bind(&SineTurtle::goto_goal, this));
     }
 
   private:
@@ -54,7 +54,7 @@ class GoToGoal : public rclcpp::Node
 int main(int argc, char *argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<GoToGoal>());
+  rclcpp::spin(std::make_shared<SineTurtle>());
   rclcpp::shutdown();
   return 0;
 }
