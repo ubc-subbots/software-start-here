@@ -75,9 +75,9 @@ To use Git from the linux command line, follow the install [here](https://linuxi
 
 # ROS2 Installation
 
-To install ROS2, follow the tutorial [here](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/), please install the desktop version. 
+To install ROS2, follow the tutorial [here](https://docs.ros.org/en/foxy/Installation.html), please install the desktop version. 
 
-Next, you will need to install the ROS2 build tools (Colcon). Please follow the guide [here](https://index.ros.org/doc/ros2/Tutorials/Colcon-Tutorial/#install-colcon)
+Next, you will need to install the ROS2 build tools (Colcon). Please follow the guide [here](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html?highlight=colcon#install-colcon)
 
 # Gazebo 11 Installation 
 
@@ -85,7 +85,7 @@ Gazebo is a simulation environment which we will be using to test our robot's co
 
 # ROS2 Index
 
-The [ROS2 Index](https://index.ros.org/doc/ros2/) is the main source of information about the framework. To get a solid understanding of ROS2 concepts, follow along with all of the beginner tutorials [here](https://index.ros.org/doc/ros2/Tutorials/#tutorials). It's reccomended to look through all of the intermediate and advanced tutorials as well as we will use concepts explained in these regularily.
+The [ROS2 Index](https://docs.ros.org/en/foxy/index.html) is the main source of information about the framework. To get a solid understanding of ROS2 concepts, follow along with all of the beginner tutorials [here](https://docs.ros.org/en/foxy/Tutorials.html). It's reccomended to look through all of the intermediate and advanced tutorials as well as we will use concepts explained in these regularily.
 
 # The Challenge 
 
