@@ -14,8 +14,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
+find_package(geometry_msgs REQUIRED)
+
+
 add_executable(solution src/solution.cpp)
-ament_target_dependencies(solution rclcpp)
+ament_target_dependencies(solution rclcpp geometry_msgs)
 
 install(TARGETS
   solution
