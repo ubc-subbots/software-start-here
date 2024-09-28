@@ -1,3 +1,8 @@
+# Joel's Explanations to Understand
+- src folder contains all code related to ROS2. It must contain all packages
+- CMakeLists.txt is basically a setup file that sets up the dependencies (need to figure out how this file works)
+- 
+
 # Software Challenge
 
 This repository will act as a starting point for new developers in order to help them understand some of the fundamentals of ROS2 and Gazebo, and to guide the installation of the Ubuntu OS.

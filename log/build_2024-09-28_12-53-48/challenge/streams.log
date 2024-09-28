@@ -1,0 +1,11 @@
+[0.096s] Invoking command in '/home/joel/Documents/code/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joel/Documents/code/software-start-here/build/challenge -- -j4 -l4
+[0.245s] [35m[1mScanning dependencies of target solution[0m
+[0.296s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.261s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Interrupt
+[2.262s] make[1]: *** wait: No child processes.  Stop.
+[2.262s] make[1]: *** Waiting for unfinished jobs....
+[2.263s] make[1]: *** wait: No child processes.  Stop.
+[2.263s] make: *** wait: No child processes.  Stop.
+[2.263s] make: *** Waiting for unfinished jobs....
+[2.263s] make: *** wait: No child processes.  Stop.
+[2.284s] Invoked command in '/home/joel/Documents/code/software-start-here/build/challenge' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joel/Documents/code/software-start-here/build/challenge -- -j4 -l4

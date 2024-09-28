@@ -1,0 +1,2 @@
+Invoking command in '/home/joel/Documents/code/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joel/Documents/code/software-start-here/build/challenge -- -j4 -l4
+Invoked command in '/home/joel/Documents/code/software-start-here/build/challenge' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joel/Documents/code/software-start-here/build/challenge -- -j4 -l4

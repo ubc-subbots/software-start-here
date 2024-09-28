@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000333] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.001096] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.043980] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.045446] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.046824] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joel/Documents/code/software-start-here/build/challenge', '--', '-j4', '-l4'], 'cwd': '/home/joel/Documents/code/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joel'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/joel/Documents/code/software-start-here/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4728'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joel'), ('JOURNAL_STREAM', '8:39865'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joel-linux:@/tmp/.ICE-unix/1458,unix/joel-linux:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '74e60bc55aa147168c2344bfcfad25fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-31406e50d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joel/Documents/code/software-start-here/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099615] (-) TimerEvent: {}
+[0.148814] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.199750] (-) TimerEvent: {}
+[0.300247] (-) TimerEvent: {}
+[0.400687] (-) TimerEvent: {}
+[0.501125] (-) TimerEvent: {}
+[0.601544] (-) TimerEvent: {}
+[0.701910] (-) TimerEvent: {}
+[0.802269] (-) TimerEvent: {}
+[0.902641] (-) TimerEvent: {}
+[1.004348] (-) TimerEvent: {}
+[1.106044] (-) TimerEvent: {}
+[1.206593] (-) TimerEvent: {}
+[1.307095] (-) TimerEvent: {}
+[1.407554] (-) TimerEvent: {}
+[1.508734] (-) TimerEvent: {}
+[1.609463] (-) TimerEvent: {}
+[1.710148] (-) TimerEvent: {}
+[1.810548] (-) TimerEvent: {}
+[1.910971] (-) TimerEvent: {}
+[2.011492] (-) TimerEvent: {}
+[2.112286] (-) TimerEvent: {}
+[2.212759] (-) TimerEvent: {}
+[2.313230] (-) TimerEvent: {}
+[2.413684] (-) TimerEvent: {}
+[2.514284] (-) TimerEvent: {}
+[2.614862] (-) TimerEvent: {}
+[2.715459] (-) TimerEvent: {}
+[2.816031] (-) TimerEvent: {}
+[2.916481] (-) TimerEvent: {}
+[3.016928] (-) TimerEvent: {}
+[3.229819] (-) TimerEvent: {}
+[3.330615] (-) TimerEvent: {}
+[3.431567] (-) TimerEvent: {}
+[3.532055] (-) TimerEvent: {}
+[3.632559] (-) TimerEvent: {}
+[3.733082] (-) TimerEvent: {}
+[3.833558] (-) TimerEvent: {}
+[3.934085] (-) TimerEvent: {}
+[4.034533] (-) TimerEvent: {}
+[4.134913] (-) TimerEvent: {}
+[4.235423] (-) TimerEvent: {}
+[4.336302] (-) TimerEvent: {}
+[4.436810] (-) TimerEvent: {}
+[4.537504] (-) TimerEvent: {}
+[4.638883] (-) TimerEvent: {}
+[4.739371] (-) TimerEvent: {}
+[4.839965] (-) TimerEvent: {}
+[4.941595] (-) TimerEvent: {}
+[5.042423] (-) TimerEvent: {}
+[5.143506] (-) TimerEvent: {}
+[5.243961] (-) TimerEvent: {}
+[5.344524] (-) TimerEvent: {}
+[5.445170] (-) TimerEvent: {}
+[5.545838] (-) TimerEvent: {}
+[5.646445] (-) TimerEvent: {}
+[5.747020] (-) TimerEvent: {}
+[5.847477] (-) TimerEvent: {}
+[5.948382] (-) TimerEvent: {}
+[6.050330] (-) TimerEvent: {}
+[6.153874] (-) TimerEvent: {}
+[6.255318] (-) TimerEvent: {}
+[6.356317] (-) TimerEvent: {}
+[6.456984] (-) TimerEvent: {}
+[6.557563] (-) TimerEvent: {}
+[6.658181] (-) TimerEvent: {}
+[6.758727] (-) TimerEvent: {}
+[6.859376] (-) TimerEvent: {}
+[6.959843] (-) TimerEvent: {}
+[7.060376] (-) TimerEvent: {}
+[7.162010] (-) TimerEvent: {}
+[7.262869] (-) TimerEvent: {}
+[7.363429] (-) TimerEvent: {}
+[7.463911] (-) TimerEvent: {}
+[7.564410] (-) TimerEvent: {}
+[7.664834] (-) TimerEvent: {}
+[7.765295] (-) TimerEvent: {}
+[7.866070] (-) TimerEvent: {}
+[7.967221] (-) TimerEvent: {}
+[8.067861] (-) TimerEvent: {}
+[8.330795] (-) TimerEvent: {}
+[8.431779] (-) TimerEvent: {}
+[8.532733] (-) TimerEvent: {}
+[8.633334] (-) TimerEvent: {}
+[8.733871] (-) TimerEvent: {}
+[8.834279] (-) TimerEvent: {}
+[8.876874] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[8.936318] (-) TimerEvent: {}
+[9.038061] (-) TimerEvent: {}
+[9.139628] (-) TimerEvent: {}
+[9.241420] (-) TimerEvent: {}
+[9.343465] (-) TimerEvent: {}
+[9.444284] (-) TimerEvent: {}
+[9.545275] (-) TimerEvent: {}
+[9.563516] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[9.603204] (challenge) CommandEnded: {'returncode': 0}
+[9.645637] (-) TimerEvent: {}
+[9.696283] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[9.753524] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joel/Documents/code/software-start-here/build/challenge'], 'cwd': '/home/joel/Documents/code/software-start-here/build/challenge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'joel'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/joel/Documents/code/software-start-here/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1314'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4728'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joel'), ('JOURNAL_STREAM', '8:39865'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joel-linux:@/tmp/.ICE-unix/1458,unix/joel-linux:/tmp/.ICE-unix/1458'), ('INVOCATION_ID', '74e60bc55aa147168c2344bfcfad25fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-31406e50d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joel/Documents/code/software-start-here/build/challenge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[9.755907] (-) TimerEvent: {}
+[9.782437] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.783201] (challenge) StdoutLine: {'line': b'-- Installing: /home/joel/Documents/code/software-start-here/install/challenge/lib/challenge/solution\n'}
+[9.788119] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/joel/Documents/code/software-start-here/install/challenge/lib/challenge/solution" to ""\n'}
+[9.788654] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[9.788938] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[9.789495] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[9.790961] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[9.791226] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/environment/path.sh\n'}
+[9.791426] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/environment/path.dsv\n'}
+[9.791622] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/local_setup.bash\n'}
+[9.791835] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/local_setup.sh\n'}
+[9.792036] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/local_setup.zsh\n'}
+[9.792241] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/local_setup.dsv\n'}
+[9.792675] (challenge) StdoutLine: {'line': b'-- Installing: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/package.dsv\n'}
+[9.792971] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[9.793157] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[9.793332] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[9.793498] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joel/Documents/code/software-start-here/install/challenge/share/challenge/package.xml\n'}
+[9.800937] (challenge) CommandEnded: {'returncode': 0}
+[9.856130] (-) TimerEvent: {}
+[9.959622] (-) TimerEvent: {}
+[9.994404] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[9.997743] (-) EventReactorShutdown: {}
