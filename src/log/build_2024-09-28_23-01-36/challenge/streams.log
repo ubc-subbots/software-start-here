@@ -1,0 +1,55 @@
+[0.025s] Invoking command in '/home/krish/projects/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.517s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:6:34:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[KNode[m[K’
+[1.517s]     6 | class SineTurtle : public rclcpp [01;31m[KNode[m[K {
+[1.517s]       |                                  [01;31m[K^~~~[m[K
+[1.517s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:6:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[1.520s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:8:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublisher[m[K’
+[1.520s]     8 |   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kpublisher[m[K;
+[1.520s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[1.520s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:8:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublisher[m[K’
+[1.520s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:6:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.520s]     6 | class SineTurtle : public rclcpp Node [01;36m[K{[m[K
+[1.520s]       |                                       [01;36m[K^[m[K
+[1.520s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:11:26:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass SineTurtle[m[K’
+[1.520s]    11 |   SineTurtle::SineTurtle([01;31m[K)[m[K : rclcpp::Node("sine_turtle") {
+[1.520s]       |                          [01;31m[K^[m[K
+[1.520s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:6:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass SineTurtle[m[K’
+[1.521s]     6 | class [01;36m[KSineTurtle[m[K : public rclcpp Node {
+[1.521s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.521s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:20:30:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass SineTurtle[m[K’
+[1.521s]    20 |   void SineTurtle::sine_move([01;31m[K)[m[K {
+[1.521s]       |                              [01;31m[K^[m[K
+[1.521s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:6:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass SineTurtle[m[K’
+[1.521s]     6 | class [01;36m[KSineTurtle[m[K : public rclcpp Node {
+[1.521s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.521s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.521s]    42 | [01;31m[K}[m[K
+[1.521s]       | [01;31m[K^[m[K
+[1.521s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.521s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:49:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSpin[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin[m[K’?
+[1.521s]    49 |   rclcpp::[01;31m[KSpin[m[K(std::make_shared<SineTurtle>());
+[1.521s]       |           [01;31m[K^~~~[m[K
+[1.521s]       |           [32m[Kspin[m[K
+[1.769s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:56[m[K,
+[1.769s]                  from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[1.769s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.769s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.769s]                  from [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:2[m[K:
+[1.769s] /usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<SineTurtle>[m[K’:
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:535:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<SineTurtle, std::allocator<SineTurtle>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:596:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<SineTurtle, std::allocator<SineTurtle>, __gnu_cxx::_S_atomic>[m[K’
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:676:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = SineTurtle; _Alloc = std::allocator<SineTurtle>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SineTurtle>; _Args = {}; _Tp = SineTurtle; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<SineTurtle>; _Args = {}; _Tp = SineTurtle][m[K’
+[1.769s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = SineTurtle; _Alloc = std::allocator<SineTurtle>; _Args = {}][m[K’
+[1.770s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = SineTurtle; _Args = {}][m[K’
+[1.770s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:49:45:[m[K   required from here
+[1.770s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KSineTurtle[m[K’
+[1.770s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[1.770s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[1.770s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KSineTurtle[m[K’
+[1.855s] make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.856s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+[1.856s] make: *** [Makefile:146: all] Error 2
+[1.859s] Invoked command in '/home/krish/projects/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8

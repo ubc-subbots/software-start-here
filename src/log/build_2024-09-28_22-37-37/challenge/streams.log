@@ -1,0 +1,58 @@
+[0.030s] Invoking command in '/home/krish/projects/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8
+[0.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.087s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.087s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.087s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.087s]   the cmake_policy command to set the policy and suppress this warning.
+[0.087s] 
+[0.088s] Call Stack (most recent call first):
+[0.088s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.088s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.088s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.088s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.088s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.088s]   CMakeLists.txt:19 (find_package)
+[0.088s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.088s] [0m
+[0.118s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.444s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.494s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[4.586s] -- Found FastRTPS: /opt/ros/foxy/include
+[7.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.030s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.032s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.349s] -- Looking for pthread_create in pthreads
+[8.626s] -- Looking for pthread_create in pthreads - not found
+[8.626s] -- Looking for pthread_create in pthread
+[9.010s] -- Looking for pthread_create in pthread - found
+[9.012s] -- Found Threads: TRUE
+[9.257s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[9.297s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.380s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.385s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/krish/projects/software-start-here/src/challenge/include>
+[9.385s] -- Configured cppcheck exclude dirs and/or files: 
+[9.387s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.387s] -- Configured cpplint exclude dirs and/or files: 
+[9.387s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.388s] -- Added test 'lint_cmake' to check CMake code style
+[9.389s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.390s] -- Added test 'uncrustify' to check C / C++ code style
+[9.390s] -- Configured uncrustify additional arguments: 
+[9.391s] -- Added test 'xmllint' to check XML markup files
+[9.394s] -- Configuring done (9.3s)
+[9.405s] -- Generating done (0.0s)
+[9.407s] -- Build files have been written to: /home/krish/projects/software-start-here/src/build/challenge
+[9.430s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[9.569s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[9.569s]     2 | #include [01;31m[K<ros/ros.h>[m[K
+[9.569s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[9.569s] compilation terminated.
+[9.574s] make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[9.574s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+[9.575s] make: *** [Makefile:146: all] Error 2
+[9.581s] Invoked command in '/home/krish/projects/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8

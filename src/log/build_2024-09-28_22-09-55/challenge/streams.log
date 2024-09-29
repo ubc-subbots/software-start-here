@@ -1,0 +1,57 @@
+[0.027s] Invoking command in '/home/krish/projects/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/krish/projects/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/krish/projects/software-start-here/src/install/challenge
+[0.751s] -- The C compiler identification is GNU 9.4.0
+[1.612s] -- The CXX compiler identification is GNU 9.4.0
+[2.644s] -- Detecting C compiler ABI info
+[2.865s] -- Detecting C compiler ABI info - done
+[2.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.881s] -- Detecting C compile features
+[2.881s] -- Detecting C compile features - done
+[2.886s] -- Detecting CXX compiler ABI info
+[3.044s] -- Detecting CXX compiler ABI info - done
+[3.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.059s] -- Detecting CXX compile features
+[3.060s] -- Detecting CXX compile features - done
+[3.069s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.081s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[3.081s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.081s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.081s]   the cmake_policy command to set the policy and suppress this warning.
+[3.081s] 
+[3.081s] Call Stack (most recent call first):
+[3.081s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[3.081s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[3.081s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.082s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.082s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.082s]   CMakeLists.txt:19 (find_package)
+[3.082s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.082s] [0m
+[3.116s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[3.116s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.367s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.541s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.548s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.548s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/krish/projects/software-start-here/src/challenge/include>
+[3.548s] -- Configured cppcheck exclude dirs and/or files: 
+[3.551s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.551s] -- Configured cpplint exclude dirs and/or files: 
+[3.552s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.554s] -- Added test 'lint_cmake' to check CMake code style
+[3.555s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.558s] -- Added test 'uncrustify' to check C / C++ code style
+[3.558s] -- Configured uncrustify additional arguments: 
+[3.559s] -- Added test 'xmllint' to check XML markup files
+[3.561s] -- Configuring done (3.5s)
+[3.567s] -- Generating done (0.0s)
+[3.568s] -- Build files have been written to: /home/krish/projects/software-start-here/src/build/challenge
+[3.574s] Invoked command in '/home/krish/projects/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/krish/projects/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/krish/projects/software-start-here/src/install/challenge
+[3.580s] Invoking command in '/home/krish/projects/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8
+[3.618s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[3.632s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[3.632s]     2 | #include [01;31m[K<ros/ros.h>[m[K
+[3.632s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.633s] compilation terminated.
+[3.634s] make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[3.634s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+[3.634s] make: *** [Makefile:146: all] Error 2
+[3.637s] Invoked command in '/home/krish/projects/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8

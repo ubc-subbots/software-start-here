@@ -1,0 +1,49 @@
+[0.028s] Invoking command in '/home/krish/projects/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8
+[0.108s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.119s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.119s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.119s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.119s]   the cmake_policy command to set the policy and suppress this warning.
+[0.119s] 
+[0.120s] Call Stack (most recent call first):
+[0.120s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.120s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.120s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.120s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.120s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.120s]   CMakeLists.txt:19 (find_package)
+[0.120s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.120s] [0m
+[0.156s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.383s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.368s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.544s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[6.583s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.711s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.718s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.719s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/krish/projects/software-start-here/src/challenge/include>
+[6.719s] -- Configured cppcheck exclude dirs and/or files: 
+[6.722s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.722s] -- Configured cpplint exclude dirs and/or files: 
+[6.723s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.725s] -- Added test 'lint_cmake' to check CMake code style
+[6.726s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.729s] -- Added test 'uncrustify' to check C / C++ code style
+[6.729s] -- Configured uncrustify additional arguments: 
+[6.730s] -- Added test 'xmllint' to check XML markup files
+[6.735s] -- Configuring done (6.6s)
+[6.766s] -- Generating done (0.0s)
+[6.769s] -- Build files have been written to: /home/krish/projects/software-start-here/src/build/challenge
+[6.808s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[6.952s] [01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.h: No such file or directory
+[6.952s]     2 | #include [01;31m[K<rclcpp/rclcpp.h>[m[K
+[6.952s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.953s] compilation terminated.
+[6.959s] make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[6.960s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+[6.960s] make: *** [Makefile:146: all] Error 2
+[6.965s] Invoked command in '/home/krish/projects/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/src/build/challenge -- -j8 -l8

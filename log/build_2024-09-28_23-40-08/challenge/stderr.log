@@ -1,0 +1,12 @@
+[01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:44:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   44 |   int [01;31m[Kdirection[m[K
+      |       [01;31m[K^~~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid SineTurtle::sine_move()[m[K’:
+[01m[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kwist[m[K’ was not declared in this scope; did you mean ‘[01m[KTwist[m[K’?
+   28 |     if (twist.linear.x >= 11.0 || [01;31m[Kwist[m[K.linear.x <= 0) {
+      |                                   [01;31m[K^~~~[m[K
+      |                                   [32m[KTwist[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

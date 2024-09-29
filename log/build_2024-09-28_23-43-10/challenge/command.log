@@ -1,0 +1,2 @@
+Invoking command in '/home/krish/projects/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/build/challenge -- -j8 -l8
+Invoked command in '/home/krish/projects/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/krish/projects/software-start-here/build/challenge -- -j8 -l8

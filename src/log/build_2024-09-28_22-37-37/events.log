@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.001483] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.024243] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.027264] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.027375] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/krish/projects/software-start-here/src/build/challenge', '--', '-j8', '-l8'], 'cwd': '/home/krish/projects/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'krish'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/krish'), ('OLDPWD', '/home/krish/projects/software-start-here/src/challenge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'krish'), ('NAME', 'DESKTOP-1OHCIN3'), ('WSL_INTEROP', '/run/WSL/16860_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kdawg/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/kdawg/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kdawg/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/kdawg/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/ffmpeg-6.1.1-full_build/bin:/mnt/c/Program Files/rubberband-3.3.0-gpl-executable-windows:/mnt/c/Program Files/Java/jdk-22/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/krish/projects/software-start-here/src/build/challenge'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.082382] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.088324] (challenge) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.088570] (challenge) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.088671] (challenge) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.088802] (challenge) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.088926] (challenge) StderrLine: {'line': b'\n'}
+[0.089023] (challenge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.089107] (challenge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.089189] (challenge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.089270] (challenge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.089354] (challenge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.089468] (challenge) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.089554] (challenge) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[0.089635] (challenge) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.089716] (challenge) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099720] (-) TimerEvent: {}
+[0.119089] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199894] (-) TimerEvent: {}
+[0.300401] (-) TimerEvent: {}
+[0.400950] (-) TimerEvent: {}
+[0.445426] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.501120] (-) TimerEvent: {}
+[0.601657] (-) TimerEvent: {}
+[0.702281] (-) TimerEvent: {}
+[0.794063] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802404] (-) TimerEvent: {}
+[0.804398] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.902540] (-) TimerEvent: {}
+[1.003030] (-) TimerEvent: {}
+[1.103533] (-) TimerEvent: {}
+[1.204138] (-) TimerEvent: {}
+[1.304835] (-) TimerEvent: {}
+[1.405398] (-) TimerEvent: {}
+[1.506001] (-) TimerEvent: {}
+[1.606667] (-) TimerEvent: {}
+[1.707213] (-) TimerEvent: {}
+[1.807731] (-) TimerEvent: {}
+[1.908226] (-) TimerEvent: {}
+[2.008717] (-) TimerEvent: {}
+[2.109206] (-) TimerEvent: {}
+[2.209634] (-) TimerEvent: {}
+[2.310080] (-) TimerEvent: {}
+[2.410499] (-) TimerEvent: {}
+[2.495229] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[2.510728] (-) TimerEvent: {}
+[2.611441] (-) TimerEvent: {}
+[2.712029] (-) TimerEvent: {}
+[2.812526] (-) TimerEvent: {}
+[2.913011] (-) TimerEvent: {}
+[3.013501] (-) TimerEvent: {}
+[3.113969] (-) TimerEvent: {}
+[3.214555] (-) TimerEvent: {}
+[3.315035] (-) TimerEvent: {}
+[3.415477] (-) TimerEvent: {}
+[3.515968] (-) TimerEvent: {}
+[3.616698] (-) TimerEvent: {}
+[3.717171] (-) TimerEvent: {}
+[3.817631] (-) TimerEvent: {}
+[3.918165] (-) TimerEvent: {}
+[4.018557] (-) TimerEvent: {}
+[4.119080] (-) TimerEvent: {}
+[4.219588] (-) TimerEvent: {}
+[4.320202] (-) TimerEvent: {}
+[4.420784] (-) TimerEvent: {}
+[4.521286] (-) TimerEvent: {}
+[4.586552] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[4.621612] (-) TimerEvent: {}
+[4.722128] (-) TimerEvent: {}
+[4.822586] (-) TimerEvent: {}
+[4.923258] (-) TimerEvent: {}
+[5.023763] (-) TimerEvent: {}
+[5.124242] (-) TimerEvent: {}
+[5.224765] (-) TimerEvent: {}
+[5.325459] (-) TimerEvent: {}
+[5.426131] (-) TimerEvent: {}
+[5.526710] (-) TimerEvent: {}
+[5.627214] (-) TimerEvent: {}
+[5.727737] (-) TimerEvent: {}
+[5.828299] (-) TimerEvent: {}
+[5.928964] (-) TimerEvent: {}
+[6.029635] (-) TimerEvent: {}
+[6.130202] (-) TimerEvent: {}
+[6.230637] (-) TimerEvent: {}
+[6.331165] (-) TimerEvent: {}
+[6.431611] (-) TimerEvent: {}
+[6.532197] (-) TimerEvent: {}
+[6.632636] (-) TimerEvent: {}
+[6.733158] (-) TimerEvent: {}
+[6.833587] (-) TimerEvent: {}
+[6.934035] (-) TimerEvent: {}
+[7.034547] (-) TimerEvent: {}
+[7.136514] (-) TimerEvent: {}
+[7.236983] (-) TimerEvent: {}
+[7.337432] (-) TimerEvent: {}
+[7.437955] (-) TimerEvent: {}
+[7.538500] (-) TimerEvent: {}
+[7.639338] (-) TimerEvent: {}
+[7.739928] (-) TimerEvent: {}
+[7.840604] (-) TimerEvent: {}
+[7.930121] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.940872] (-) TimerEvent: {}
+[8.030874] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.033922] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.037143] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.040968] (-) TimerEvent: {}
+[8.141300] (-) TimerEvent: {}
+[8.241797] (-) TimerEvent: {}
+[8.342380] (-) TimerEvent: {}
+[8.350082] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.350295] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.442666] (-) TimerEvent: {}
+[8.543403] (-) TimerEvent: {}
+[8.627120] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.627700] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.643763] (-) TimerEvent: {}
+[8.744254] (-) TimerEvent: {}
+[8.844857] (-) TimerEvent: {}
+[8.945603] (-) TimerEvent: {}
+[9.011581] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.013738] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[9.045784] (-) TimerEvent: {}
+[9.146456] (-) TimerEvent: {}
+[9.247039] (-) TimerEvent: {}
+[9.258749] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[9.298671] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.347266] (-) TimerEvent: {}
+[9.381793] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.386254] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.386537] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/krish/projects/software-start-here/src/challenge/include>\n'}
+[9.386661] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.387972] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.388094] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.388704] (challenge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.389548] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.390271] (challenge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[9.391759] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.391911] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.392452] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.395412] (challenge) StdoutLine: {'line': b'-- Configuring done (9.3s)\n'}
+[9.406787] (challenge) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[9.408286] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/krish/projects/software-start-here/src/build/challenge\n'}
+[9.430915] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[9.447417] (-) TimerEvent: {}
+[9.547935] (-) TimerEvent: {}
+[9.570156] (challenge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/krish/projects/software-start-here/src/challenge/src/solution.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros/ros.h: No such file or directory\n'}
+[9.570493] (challenge) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K<ros/ros.h>\x1b[m\x1b[K\n'}
+[9.570606] (challenge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.570711] (challenge) StderrLine: {'line': b'compilation terminated.\n'}
+[9.575221] (challenge) StderrLine: {'line': b'make[2]: *** [CMakeFiles/solution.dir/build.make:76: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1\n'}
+[9.575684] (challenge) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/solution.dir/all] Error 2\n'}
+[9.576391] (challenge) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[9.579339] (challenge) CommandEnded: {'returncode': 2}
+[9.638565] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[9.648234] (-) TimerEvent: {}
+[9.650093] (-) EventReactorShutdown: {}
