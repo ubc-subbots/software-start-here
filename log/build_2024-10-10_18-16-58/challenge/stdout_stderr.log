@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:20:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   20 |       geometry_msgs::msg::[01;31m[KPose[m[K pose;
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+   21 |       [01;31m[Kpose[m[K.x = -3.14/4
+      |       [01;31m[K^~~~[m[K
+      |       [32m[Kpclose[m[K
+[01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:38:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+   38 |       publisher_->publish([01;31m[Kpose[m[K);
+      |                           [01;31m[K^~~~[m[K
+      |                           [32m[Kpclose[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

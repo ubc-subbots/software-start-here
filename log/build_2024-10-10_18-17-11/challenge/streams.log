@@ -1,0 +1,15 @@
+[0.007s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.031s] [35m[1mScanning dependencies of target solution[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.674s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[0.674s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:20:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[0.674s]    20 |       geometry_msgs::msg::[01;31m[KPose[m[K pose;
+[0.674s]       |                           [01;31m[K^~~~[m[K
+[0.675s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+[0.675s]    21 |       [01;31m[Kpose[m[K.theta = -3.14/4
+[0.675s]       |       [01;31m[K^~~~[m[K
+[0.675s]       |       [32m[Kpclose[m[K
+[1.134s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.134s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.134s] make: *** [Makefile:141: all] Error 2
+[1.136s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

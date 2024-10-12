@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.032s] [35m[1mScanning dependencies of target solution[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.670s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[0.670s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:22:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Krotation[m[K’
+[0.670s]    22 |       pose.[01;31m[Krotation[m[K.x = -3.14/4;
+[0.670s]       |            [01;31m[K^~~~~~~~[m[K
+[1.196s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.196s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.196s] make: *** [Makefile:141: all] Error 2
+[1.198s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

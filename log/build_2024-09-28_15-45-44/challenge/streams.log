@@ -1,0 +1,9 @@
+[0.007s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.041s] [ 50%] [32m[1mLinking CXX executable solution[0m
+[0.114s] /usr/bin/ld: CMakeFiles/solution.dir/src/solution.cpp.o: in function `rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[0.114s] solution.cpp:(.text._ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()'
+[0.114s] collect2: error: ld returned 1 exit status
+[0.115s] make[2]: *** [CMakeFiles/solution.dir/build.make:131: solution] Error 1
+[0.115s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[0.115s] make: *** [Makefile:141: all] Error 2
+[0.118s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

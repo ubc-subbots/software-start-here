@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.063s] [35m[1mScanning dependencies of target solution[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.689s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[0.689s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:20:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[0.689s]    20 |       geometry_msgs::msg::[01;31m[KPose[m[K pose;
+[0.689s]       |                           [01;31m[K^~~~[m[K
+[0.689s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:21:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+[0.689s]    21 |       [01;31m[Kpose[m[K.x = -3.14/4
+[0.689s]       |       [01;31m[K^~~~[m[K
+[0.689s]       |       [32m[Kpclose[m[K
+[0.695s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid Solution::timer_callback()[m[K’:
+[0.695s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:38:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+[0.695s]    38 |       publisher_->publish([01;31m[Kpose[m[K);
+[0.695s]       |                           [01;31m[K^~~~[m[K
+[0.695s]       |                           [32m[Kpclose[m[K
+[0.892s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[0.892s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[0.892s] make: *** [Makefile:141: all] Error 2
+[0.895s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

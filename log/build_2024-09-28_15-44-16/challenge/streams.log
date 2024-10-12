@@ -1,0 +1,63 @@
+[0.007s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/install/challenge
+[0.065s] -- The C compiler identification is GNU 9.4.0
+[0.099s] -- The CXX compiler identification is GNU 9.4.0
+[0.101s] -- Check for working C compiler: /usr/bin/cc
+[0.140s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.140s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.234s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.299s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.299s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.392s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.457s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.475s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.544s] -- Looking for pthread.h
+[0.585s] -- Looking for pthread.h - found
+[0.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.625s] -- Looking for pthread_create in pthreads
+[0.658s] -- Looking for pthread_create in pthreads - not found
+[0.658s] -- Looking for pthread_create in pthread
+[0.698s] -- Looking for pthread_create in pthread - found
+[0.699s] -- Found Threads: TRUE  
+[0.782s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.819s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.823s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.823s] -- Configured cppcheck include dirs: 
+[0.823s] -- Configured cppcheck exclude dirs and/or files: 
+[0.827s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.827s] -- Configured cpplint exclude dirs and/or files: 
+[0.828s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.830s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.834s] -- Added test 'uncrustify' to check C / C++ code style
+[0.834s] -- Configured uncrustify additional arguments: 
+[0.835s] -- Added test 'xmllint' to check XML markup files
+[0.836s] -- Configuring done
+[0.840s] -- Generating done
+[0.840s] -- Build files have been written to: /home/dorson/Documents/github/software-start-here/build/challenge
+[0.845s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/install/challenge
+[0.845s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.866s] [35m[1mScanning dependencies of target solution[0m
+[0.885s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[2.301s] [100%] [32m[1mLinking CXX executable solution[0m
+[2.374s] /usr/bin/ld: CMakeFiles/solution.dir/src/solution.cpp.o: in function `rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[2.374s] solution.cpp:(.text._ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()'
+[2.378s] collect2: error: ld returned 1 exit status
+[2.379s] make[2]: *** [CMakeFiles/solution.dir/build.make:131: solution] Error 1
+[2.379s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.380s] make: *** [Makefile:141: all] Error 2
+[2.382s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

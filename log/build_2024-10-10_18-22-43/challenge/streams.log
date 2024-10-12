@@ -1,0 +1,12 @@
+[0.007s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.030s] [35m[1mScanning dependencies of target solution[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.631s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:[m[K In constructor ‘[01m[KSolution::Solution()[m[K’:
+[0.631s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:23:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[0.631s]    23 |       [01;31m[Kpublisher[m[K = this->create_publisher<geometry_msgs::msg::Pose>("/turtle1/pose", 10);
+[0.631s]       |       [01;31m[K^~~~~~~~~[m[K
+[0.631s]       |       [32m[Kpublisher_[m[K
+[1.115s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.115s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.115s] make: *** [Makefile:141: all] Error 2
+[1.118s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

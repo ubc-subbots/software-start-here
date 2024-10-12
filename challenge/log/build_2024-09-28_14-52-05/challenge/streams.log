@@ -1,0 +1,78 @@
+[0.006s] Invoking command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/challenge/install/challenge
+[0.039s] -- The C compiler identification is GNU 9.4.0
+[0.068s] -- The CXX compiler identification is GNU 9.4.0
+[0.070s] -- Check for working C compiler: /usr/bin/cc
+[0.109s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.109s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.181s] -- Check for working CXX compiler: /usr/bin/c++
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.232s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.282s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.295s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.393s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.480s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.551s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.552s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.552s] -- Looking for pthread.h
+[0.593s] -- Looking for pthread.h - found
+[0.593s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.640s] -- Looking for pthread_create in pthreads
+[0.674s] -- Looking for pthread_create in pthreads - not found
+[0.674s] -- Looking for pthread_create in pthread
+[0.718s] -- Looking for pthread_create in pthread - found
+[0.719s] -- Found Threads: TRUE  
+[0.802s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.843s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.846s] -- Configured cppcheck include dirs: 
+[0.846s] -- Configured cppcheck exclude dirs and/or files: 
+[0.848s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.848s] -- Configured cpplint exclude dirs and/or files: 
+[0.848s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.849s] -- Added test 'lint_cmake' to check CMake code style
+[0.850s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.852s] -- Added test 'uncrustify' to check C / C++ code style
+[0.852s] -- Configured uncrustify additional arguments: 
+[0.852s] -- Added test 'xmllint' to check XML markup files
+[0.854s] -- Configuring done
+[0.857s] -- Generating done
+[0.858s] -- Build files have been written to: /home/dorson/Documents/github/software-start-here/challenge/build/challenge
+[0.863s] Invoked command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/challenge/install/challenge
+[0.865s] Invoking command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/challenge/build/challenge -- -j20 -l20
+[0.886s] [35m[1mScanning dependencies of target solution[0m
+[0.904s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.698s] [100%] [32m[1mLinking CXX executable solution[0m
+[1.765s] [100%] Built target solution
+[1.772s] Invoked command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/challenge/build/challenge -- -j20 -l20
+[1.791s] Invoking command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dorson/Documents/github/software-start-here/challenge/build/challenge
+[1.795s] -- Install configuration: ""
+[1.795s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/lib/challenge/solution
+[1.795s] -- Set runtime path of "/home/dorson/Documents/github/software-start-here/challenge/install/challenge/lib/challenge/solution" to ""
+[1.795s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/environment/path.sh
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/environment/path.dsv
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/local_setup.bash
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/local_setup.sh
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/local_setup.zsh
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/local_setup.dsv
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/package.dsv
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/ament_index/resource_index/packages/challenge
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[1.796s] -- Installing: /home/dorson/Documents/github/software-start-here/challenge/install/challenge/share/challenge/package.xml
+[1.797s] Invoked command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dorson/Documents/github/software-start-here/challenge/build/challenge

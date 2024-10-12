@@ -1,0 +1,22 @@
+[0.006s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.029s] [35m[1mScanning dependencies of target solution[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.650s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:36:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[0.650s]    36 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+[0.651s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.651s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:36:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.651s]    36 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+[0.651s]       |                                               [01;31m[K^[m[K
+[0.651s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:36:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[0.651s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:36:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.651s]    36 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+[0.651s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[0.651s]       |                                                           [32m[K;[m[K
+[0.651s] [01m[K/home/dorson/Documents/github/software-start-here/challenge/src/solution.cpp:36:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[0.651s]    36 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+[0.651s]       |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[0.652s]       |                                                            [32m[Krcl_subscription_t[m[K
+[1.061s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[1.062s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[1.062s] make: *** [Makefile:141: all] Error 2
+[1.064s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20

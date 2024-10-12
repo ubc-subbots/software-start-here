@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[0.029s] [35m[1mScanning dependencies of target solution[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[1.464s] [100%] [32m[1mLinking CXX executable solution[0m
+[1.546s] [100%] Built target solution
+[1.554s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dorson/Documents/github/software-start-here/build/challenge -- -j20 -l20
+[1.571s] Invoking command in '/home/dorson/Documents/github/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dorson/Documents/github/software-start-here/build/challenge
+[1.575s] -- Install configuration: ""
+[1.575s] -- Installing: /home/dorson/Documents/github/software-start-here/install/challenge/lib/challenge/solution
+[1.576s] -- Set runtime path of "/home/dorson/Documents/github/software-start-here/install/challenge/lib/challenge/solution" to ""
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/environment/path.sh
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/local_setup.bash
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/local_setup.sh
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[1.576s] -- Installing: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/package.dsv
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[1.576s] -- Up-to-date: /home/dorson/Documents/github/software-start-here/install/challenge/share/challenge/package.xml
+[1.578s] Invoked command in '/home/dorson/Documents/github/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dorson/Documents/github/software-start-here/build/challenge

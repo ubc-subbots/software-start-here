@@ -1,0 +1,7 @@
+[0.006s] Invoking command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/challenge/install/challenge
+[0.011s] CMake Error at CMakeLists.txt:9:
+[0.011s]   Parse error.  Expected "(", got identifier with text "namespace".
+[0.011s] 
+[0.012s] 
+[0.012s] -- Configuring incomplete, errors occurred!
+[0.013s] Invoked command in '/home/dorson/Documents/github/software-start-here/challenge/build/challenge' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dorson/Documents/github/software-start-here/challenge -DCMAKE_INSTALL_PREFIX=/home/dorson/Documents/github/software-start-here/challenge/install/challenge
