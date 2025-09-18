@@ -6,14 +6,24 @@ This repository will act as a starting point for new developers in order to help
 
 ROS2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution to operate, for our development work we will be using Ubuntu 20.04 preferably dual booted alongside Windows. Developing in linux using a Mac machine is generally not recommended but if there is no option please follow the dual-booting instructions below **using an Ubuntu 20.04 image** or explore virtual box options. 
 
-For this tutorial, you'll need a blank, >4 GB stoarge USB stick. 
+## Dual-booting
 
-For dual-booting: 
+For this tutorial, you'll need a blank, >4 GB storage USB stick. 
+
 Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. 
-* [Windows Subsystem for Linux (WSL) 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-  * This option has not been throughly tested, however ROS2 and other GUI applications can install and run successfully
-  * The linked instructions require Windows 10 build 1903 or higher to install (check using 'winver'), follow the manual instructions to ensure WSL is upgraded
-  * If you've installed Windows build 21364 or higher (check using the program, winver), you will be able to run GUI application autmatically, if you have not, continue with the next instruction
+* [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
+  * Make bootable USB with [Rufus](https://rufus.ie/)
+  * Note: BIOS can also be accessed by restarting using Recovery options menu in windows.
+ 
+* [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
+
+## WSL
+This option is less tested, however everything that is needed can install and run successfully. Just follow the link below to install Ubuntu 20.04.
+
+[Tutorial for Windows Subsystem for Linux (WSL) 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+### If you are on Windows build 21364 or lower (check using the program, winver)
+Lower Windows versions require manual configuration to use GUIs in WSL, so do the following
   * After enabling the kernel and installing Ubunutu 20.04, install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
   * Start the service (XLanuch) and enter these configurations:
      * First screen: select "Multiple Windows", Display number = -1
@@ -22,16 +32,11 @@ Different brands of computer may encounter manufacturer-specific blocks, please 
      * Select finish
   * Finally, in your Ubuntu 20.04 terminal, run the command:
 
-`echo "export GAZEBO_IP=127.0.0.1" >> ~/.bashrc && echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 " >> ~/.bashrc && echo "export LIBGL_ALWAYS_INDIRECT=0" >> ~/.bashrc`
+    `echo "export GAZEBO_IP=127.0.0.1" >> ~/.bashrc && echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 " >> ~/.bashrc && echo "export LIBGL_ALWAYS_INDIRECT=0" >> ~/.bashrc`
 
   * After a restart, you should now have a functional Ubuntu virtual machine, you can test your GUI by installing firefox (`sudo apt-get install -y firefox`) and running it with `firefox`
-
-* [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
-  * Make bootable USB with [Rufus](https://rufus.ie/)
-  * Note: BIOS can also be accessed by restarting using Recovery options menu in windows.
-* [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
   
-# Windows - Docker
+## Docker
 There is a new option, to use Docker for development
 * Install [Docker](https://www.docker.com/get-started/)
 * Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
@@ -75,13 +80,22 @@ To use Git from the linux command line, follow the install [here](https://linuxi
 
 # ROS2 Installation
 
-To install ROS2, follow the tutorial [here](https://docs.ros.org/en/foxy/Installation.html), please install the desktop version. 
+To install ROS2, follow the tutorial [here](https://docs.ros.org/en/foxy/Installation.html). Follow the recommended Debian installation and make sure to download the desktop version. You'll see warnings that the repositories are unsigned when running `sudo apt update`. This is because the ROS version we are using is outdated, so just append `--allow-insecure-repositories` to the command.
 
-Next, you will need to install the ROS2 build tools (Colcon). Please follow the guide [here](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html?highlight=colcon#install-colcon)
+Next, you will need to install the ROS2 build tools (Colcon) by running `sudo apt install python3-colcon-common-extensions`. You can check out the full guide [here](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html?highlight=colcon#install-colcon).
 
 # Gazebo 11 Installation 
 
-Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms, use the "Default installation" option [here](https://classic.gazebosim.org/tutorials?tut=ros2_installing) to download the application and then run the command: "sudo apt install ros-foxy-gazebo-ros-pkgs"  adapted from the instructions [here](http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros#Installgazebo_ros_pkgs) to install the ROS2 plugins. 
+Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms. Run these commands to install it.
+
+```
+curl -sSL http://get.gazebosim.org | sh
+sudo apt install ros-foxy-gazebo-ros-pkgs
+```
+
+Verify that it worked by entering `gazebo`. A Gazebo GUI should open up.
+
+These commands were taken from [here](https://classic.gazebosim.org/tutorials?tut=install_ubuntu&cat=install) and [here](https://classic.gazebosim.org/tutorials?tut=ros2_installing).
 
 # ROS2 Index
 
