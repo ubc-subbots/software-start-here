@@ -68,7 +68,7 @@ Run `docker rm ubc_subbots`
 * If you get: "docker: error during connect: in the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect: Post "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create": open //./pipe/docker_engine: The system cannot find the file specified.
 See 'docker run --help'."
 You might want to launch the docker app before you type in terminal commands.
-
+# Default Installation steps
 # Git command line tools 
 
 To use Git from the linux command line, follow the install [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
