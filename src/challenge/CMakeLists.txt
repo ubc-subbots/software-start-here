@@ -10,10 +10,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
 # Add the executable
 add_executable(solution src/solution.cpp)
-ament_target_dependencies(solution rclcpp geometry_msgs)
+ament_target_dependencies(solution rclcpp geometry_msgs turtlesim)
 
 # Install the target
 install(TARGETS solution

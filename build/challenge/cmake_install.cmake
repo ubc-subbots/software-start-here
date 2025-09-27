@@ -1,8 +1,8 @@
-# Install script for directory: /home/krish/projects/software-start-here/src/challenge
+# Install script for directory: /home/krish/repos/software-start-here/src/challenge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krish/projects/software-start-here/install/challenge")
+  set(CMAKE_INSTALL_PREFIX "/home/krish/repos/software-start-here/install/challenge")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,19 +37,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/challenge/solution" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/challenge/solution")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/challenge/solution"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/challenge" TYPE EXECUTABLE FILES "/home/krish/projects/software-start-here/build/challenge/solution")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/challenge" TYPE EXECUTABLE FILES "/home/krish/repos/software-start-here/build/challenge/solution")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/challenge/solution" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/challenge/solution")
     file(RPATH_CHANGE
@@ -62,67 +57,63 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/krish/projects/software-start-here/build/challenge/CMakeFiles/solution.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/challenge")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/challenge")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/challenge")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/challenge")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/path.dsv")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/environment" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/path.dsv")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.bash")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.sh")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.zsh")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.dsv")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_environment_hooks/package.dsv")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_environment_hooks/package.dsv")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/krish/projects/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/packages/challenge")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/krish/repos/software-start-here/build/challenge/ament_cmake_index/share/ament_index/resource_index/packages/challenge")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge/cmake" TYPE FILE FILES
-    "/home/krish/projects/software-start-here/build/challenge/ament_cmake_core/challengeConfig.cmake"
-    "/home/krish/projects/software-start-here/build/challenge/ament_cmake_core/challengeConfig-version.cmake"
+    "/home/krish/repos/software-start-here/build/challenge/ament_cmake_core/challengeConfig.cmake"
+    "/home/krish/repos/software-start-here/build/challenge/ament_cmake_core/challengeConfig-version.cmake"
     )
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/projects/software-start-here/src/challenge/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/challenge" TYPE FILE FILES "/home/krish/repos/software-start-here/src/challenge/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -133,5 +124,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/krish/projects/software-start-here/build/challenge/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/krish/repos/software-start-here/build/challenge/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/krish/repos/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/krish/repos/software-start-here/build/challenge -- -j8 -l8
+[0.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.119s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.259s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.389s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.419s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.578s] -- Configuring done
+[2.588s] -- Generating done
+[2.591s] -- Build files have been written to: /home/krish/repos/software-start-here/build/challenge
+[2.658s] [ 50%] [32m[1mLinking CXX executable solution[0m
+[2.894s] /usr/bin/ld: CMakeFiles/solution.dir/src/solution.cpp.o: in function `rclcpp::Client<turtlesim::srv::TeleportAbsolute>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_t&)':
+[2.894s] solution.cpp:(.text._ZN6rclcpp6ClientIN9turtlesim3srv16TeleportAbsoluteEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t[_ZN6rclcpp6ClientIN9turtlesim3srv16TeleportAbsoluteEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t]+0xc4): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<turtlesim::srv::TeleportAbsolute>()'
+[2.894s] collect2: error: ld returned 1 exit status
+[2.895s] make[2]: *** [CMakeFiles/solution.dir/build.make:136: solution] Error 1
+[2.895s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.896s] make: *** [Makefile:141: all] Error 2
+[2.898s] Invoked command in '/home/krish/repos/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/krish/repos/software-start-here/build/challenge -- -j8 -l8

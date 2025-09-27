@@ -2,6 +2,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include <geometry_msgs/msg/twist.hpp>
 #include <cmath>
+#include "turtlesim/srv/teleport_absolute.hpp"
 
 class SineTurtle : public rclcpp::Node {
 
@@ -10,9 +11,27 @@ class SineTurtle : public rclcpp::Node {
   
   SineTurtle() : Node("sine_turtle"), time(0.0) {
     
-    
-    publisher = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
-    timer = this->create_wall_timer(std::chrono::milliseconds(111), std::bind(&SineTurtle::sine_move, this));
+    // Publisher for velocity
+    publisher = this->create_publisher<Twist>("turtle1/cmd_vel", 10);
+
+    // Timer for sine movement
+    timer = this->create_wall_timer(
+        std::chrono::milliseconds(111),
+        std::bind(&SineTurtle::sine_move, this)
+    );
+
+    // Teleport turtle to the left (x=1.0, y=5.5 for vertical center)
+    auto client = this->create_client<turtlesim::srv::TeleportAbsolute>("turtle1/teleport_absolute");
+    while (!client->wait_for_service(std::chrono::seconds(1))) {
+        RCLCPP_INFO(this->get_logger(), "Waiting for teleport service...");
+    }
+
+    auto request = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+    request->x = 1.0;       // far left
+    request->y = 5.5;       // vertical center
+    request->theta = 0.0;   // facing right
+
+    client->async_send_request(request);
     
   } 
 
@@ -22,9 +41,11 @@ class SineTurtle : public rclcpp::Node {
     auto twist = Twist();
 
 
-    twist.linear.x = 1.0;
-    twist.linear.y = std::sin(time);
+    twist.linear.x = 0.5;
 
+    double amplitude = 0.5;
+
+    twist.linear.y = amplitude * std::sin(time);
 
     RCLCPP_INFO(this->get_logger(), "Publish: linear.x: '%f', linear.y: '%f'", twist.linear.x, twist.linear.y);
     publisher->publish(twist);

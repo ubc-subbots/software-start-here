@@ -1,0 +1,37 @@
+[0.020s] Invoking command in '/home/krish/repos/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/krish/repos/software-start-here/build/challenge -- -j8 -l8
+[0.088s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.317s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.181s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.327s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.362s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.542s] -- Configuring done
+[2.553s] -- Generating done
+[2.557s] -- Build files have been written to: /home/krish/repos/software-start-here/build/challenge
+[2.623s] [ 50%] [32m[1mLinking CXX executable solution[0m
+[2.882s] [100%] Built target solution
+[2.895s] Invoked command in '/home/krish/repos/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/krish/repos/software-start-here/build/challenge -- -j8 -l8
+[2.907s] Invoking command in '/home/krish/repos/software-start-here/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/krish/repos/software-start-here/build/challenge
+[2.917s] -- Install configuration: ""
+[2.918s] -- Installing: /home/krish/repos/software-start-here/install/challenge/lib/challenge/solution
+[2.920s] -- Set runtime path of "/home/krish/repos/software-start-here/install/challenge/lib/challenge/solution" to ""
+[2.920s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[2.920s] -- Installing: /home/krish/repos/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[2.920s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[2.920s] -- Installing: /home/krish/repos/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[2.921s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/environment/path.sh
+[2.921s] -- Installing: /home/krish/repos/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[2.921s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/local_setup.bash
+[2.921s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/local_setup.sh
+[2.921s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[2.921s] -- Installing: /home/krish/repos/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[2.922s] -- Installing: /home/krish/repos/software-start-here/install/challenge/share/challenge/package.dsv
+[2.922s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[2.923s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[2.923s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[2.923s] -- Up-to-date: /home/krish/repos/software-start-here/install/challenge/share/challenge/package.xml
+[2.925s] Invoked command in '/home/krish/repos/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/repos/steelhead/install/triton_teleop:/home/krish/repos/steelhead/install/triton_pipeline:/home/krish/repos/steelhead/install/triton_bringup:/home/krish/ws/install/opencv_tests:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_subscriber:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_service:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_publisher:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_client:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_server:/home/krish/ros2_ws/src/install/examples_rclpy_minimal_action_client:/home/krish/ros2_ws/src/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/krish/repos/software-start-here/build/challenge
