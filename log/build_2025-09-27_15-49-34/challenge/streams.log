@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+[0.025s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.150s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.286s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.386s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.386s]   ament_target_dependencies() the first argument must be a valid target name
+[0.386s] Call Stack (most recent call first):
+[0.386s]   CMakeLists.txt:29 (ament_target_dependencies)
+[0.386s] 
+[0.386s] 
+[0.386s] -- Configuring incomplete, errors occurred!
+[0.386s] See also "/home/popcorn/software-start-here/build/challenge/CMakeFiles/CMakeOutput.log".
+[0.386s] See also "/home/popcorn/software-start-here/build/challenge/CMakeFiles/CMakeError.log".
+[0.389s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.391s] Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16

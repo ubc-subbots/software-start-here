@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+[0.037s] Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+[0.046s] Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/popcorn/software-start-here/build/challenge
+[0.052s] -- Install configuration: ""
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/environment/path.sh
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/environment/path.dsv
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/local_setup.bash
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/local_setup.sh
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/local_setup.zsh
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/local_setup.dsv
+[0.052s] -- Installing: /home/popcorn/software-start-here/install/challenge/share/challenge/package.dsv
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/ament_index/resource_index/packages/challenge
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[0.052s] -- Up-to-date: /home/popcorn/software-start-here/install/challenge/share/challenge/package.xml
+[0.054s] Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/popcorn/software-start-here/build/challenge

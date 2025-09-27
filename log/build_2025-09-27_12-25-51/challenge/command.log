@@ -1,0 +1,6 @@
+Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/popcorn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/popcorn/software-start-here/install/challenge
+Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/popcorn/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/popcorn/software-start-here/install/challenge
+Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/popcorn/software-start-here/build/challenge
+Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/popcorn/software-start-here/build/challenge

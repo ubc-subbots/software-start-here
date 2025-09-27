@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+[0.027s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.154s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.292s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.293s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.392s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.418s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.462s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.463s] -- Configured cppcheck include dirs: 
+[0.463s] -- Configured cppcheck exclude dirs and/or files: 
+[0.463s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.463s] -- Configured cpplint exclude dirs and/or files: 
+[0.463s] -- Added test 'lint_cmake' to check CMake code style
+[0.464s] -- Added test 'uncrustify' to check C / C++ code style
+[0.464s] -- Configured uncrustify additional arguments: 
+[0.464s] -- Added test 'xmllint' to check XML markup files
+[0.465s] -- Configuring done
+[0.470s] -- Generating done
+[0.473s] -- Build files have been written to: /home/popcorn/software-start-here/build/challenge
+[0.489s] [35m[1mScanning dependencies of target challenge[0m
+[0.514s] [ 50%] [32mBuilding CXX object CMakeFiles/challenge.dir/src/solution.cpp.o[0m
+[0.582s] [01m[K/home/popcorn/software-start-here/src/challenge/src/solution.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[0.582s]     7 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[0.582s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.582s] compilation terminated.
+[0.584s] make[2]: *** [CMakeFiles/challenge.dir/build.make:63: CMakeFiles/challenge.dir/src/solution.cpp.o] Error 1
+[0.584s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/challenge.dir/all] Error 2
+[0.584s] make: *** [Makefile:141: all] Error 2
+[0.586s] Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16

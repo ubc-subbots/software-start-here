@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/home/popcorn/software-start-here/build/challenge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
+[0.025s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.236s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.256s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.348s] -- Looking for pthread.h
+[0.399s] -- Looking for pthread.h - found
+[0.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.473s] -- Looking for pthread_create in pthreads
+[0.548s] -- Looking for pthread_create in pthreads - not found
+[0.548s] -- Looking for pthread_create in pthread
+[0.623s] -- Looking for pthread_create in pthread - found
+[0.624s] -- Found Threads: TRUE  
+[0.744s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.792s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.793s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.793s] -- Configured cppcheck include dirs: 
+[0.793s] -- Configured cppcheck exclude dirs and/or files: 
+[0.793s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.793s] -- Configured cpplint exclude dirs and/or files: 
+[0.793s] -- Added test 'lint_cmake' to check CMake code style
+[0.794s] -- Added test 'uncrustify' to check C / C++ code style
+[0.794s] -- Configured uncrustify additional arguments: 
+[0.794s] -- Added test 'xmllint' to check XML markup files
+[0.795s] -- Configuring done
+[0.800s] -- Generating done
+[0.802s] -- Build files have been written to: /home/popcorn/software-start-here/build/challenge
+[0.824s] [35m[1mScanning dependencies of target talker[0m
+[0.848s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/solution.cpp.o[0m
+[0.913s] [01m[K/home/popcorn/software-start-here/src/challenge/src/solution.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[0.913s]     7 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[0.913s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.913s] compilation terminated.
+[0.916s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/solution.cpp.o] Error 1
+[0.916s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[0.916s] make: *** [Makefile:141: all] Error 2
+[0.921s] Invoked command in '/home/popcorn/software-start-here/build/challenge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/popcorn/software-start-here/build/challenge -- -j16 -l16
