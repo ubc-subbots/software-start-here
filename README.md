@@ -4,18 +4,30 @@ This repository will act as a starting point for new developers in order to help
 
 # Ubuntu 20.04 installation guide
 
-ROS2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution to operate, for our development work we will be using Ubuntu 20.04 preferably dual booted alongside Windows. Developing in linux using a Mac machine is generally not recommended but if there is no option please follow the dual-booting instructions below **using an Ubuntu 20.04 image** or explore virtual box options. 
+ROS2 and our robot's on-board computer (Nvidia TX2 and Radxa X4) run on Ubuntu Linux 20.04. Therefore you will need to install Linux on your computer to work on our codebase. The best supported option is to dual boot Ubuntu 20.04 on a Windows computer alongside Windows. There are also other options such as WSL, Docker, and virtual machine.
+
+## Recommendations
+
+* Low Performance Windows computer: Dual-boot
+* Regular Windows computer: Dual-boot, WSL, Docker
+* High Performance Windows computer: All options
+* Intel Mac: Virtual Machine, Dual-boot
+* ARM (M-series CPU) Mac: Virtual Machine
+* ARM Windows computer: We have never dealt with this... 
+* I already use Linux (btw): Docker. Talk to Fei and Hashaam we will personally welcome you
 
 ## Dual-booting
 
-For this tutorial, you'll need a blank, >4 GB storage USB stick. 
+For this tutorial, you'll need a USB stick with >8 GB storage that can be erased. 
 
-Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. 
+Different brands of computer may encounter manufacturer-specific blocks, please refer to the documentation relevant to your machine for solutions. New computers might not support Ubuntu 20.04 well. 
 * [Windows Instructions](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
   * Make bootable USB with [Rufus](https://rufus.ie/)
   * Note: BIOS can also be accessed by restarting using Recovery options menu in windows.
  
 * [Mac Instructions](https://www.maketecheasier.com/install-dual-boot-ubuntu-mac/)
+  * This is only applicable to Intel Macs and you might encounter driver issues, but it should work.
+  * If you don't want to bother, virtual machine might be the better option
 
 ## WSL
 This option is less tested, however everything that is needed can install and run successfully. Just follow the link below to install Ubuntu 20.04.
@@ -37,7 +49,7 @@ Lower Windows versions require manual configuration to use GUIs in WSL, so do th
   * After a restart, you should now have a functional Ubuntu virtual machine, you can test your GUI by installing firefox (`sudo apt-get install -y firefox`) and running it with `firefox`
   
 ## Docker
-There is a new option, to use Docker for development
+### Windows
 * Install [Docker](https://www.docker.com/get-started/)
 * Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
@@ -51,13 +63,23 @@ There is a new option, to use Docker for development
 * To open another terminal connected to the same OS, run `docker exec -it ubc_subbots /bin/bash`
 * It should be already installed with all tools neccessary to work with ROS2.
 * This is a stateless system, you're changes are not saved so make you sure you push your changes to github before exiting
-
 ### Saving your image (optional)
 * If you want to save your image you can do it in a few steps.
 * Use `docker ps -a` to view the last container you have opened.
 * We can use `docker commit [Your old container ID or name] [Name of the new image]` to save our last workspace for future use.
 * For example the name of the first container is "ubc_subbots". We can use `docker commit ubc_subbots my_local_image` to save your last container for future use.
 * You will have to modify the run command like this: `docker run -it -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix my_local_image`
+
+### Linux
+If you already run Linux but not Ubuntu 20.04, Docker is also the best option. Talk to Fei or Hashaam if you are stuck.
+
+## Virtual Machine
+This option works on any OS and architecture, but demands a performant computer with large RAM size. 
+
+* On x86 (Intel/AMD) computers use any virtual machine software and the [amd64 Ubuntu Desktop image](https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso)
+* On ARM Macs, use UTM (free) or Parallels (paid) and the [Ubuntu ARM64 Server image](https://cdimage.ubuntu.com/releases/20.04.5/release/ubuntu-20.04.5-live-server-arm64.iso). After installation, install desktop environment.
+
+# After OS Install
 
 Once Ubuntu is installed, you will need to install a preferred IDE. Some suggestions are listed below: 
 
@@ -66,7 +88,7 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * [VS Code](https://code.visualstudio.com/) (strenuous setup but very powerful IDE) 
 
 ### Minor troubleshooting
-* If you get: "docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "ba09d34e252debcbbff86e893e2396195996d24a7aa4be900e704f67091e0a20". You have to remove (or rename) that container to be able to reuse that name.
+* If you get: "docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "<hash>". You have to remove (or rename) that container to be able to reuse that name.
 See 'docker run --help'."
 Run `docker rm ubc_subbots`
 
