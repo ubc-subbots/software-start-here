@@ -1,0 +1,9 @@
+# Ignore everything in build except challenge package and solution script
+/build/*
+!/build/challenge/
+/build/challenge/*
+!/build/challenge/solution.py
+
+/install/*
+/log/*
+

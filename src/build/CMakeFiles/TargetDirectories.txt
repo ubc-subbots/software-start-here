@@ -1,9 +1,0 @@
-/home/popcorn/software-start-here/src/build/CMakeFiles/install/strip.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/install/local.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/install.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/list_install_components.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/rebuild_cache.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/edit_cache.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/test.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/challenge_uninstall.dir
-/home/popcorn/software-start-here/src/build/CMakeFiles/uninstall.dir
