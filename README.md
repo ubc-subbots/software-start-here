@@ -1,4 +1,4 @@
-# Software Challenge
+ # Software Challenge
 
 This repository will act as a starting point for new developers in order to help them understand some of the fundamentals of ROS2 and Gazebo, and to guide the installation of the Ubuntu OS.
 
@@ -86,16 +86,9 @@ Next, you will need to install the ROS2 build tools (Colcon) by running `sudo ap
 
 # Gazebo 11 Installation 
 
-Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms. Run these commands to install it.
+Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms. Follow the 'alternative installation instructions' below since the script is deprecated.
 
-```
-curl -sSL http://get.gazebosim.org | sh
-sudo apt install ros-foxy-gazebo-ros-pkgs
-```
-
-Verify that it worked by entering `gazebo`. A Gazebo GUI should open up.
-
-These commands were taken from [here](https://classic.gazebosim.org/tutorials?tut=install_ubuntu&cat=install) and [here](https://classic.gazebosim.org/tutorials?tut=ros2_installing).
+[Gazebo installation tutorial](https://classic.gazebosim.org/tutorials?tut=install_ubuntu&cat=install).
 
 # ROS2 Index
 
