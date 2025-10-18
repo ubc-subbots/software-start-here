@@ -88,7 +88,7 @@ Once Ubuntu is installed, you will need to install a preferred IDE. Some suggest
 * [VS Code](https://code.visualstudio.com/) (strenuous setup but very powerful IDE) 
 
 ### Minor troubleshooting
-* If you get: "docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container "HASH". You have to remove (or rename) that container to be able to reuse that name.
+* If you get: "docker: Error response from daemon: Conflict. The container name "/ubc_subbots" is already in use by container `DOCKER_HASH`. You have to remove (or rename) that container to be able to reuse that name.
 See 'docker run --help'."
 Run `docker rm ubc_subbots`
 
