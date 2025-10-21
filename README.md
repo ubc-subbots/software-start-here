@@ -77,7 +77,7 @@ If you already run Linux but not Ubuntu 20.04, Docker is also the best option. T
 This option works on any OS and architecture, but demands a performant computer with large RAM size. 
 
 * On x86 (Intel/AMD) computers use any virtual machine software and the [amd64 Ubuntu Desktop image](https://releases.ubuntu.com/focal/ubuntu-20.04.6-desktop-amd64.iso)
-* On ARM Macs, use UTM (free) or Parallels (paid) and the [Ubuntu ARM64 Server image](https://cdimage.ubuntu.com/releases/20.04.5/release/ubuntu-20.04.5-live-server-arm64.iso). After installation, install desktop environment.
+* On ARM Macs, use UTM (free) or Parallels (paid) and the [Ubuntu ARM64 Server image](https://cdimage.ubuntu.com/releases/20.04.5/release/ubuntu-20.04.5-live-server-arm64.iso). After installation, install desktop environment. If using UTM, make sure to set GPU suported Emulated Display Card (e.g. virtio-ramfb-gl) to optimize Gazebo sim.
 
 # After OS Install
 
