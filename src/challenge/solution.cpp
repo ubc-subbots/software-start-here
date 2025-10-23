@@ -22,13 +22,12 @@ public:
 
     // 20 Hz timer
     timer_ = this->create_wall_timer(50ms, std::bind(&TurtleSineNode::timer_callback, this));
-
-    RCLCPP_INFO(this->get_logger(), "🐢 Perfect left-to-right sine wave node started!");
   }
 
 private:
   void spawn_turtle()
   {
+    // Disable drawing for all movements
     auto pen_req = std::make_shared<turtlesim::srv::SetPen::Request>();
     pen_req->off = true;  // disables drawing
     if (pen_client_->wait_for_service(1s)) {
@@ -38,12 +37,10 @@ private:
     auto teleport_req = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
     teleport_req->x = 1.0;
     teleport_req->y = y_center_;
-    teleport_req->theta = -M_PI_4;  // facing southeast (down-right)
+    teleport_req->theta = -M_PI_4;  // facing southeast (down-right), so it travels straight to the right
     if (teleport_client_->wait_for_service(1s)) {
       teleport_client_->async_send_request(teleport_req);
     }
-
-    RCLCPP_INFO(this->get_logger(), "✏️ Pen turned off permanently.");
 
     // Reset state
     x_ = 1.0;
