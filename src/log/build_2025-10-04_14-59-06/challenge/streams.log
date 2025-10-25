@@ -1,0 +1,44 @@
+[0.056s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[0.239s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.307s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.733s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.615s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.654s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.214s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.225s] -- Looking for pthread.h
+[13.885s] -- Looking for pthread.h - found
+[13.888s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.352s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.352s] -- Looking for pthread_create in pthreads
+[14.759s] -- Looking for pthread_create in pthreads - not found
+[14.759s] -- Looking for pthread_create in pthread
+[15.177s] -- Looking for pthread_create in pthread - found
+[15.180s] -- Found Threads: TRUE  
+[15.635s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[15.706s] CMake Error at CMakeLists.txt:33 (add_executable):
+[15.707s]   add_executable cannot create target "solution" because another target with
+[15.707s]   the same name already exists.  The existing target is an executable created
+[15.707s]   in source directory "/home/joseph/software-start-here/src/challenge".  See
+[15.707s]   documentation for policy CMP0002 for more details.
+[15.707s] 
+[15.708s] 
+[15.708s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[15.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.873s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.873s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joseph/software-start-here/src/challenge/include>
+[15.873s] -- Configured cppcheck exclude dirs and/or files: 
+[15.875s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.875s] -- Configured cpplint exclude dirs and/or files: 
+[15.877s] -- Added test 'lint_cmake' to check CMake code style
+[15.880s] -- Added test 'uncrustify' to check C / C++ code style
+[15.880s] -- Configured uncrustify additional arguments: 
+[15.881s] -- Added test 'xmllint' to check XML markup files
+[15.891s] -- Configuring incomplete, errors occurred!
+[15.891s] See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".
+[15.892s] See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeError.log".
+[15.903s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[15.910s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16

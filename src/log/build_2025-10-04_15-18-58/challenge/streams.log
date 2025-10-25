@@ -1,0 +1,17 @@
+[0.023s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[0.101s] [35m[1mScanning dependencies of target solution[0m
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[0.290s] [01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:36:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #message
+[0.291s]    36 |  # [01;31m[Kmessage[m[K.angular.z = amplitude * std::sin(frequency * time_);
+[0.291s]       |    [01;31m[K^~~~~~~[m[K
+[1.724s] [01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid SineWaveTurtle::timer_callback()[m[K’:
+[1.725s] [01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:34:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kamplitude[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.725s]    34 |         double [01;35m[Kamplitude[m[K = 2.0;  // Controls how sharp the curves are
+[1.725s]       |                [01;35m[K^~~~~~~~~[m[K
+[1.725s] [01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:35:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.725s]    35 |         double [01;35m[Kfrequency[m[K = 1.0;  // Controls how often it oscillates
+[1.725s]       |                [01;35m[K^~~~~~~~~[m[K
+[2.752s] make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+[2.753s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+[2.754s] make: *** [Makefile:141: all] Error 2
+[2.759s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16

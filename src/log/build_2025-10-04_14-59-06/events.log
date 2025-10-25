@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.001843] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.001991] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.038617] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.041082] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.043827] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joseph/software-start-here/src/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/joseph/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joseph'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joseph/steelhead/install/steelhead_gate/lib:/home/joseph/steelhead/install/steelhead_vision_utils/lib:/home/joseph/steelhead/install/steelhead_object_recognition/lib:/home/joseph/steelhead/install/steelhead_gazebo/lib:/home/joseph/steelhead/install/steelhead_example/lib:/home/joseph/steelhead/install/steelhead_controls/lib:/home/joseph/steelhead/install/steelhead_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joseph'), ('OLDPWD', '/home/joseph/software-start-here/src/challenge'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joseph/software-start-here/src/install:/home/joseph/steelhead/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joseph'), ('NAME', 'Joe'), ('WSL_INTEROP', '/run/WSL/25528_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/joseph/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/winfetch:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Users/josep/.pyenv/pyenv-win/bin:/mnt/c/Users/josep/.pyenv/pyenv-win/shims:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josep/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josep/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josep/AppData/Roaming/npm:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/joseph/software-start-here/src/build/challenge'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joseph/steelhead/install/steelhead_teleop/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_pipeline/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_gazebo/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_controls/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_interfaces/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.099516] (-) TimerEvent: {}
+[0.200332] (-) TimerEvent: {}
+[0.240998] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.300572] (-) TimerEvent: {}
+[0.309018] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400915] (-) TimerEvent: {}
+[0.501486] (-) TimerEvent: {}
+[0.602279] (-) TimerEvent: {}
+[0.702745] (-) TimerEvent: {}
+[0.734559] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.802955] (-) TimerEvent: {}
+[0.903496] (-) TimerEvent: {}
+[1.004037] (-) TimerEvent: {}
+[1.104525] (-) TimerEvent: {}
+[1.205068] (-) TimerEvent: {}
+[1.293639] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.305277] (-) TimerEvent: {}
+[1.328033] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.405471] (-) TimerEvent: {}
+[1.505967] (-) TimerEvent: {}
+[1.606636] (-) TimerEvent: {}
+[1.707303] (-) TimerEvent: {}
+[1.808029] (-) TimerEvent: {}
+[1.908625] (-) TimerEvent: {}
+[2.009357] (-) TimerEvent: {}
+[2.109847] (-) TimerEvent: {}
+[2.210341] (-) TimerEvent: {}
+[2.310832] (-) TimerEvent: {}
+[2.411441] (-) TimerEvent: {}
+[2.511907] (-) TimerEvent: {}
+[2.612372] (-) TimerEvent: {}
+[2.712900] (-) TimerEvent: {}
+[2.813413] (-) TimerEvent: {}
+[2.913925] (-) TimerEvent: {}
+[3.014409] (-) TimerEvent: {}
+[3.114882] (-) TimerEvent: {}
+[3.215393] (-) TimerEvent: {}
+[3.315888] (-) TimerEvent: {}
+[3.416434] (-) TimerEvent: {}
+[3.517072] (-) TimerEvent: {}
+[3.617585] (-) TimerEvent: {}
+[3.718209] (-) TimerEvent: {}
+[3.818787] (-) TimerEvent: {}
+[3.919358] (-) TimerEvent: {}
+[4.019861] (-) TimerEvent: {}
+[4.120357] (-) TimerEvent: {}
+[4.220907] (-) TimerEvent: {}
+[4.321727] (-) TimerEvent: {}
+[4.422416] (-) TimerEvent: {}
+[4.522902] (-) TimerEvent: {}
+[4.616439] (challenge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.623165] (-) TimerEvent: {}
+[4.723758] (-) TimerEvent: {}
+[4.824423] (-) TimerEvent: {}
+[4.925158] (-) TimerEvent: {}
+[5.025674] (-) TimerEvent: {}
+[5.126223] (-) TimerEvent: {}
+[5.226711] (-) TimerEvent: {}
+[5.327286] (-) TimerEvent: {}
+[5.427849] (-) TimerEvent: {}
+[5.528364] (-) TimerEvent: {}
+[5.628929] (-) TimerEvent: {}
+[5.729488] (-) TimerEvent: {}
+[5.830007] (-) TimerEvent: {}
+[5.930712] (-) TimerEvent: {}
+[6.031372] (-) TimerEvent: {}
+[6.131908] (-) TimerEvent: {}
+[6.232745] (-) TimerEvent: {}
+[6.333467] (-) TimerEvent: {}
+[6.433995] (-) TimerEvent: {}
+[6.534493] (-) TimerEvent: {}
+[6.634991] (-) TimerEvent: {}
+[6.735465] (-) TimerEvent: {}
+[6.835947] (-) TimerEvent: {}
+[6.936523] (-) TimerEvent: {}
+[7.037206] (-) TimerEvent: {}
+[7.137816] (-) TimerEvent: {}
+[7.238284] (-) TimerEvent: {}
+[7.338785] (-) TimerEvent: {}
+[7.439483] (-) TimerEvent: {}
+[7.540048] (-) TimerEvent: {}
+[7.640694] (-) TimerEvent: {}
+[7.656328] (challenge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.741045] (-) TimerEvent: {}
+[7.841619] (-) TimerEvent: {}
+[7.942160] (-) TimerEvent: {}
+[8.042642] (-) TimerEvent: {}
+[8.143108] (-) TimerEvent: {}
+[8.243597] (-) TimerEvent: {}
+[8.344114] (-) TimerEvent: {}
+[8.444658] (-) TimerEvent: {}
+[8.545200] (-) TimerEvent: {}
+[8.645706] (-) TimerEvent: {}
+[8.746205] (-) TimerEvent: {}
+[8.846700] (-) TimerEvent: {}
+[8.947272] (-) TimerEvent: {}
+[9.047824] (-) TimerEvent: {}
+[9.148311] (-) TimerEvent: {}
+[9.248955] (-) TimerEvent: {}
+[9.349477] (-) TimerEvent: {}
+[9.450026] (-) TimerEvent: {}
+[9.550652] (-) TimerEvent: {}
+[9.651166] (-) TimerEvent: {}
+[9.751651] (-) TimerEvent: {}
+[9.852186] (-) TimerEvent: {}
+[9.952679] (-) TimerEvent: {}
+[10.053276] (-) TimerEvent: {}
+[10.153776] (-) TimerEvent: {}
+[10.254412] (-) TimerEvent: {}
+[10.354884] (-) TimerEvent: {}
+[10.455462] (-) TimerEvent: {}
+[10.556199] (-) TimerEvent: {}
+[10.656803] (-) TimerEvent: {}
+[10.757367] (-) TimerEvent: {}
+[10.857847] (-) TimerEvent: {}
+[10.958389] (-) TimerEvent: {}
+[11.058871] (-) TimerEvent: {}
+[11.159347] (-) TimerEvent: {}
+[11.259847] (-) TimerEvent: {}
+[11.360363] (-) TimerEvent: {}
+[11.460890] (-) TimerEvent: {}
+[11.561365] (-) TimerEvent: {}
+[11.661830] (-) TimerEvent: {}
+[11.762291] (-) TimerEvent: {}
+[11.862846] (-) TimerEvent: {}
+[11.963351] (-) TimerEvent: {}
+[12.063878] (-) TimerEvent: {}
+[12.164380] (-) TimerEvent: {}
+[12.264941] (-) TimerEvent: {}
+[12.365465] (-) TimerEvent: {}
+[12.465974] (-) TimerEvent: {}
+[12.566511] (-) TimerEvent: {}
+[12.667046] (-) TimerEvent: {}
+[12.767667] (-) TimerEvent: {}
+[12.868143] (-) TimerEvent: {}
+[12.968656] (-) TimerEvent: {}
+[13.061832] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.068915] (-) TimerEvent: {}
+[13.169452] (-) TimerEvent: {}
+[13.215548] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[13.221760] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.227221] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.269690] (-) TimerEvent: {}
+[13.370341] (-) TimerEvent: {}
+[13.470873] (-) TimerEvent: {}
+[13.571392] (-) TimerEvent: {}
+[13.671847] (-) TimerEvent: {}
+[13.772343] (-) TimerEvent: {}
+[13.872960] (-) TimerEvent: {}
+[13.887088] (challenge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.889503] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.973161] (-) TimerEvent: {}
+[14.073747] (-) TimerEvent: {}
+[14.174232] (-) TimerEvent: {}
+[14.274725] (-) TimerEvent: {}
+[14.353592] (challenge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[14.354023] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[14.374896] (-) TimerEvent: {}
+[14.475408] (-) TimerEvent: {}
+[14.575865] (-) TimerEvent: {}
+[14.676332] (-) TimerEvent: {}
+[14.760976] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[14.761384] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[14.776548] (-) TimerEvent: {}
+[14.877083] (-) TimerEvent: {}
+[14.977556] (-) TimerEvent: {}
+[15.078137] (-) TimerEvent: {}
+[15.178643] (-) TimerEvent: {}
+[15.179175] (challenge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.181686] (challenge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.278830] (-) TimerEvent: {}
+[15.379300] (-) TimerEvent: {}
+[15.479809] (-) TimerEvent: {}
+[15.580416] (-) TimerEvent: {}
+[15.637077] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[15.680650] (-) TimerEvent: {}
+[15.707779] (challenge) StderrLine: {'line': b'CMake Error at CMakeLists.txt:33 (add_executable):\n'}
+[15.708545] (challenge) StderrLine: {'line': b'  add_executable cannot create target "solution" because another target with\n'}
+[15.708675] (challenge) StderrLine: {'line': b'  the same name already exists.  The existing target is an executable created\n'}
+[15.708763] (challenge) StderrLine: {'line': b'  in source directory "/home/joseph/software-start-here/src/challenge".  See\n'}
+[15.709004] (challenge) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[15.709149] (challenge) StderrLine: {'line': b'\n'}
+[15.709467] (challenge) StderrLine: {'line': b'\n'}
+[15.709908] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[15.781082] (-) TimerEvent: {}
+[15.871259] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.874270] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.874741] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joseph/software-start-here/src/challenge/include>\n'}
+[15.874956] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.876496] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[15.876650] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[15.878879] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.881260] (-) TimerEvent: {}
+[15.881737] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.881965] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.883241] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.892537] (challenge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.893296] (challenge) StdoutLine: {'line': b'See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".\n'}
+[15.893646] (challenge) StdoutLine: {'line': b'See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeError.log".\n'}
+[15.904641] (challenge) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[15.911574] (challenge) CommandEnded: {'returncode': 2}
+[15.957540] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 2}
+[15.969262] (-) EventReactorShutdown: {}

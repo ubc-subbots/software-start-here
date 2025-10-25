@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:33 (add_executable):
+  add_executable cannot create target "solution" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/joseph/software-start-here/src/challenge".  See
+  documentation for policy CMP0002 for more details.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

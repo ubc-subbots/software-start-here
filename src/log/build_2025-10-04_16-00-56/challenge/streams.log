@@ -1,0 +1,26 @@
+[0.065s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[0.508s] [35m[1mScanning dependencies of target solution[0m
+[0.655s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[8.247s] [100%] [32m[1mLinking CXX executable solution[0m
+[8.850s] [100%] Built target solution
+[8.894s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[8.927s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge
+[8.952s] -- Install configuration: ""
+[8.953s] -- Installing: /home/joseph/software-start-here/src/install/challenge/lib/challenge/solution
+[8.956s] -- Set runtime path of "/home/joseph/software-start-here/src/install/challenge/lib/challenge/solution" to ""
+[8.956s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[8.957s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[8.958s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[8.958s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[8.958s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[8.958s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv
+[8.959s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[8.959s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[8.959s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[8.959s] -- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.xml
+[8.968s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge

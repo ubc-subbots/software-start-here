@@ -1,0 +1,130 @@
+[1.487s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.487s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e52212d16d0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e52212d16d0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e5221233160>)
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.060s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joseph/software-start-here/src'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['ignore', 'ignore_ament_install']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ignore'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ignore_ament_install'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['colcon_pkg']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'colcon_pkg'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['colcon_meta']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'colcon_meta'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extensions ['ros']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(challenge) by extension 'ros'
+[2.120s] DEBUG:colcon.colcon_core.package_identification:Package 'challenge' with type 'ros.ament_cmake' and name 'challenge'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/joseph/software-start-here/src/install
+[2.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/joseph/steelhead/install
+[2.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/foxy
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_args' from command line to 'None'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_target' from command line to 'None'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.561s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_clean_first' from command line to 'False'
+[2.562s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'cmake_force_configure' from command line to 'False'
+[2.562s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'ament_cmake_args' from command line to 'None'
+[2.562s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.562s] Level 5:colcon.colcon_core.verb:set package 'challenge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.562s] DEBUG:colcon.colcon_core.verb:Building package 'challenge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joseph/software-start-here/src/build/challenge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joseph/software-start-here/src/install/challenge', 'merge_install': False, 'path': '/home/joseph/software-start-here/src/challenge', 'symlink_install': False, 'test_result_base': None}
+[2.562s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joseph/software-start-here/src/challenge' with build type 'ament_cmake'
+[2.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joseph/software-start-here/src/challenge'
+[2.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.580s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.580s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[10.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[10.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge
+[10.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge)
+[10.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge
+[10.571s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge' for CMake module files
+[10.572s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge' for CMake config files
+[10.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge', 'cmake_prefix_path')
+[10.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.ps1'
+[10.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.dsv'
+[10.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.sh'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/bin'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib/pkgconfig/challenge.pc'
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib/python3.8/site-packages'
+[10.582s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/bin'
+[10.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.ps1'
+[10.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv'
+[10.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.sh'
+[10.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.bash'
+[10.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.zsh'
+[10.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joseph/software-start-here/src/install/challenge/share/colcon-core/packages/challenge)
+[10.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge)
+[10.592s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge' for CMake module files
+[10.593s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge' for CMake config files
+[10.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge', 'cmake_prefix_path')
+[10.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.ps1'
+[10.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.dsv'
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joseph/software-start-here/src/install/challenge/share/challenge/hook/cmake_prefix_path.sh'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/bin'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib/pkgconfig/challenge.pc'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/lib/python3.8/site-packages'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/joseph/software-start-here/src/install/challenge/bin'
+[10.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.ps1'
+[10.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv'
+[10.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.sh'
+[10.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.bash'
+[10.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/joseph/software-start-here/src/install/challenge/share/challenge/package.zsh'
+[10.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joseph/software-start-here/src/install/challenge/share/colcon-core/packages/challenge)
+[10.601s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.604s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.708s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.711s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.711s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joseph/software-start-here/src/install/local_setup.ps1'
+[10.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joseph/software-start-here/src/install/_local_setup_util_ps1.py'
+[10.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joseph/software-start-here/src/install/setup.ps1'
+[10.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joseph/software-start-here/src/install/local_setup.sh'
+[10.720s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joseph/software-start-here/src/install/_local_setup_util_sh.py'
+[10.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joseph/software-start-here/src/install/setup.sh'
+[10.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joseph/software-start-here/src/install/local_setup.bash'
+[10.724s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joseph/software-start-here/src/install/setup.bash'
+[10.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joseph/software-start-here/src/install/local_setup.zsh'
+[10.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joseph/software-start-here/src/install/setup.zsh'

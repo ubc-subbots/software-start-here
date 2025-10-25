@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.001015] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.003868] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.048723] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.052444] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.055869] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joseph/software-start-here/src/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/joseph/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joseph'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joseph/steelhead/install/steelhead_gate/lib:/home/joseph/steelhead/install/steelhead_vision_utils/lib:/home/joseph/steelhead/install/steelhead_object_recognition/lib:/home/joseph/steelhead/install/steelhead_gazebo/lib:/home/joseph/steelhead/install/steelhead_example/lib:/home/joseph/steelhead/install/steelhead_controls/lib:/home/joseph/steelhead/install/steelhead_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joseph'), ('OLDPWD', '/home/joseph/software-start-here/src/challenge'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joseph/software-start-here/src/install:/home/joseph/steelhead/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joseph'), ('NAME', 'Joe'), ('WSL_INTEROP', '/run/WSL/25528_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/joseph/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/winfetch:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Users/josep/.pyenv/pyenv-win/bin:/mnt/c/Users/josep/.pyenv/pyenv-win/shims:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josep/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josep/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josep/AppData/Roaming/npm:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/joseph/software-start-here/src/build/challenge'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joseph/steelhead/install/steelhead_teleop/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_pipeline/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_gazebo/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_controls/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_interfaces/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.099679] (-) TimerEvent: {}
+[0.200399] (-) TimerEvent: {}
+[0.301059] (-) TimerEvent: {}
+[0.401651] (-) TimerEvent: {}
+[0.436929] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[0.501872] (-) TimerEvent: {}
+[0.539936] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[0.602098] (-) TimerEvent: {}
+[0.702704] (-) TimerEvent: {}
+[0.803250] (-) TimerEvent: {}
+[0.903975] (-) TimerEvent: {}
+[1.004560] (-) TimerEvent: {}
+[1.105140] (-) TimerEvent: {}
+[1.205661] (-) TimerEvent: {}
+[1.306214] (-) TimerEvent: {}
+[1.406807] (-) TimerEvent: {}
+[1.507373] (-) TimerEvent: {}
+[1.607875] (-) TimerEvent: {}
+[1.708507] (-) TimerEvent: {}
+[1.809059] (-) TimerEvent: {}
+[1.909563] (-) TimerEvent: {}
+[2.010154] (-) TimerEvent: {}
+[2.110836] (-) TimerEvent: {}
+[2.211317] (-) TimerEvent: {}
+[2.311833] (-) TimerEvent: {}
+[2.412485] (-) TimerEvent: {}
+[2.513089] (-) TimerEvent: {}
+[2.613604] (-) TimerEvent: {}
+[2.714379] (-) TimerEvent: {}
+[2.815255] (-) TimerEvent: {}
+[2.915824] (-) TimerEvent: {}
+[3.016411] (-) TimerEvent: {}
+[3.116911] (-) TimerEvent: {}
+[3.217543] (-) TimerEvent: {}
+[3.318121] (-) TimerEvent: {}
+[3.418980] (-) TimerEvent: {}
+[3.519727] (-) TimerEvent: {}
+[3.620548] (-) TimerEvent: {}
+[3.721289] (-) TimerEvent: {}
+[3.822005] (-) TimerEvent: {}
+[3.922709] (-) TimerEvent: {}
+[4.023419] (-) TimerEvent: {}
+[4.124073] (-) TimerEvent: {}
+[4.224661] (-) TimerEvent: {}
+[4.325208] (-) TimerEvent: {}
+[4.425903] (-) TimerEvent: {}
+[4.526744] (-) TimerEvent: {}
+[4.627247] (-) TimerEvent: {}
+[4.727775] (-) TimerEvent: {}
+[4.828339] (-) TimerEvent: {}
+[4.929014] (-) TimerEvent: {}
+[5.029837] (-) TimerEvent: {}
+[5.130473] (-) TimerEvent: {}
+[5.231387] (-) TimerEvent: {}
+[5.332109] (-) TimerEvent: {}
+[5.432801] (-) TimerEvent: {}
+[5.533621] (-) TimerEvent: {}
+[5.634202] (-) TimerEvent: {}
+[5.734870] (-) TimerEvent: {}
+[5.835478] (-) TimerEvent: {}
+[5.935930] (-) TimerEvent: {}
+[6.036535] (-) TimerEvent: {}
+[6.137294] (-) TimerEvent: {}
+[6.238158] (-) TimerEvent: {}
+[6.338610] (-) TimerEvent: {}
+[6.439198] (-) TimerEvent: {}
+[6.539908] (-) TimerEvent: {}
+[6.640412] (-) TimerEvent: {}
+[6.740843] (-) TimerEvent: {}
+[6.841379] (-) TimerEvent: {}
+[6.941858] (-) TimerEvent: {}
+[7.042452] (-) TimerEvent: {}
+[7.143063] (-) TimerEvent: {}
+[7.243534] (-) TimerEvent: {}
+[7.330020] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[7.343789] (-) TimerEvent: {}
+[7.444401] (-) TimerEvent: {}
+[7.544991] (-) TimerEvent: {}
+[7.645504] (-) TimerEvent: {}
+[7.746138] (-) TimerEvent: {}
+[7.846755] (-) TimerEvent: {}
+[7.898591] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[7.926960] (challenge) CommandEnded: {'returncode': 0}
+[7.933017] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[7.947068] (-) TimerEvent: {}
+[7.957693] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joseph/software-start-here/src/build/challenge'], 'cwd': '/home/joseph/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joseph'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joseph/steelhead/install/steelhead_gate/lib:/home/joseph/steelhead/install/steelhead_vision_utils/lib:/home/joseph/steelhead/install/steelhead_object_recognition/lib:/home/joseph/steelhead/install/steelhead_gazebo/lib:/home/joseph/steelhead/install/steelhead_example/lib:/home/joseph/steelhead/install/steelhead_controls/lib:/home/joseph/steelhead/install/steelhead_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joseph'), ('OLDPWD', '/home/joseph/software-start-here/src/challenge'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joseph/software-start-here/src/install:/home/joseph/steelhead/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joseph'), ('NAME', 'Joe'), ('WSL_INTEROP', '/run/WSL/25528_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/joseph/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/winfetch:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Users/josep/.pyenv/pyenv-win/bin:/mnt/c/Users/josep/.pyenv/pyenv-win/shims:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josep/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josep/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josep/AppData/Roaming/npm:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/joseph/software-start-here/src/build/challenge'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joseph/steelhead/install/steelhead_teleop/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_pipeline/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_gazebo/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_controls/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_interfaces/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[7.978988] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.980810] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/lib/challenge/solution\n'}
+[7.983228] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/joseph/software-start-here/src/install/challenge/lib/challenge/solution" to ""\n'}
+[7.983904] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[7.984304] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[7.984623] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[7.984958] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[7.985281] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.sh\n'}
+[7.985568] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.dsv\n'}
+[7.985797] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.bash\n'}
+[7.986276] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.sh\n'}
+[7.986921] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.zsh\n'}
+[7.987143] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.dsv\n'}
+[7.987226] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv\n'}
+[7.987292] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[7.987358] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[7.987420] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[7.987481] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.xml\n'}
+[7.992067] (challenge) CommandEnded: {'returncode': 0}
+[8.037895] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[8.040852] (-) EventReactorShutdown: {}

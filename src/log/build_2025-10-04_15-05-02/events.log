@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (challenge) JobQueued: {'identifier': 'challenge', 'dependencies': OrderedDict()}
+[0.002136] (challenge) JobStarted: {'identifier': 'challenge'}
+[0.038809] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'cmake'}
+[0.041141] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'build'}
+[0.042762] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joseph/software-start-here/src/build/challenge', '--', '-j16', '-l16'], 'cwd': '/home/joseph/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joseph'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joseph/steelhead/install/steelhead_gate/lib:/home/joseph/steelhead/install/steelhead_vision_utils/lib:/home/joseph/steelhead/install/steelhead_object_recognition/lib:/home/joseph/steelhead/install/steelhead_gazebo/lib:/home/joseph/steelhead/install/steelhead_example/lib:/home/joseph/steelhead/install/steelhead_controls/lib:/home/joseph/steelhead/install/steelhead_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joseph'), ('OLDPWD', '/home/joseph/software-start-here/src/challenge'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joseph/software-start-here/src/install:/home/joseph/steelhead/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joseph'), ('NAME', 'Joe'), ('WSL_INTEROP', '/run/WSL/25528_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/joseph/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/winfetch:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Users/josep/.pyenv/pyenv-win/bin:/mnt/c/Users/josep/.pyenv/pyenv-win/shims:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josep/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josep/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josep/AppData/Roaming/npm:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/joseph/software-start-here/src/build/challenge'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joseph/steelhead/install/steelhead_teleop/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_pipeline/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_gazebo/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_controls/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_interfaces/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.099411] (-) TimerEvent: {}
+[0.200035] (-) TimerEvent: {}
+[0.225621] (challenge) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.283333] (challenge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300267] (-) TimerEvent: {}
+[0.400845] (-) TimerEvent: {}
+[0.501589] (-) TimerEvent: {}
+[0.602171] (-) TimerEvent: {}
+[0.702858] (-) TimerEvent: {}
+[0.803428] (challenge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.803680] (-) TimerEvent: {}
+[0.904072] (-) TimerEvent: {}
+[1.004643] (-) TimerEvent: {}
+[1.105162] (-) TimerEvent: {}
+[1.205705] (-) TimerEvent: {}
+[1.299253] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.305930] (-) TimerEvent: {}
+[1.312253] (challenge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.406119] (-) TimerEvent: {}
+[1.506625] (-) TimerEvent: {}
+[1.607152] (-) TimerEvent: {}
+[1.707628] (-) TimerEvent: {}
+[1.808131] (-) TimerEvent: {}
+[1.908657] (-) TimerEvent: {}
+[2.009183] (-) TimerEvent: {}
+[2.109662] (-) TimerEvent: {}
+[2.210426] (-) TimerEvent: {}
+[2.310991] (-) TimerEvent: {}
+[2.411493] (-) TimerEvent: {}
+[2.512022] (-) TimerEvent: {}
+[2.612500] (-) TimerEvent: {}
+[2.713148] (-) TimerEvent: {}
+[2.813769] (-) TimerEvent: {}
+[2.914447] (-) TimerEvent: {}
+[3.015003] (-) TimerEvent: {}
+[3.115603] (-) TimerEvent: {}
+[3.216094] (-) TimerEvent: {}
+[3.316638] (-) TimerEvent: {}
+[3.417154] (-) TimerEvent: {}
+[3.517761] (-) TimerEvent: {}
+[3.618434] (-) TimerEvent: {}
+[3.718927] (-) TimerEvent: {}
+[3.819396] (-) TimerEvent: {}
+[3.919935] (-) TimerEvent: {}
+[4.020666] (-) TimerEvent: {}
+[4.121232] (-) TimerEvent: {}
+[4.221736] (-) TimerEvent: {}
+[4.322319] (-) TimerEvent: {}
+[4.422794] (-) TimerEvent: {}
+[4.523341] (-) TimerEvent: {}
+[4.623915] (-) TimerEvent: {}
+[4.724408] (-) TimerEvent: {}
+[4.825067] (-) TimerEvent: {}
+[4.925639] (-) TimerEvent: {}
+[5.026137] (-) TimerEvent: {}
+[5.126627] (-) TimerEvent: {}
+[5.227115] (-) TimerEvent: {}
+[5.327596] (-) TimerEvent: {}
+[5.428105] (-) TimerEvent: {}
+[5.528691] (-) TimerEvent: {}
+[5.629183] (-) TimerEvent: {}
+[5.729725] (-) TimerEvent: {}
+[5.830333] (-) TimerEvent: {}
+[5.930842] (-) TimerEvent: {}
+[6.031471] (-) TimerEvent: {}
+[6.131947] (-) TimerEvent: {}
+[6.232493] (-) TimerEvent: {}
+[6.333020] (-) TimerEvent: {}
+[6.433526] (-) TimerEvent: {}
+[6.534042] (-) TimerEvent: {}
+[6.634560] (-) TimerEvent: {}
+[6.735100] (-) TimerEvent: {}
+[6.835623] (-) TimerEvent: {}
+[6.936101] (-) TimerEvent: {}
+[7.036628] (-) TimerEvent: {}
+[7.137152] (-) TimerEvent: {}
+[7.237623] (-) TimerEvent: {}
+[7.338110] (-) TimerEvent: {}
+[7.438618] (-) TimerEvent: {}
+[7.539149] (-) TimerEvent: {}
+[7.639627] (-) TimerEvent: {}
+[7.740125] (-) TimerEvent: {}
+[7.840680] (-) TimerEvent: {}
+[7.941184] (-) TimerEvent: {}
+[8.041695] (-) TimerEvent: {}
+[8.142164] (-) TimerEvent: {}
+[8.242624] (-) TimerEvent: {}
+[8.343115] (-) TimerEvent: {}
+[8.443671] (-) TimerEvent: {}
+[8.544250] (-) TimerEvent: {}
+[8.645123] (-) TimerEvent: {}
+[8.745832] (-) TimerEvent: {}
+[8.846354] (-) TimerEvent: {}
+[8.946863] (-) TimerEvent: {}
+[9.047489] (-) TimerEvent: {}
+[9.148099] (-) TimerEvent: {}
+[9.248864] (-) TimerEvent: {}
+[9.349368] (-) TimerEvent: {}
+[9.449934] (-) TimerEvent: {}
+[9.550589] (-) TimerEvent: {}
+[9.651094] (-) TimerEvent: {}
+[9.751598] (-) TimerEvent: {}
+[9.852100] (-) TimerEvent: {}
+[9.952648] (-) TimerEvent: {}
+[10.053211] (-) TimerEvent: {}
+[10.153689] (-) TimerEvent: {}
+[10.254221] (-) TimerEvent: {}
+[10.354823] (-) TimerEvent: {}
+[10.455310] (-) TimerEvent: {}
+[10.555889] (-) TimerEvent: {}
+[10.656443] (-) TimerEvent: {}
+[10.757043] (-) TimerEvent: {}
+[10.857592] (-) TimerEvent: {}
+[10.958120] (-) TimerEvent: {}
+[11.058628] (-) TimerEvent: {}
+[11.159084] (-) TimerEvent: {}
+[11.259683] (-) TimerEvent: {}
+[11.360374] (-) TimerEvent: {}
+[11.461123] (-) TimerEvent: {}
+[11.561735] (-) TimerEvent: {}
+[11.662254] (-) TimerEvent: {}
+[11.762793] (-) TimerEvent: {}
+[11.782963] (challenge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.862972] (-) TimerEvent: {}
+[11.905368] (challenge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.916759] (challenge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.963199] (-) TimerEvent: {}
+[12.063729] (-) TimerEvent: {}
+[12.164454] (-) TimerEvent: {}
+[12.217521] (challenge) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[12.264685] (-) TimerEvent: {}
+[12.286333] (challenge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[12.364894] (-) TimerEvent: {}
+[12.452897] (challenge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.457546] (challenge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.458295] (challenge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joseph/software-start-here/src/challenge/include>\n'}
+[12.458543] (challenge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.460656] (challenge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.460909] (challenge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.463390] (challenge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.465180] (-) TimerEvent: {}
+[12.466763] (challenge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.467077] (challenge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.468306] (challenge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.477796] (challenge) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.507563] (challenge) StdoutLine: {'line': b'-- Generating done\n'}
+[12.519155] (challenge) StdoutLine: {'line': b'-- Build files have been written to: /home/joseph/software-start-here/src/build/challenge\n'}
+[12.565436] (-) TimerEvent: {}
+[12.606612] (challenge) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target solution\x1b[0m\n'}
+[12.642193] (challenge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[12.665639] (-) TimerEvent: {}
+[12.766164] (-) TimerEvent: {}
+[12.866684] (-) TimerEvent: {}
+[12.967203] (-) TimerEvent: {}
+[13.067812] (-) TimerEvent: {}
+[13.168459] (-) TimerEvent: {}
+[13.269261] (-) TimerEvent: {}
+[13.369747] (-) TimerEvent: {}
+[13.470374] (-) TimerEvent: {}
+[13.571059] (-) TimerEvent: {}
+[13.671780] (-) TimerEvent: {}
+[13.772704] (-) TimerEvent: {}
+[13.873490] (-) TimerEvent: {}
+[13.974099] (-) TimerEvent: {}
+[14.074648] (-) TimerEvent: {}
+[14.175326] (-) TimerEvent: {}
+[14.276125] (-) TimerEvent: {}
+[14.377007] (-) TimerEvent: {}
+[14.477566] (-) TimerEvent: {}
+[14.578179] (-) TimerEvent: {}
+[14.678821] (-) TimerEvent: {}
+[14.779620] (-) TimerEvent: {}
+[14.880257] (-) TimerEvent: {}
+[14.981251] (-) TimerEvent: {}
+[15.081801] (-) TimerEvent: {}
+[15.182338] (-) TimerEvent: {}
+[15.282948] (-) TimerEvent: {}
+[15.383647] (-) TimerEvent: {}
+[15.484293] (-) TimerEvent: {}
+[15.585286] (-) TimerEvent: {}
+[15.686289] (-) TimerEvent: {}
+[15.787178] (-) TimerEvent: {}
+[15.888004] (-) TimerEvent: {}
+[15.988741] (-) TimerEvent: {}
+[16.089369] (-) TimerEvent: {}
+[16.190111] (-) TimerEvent: {}
+[16.290863] (-) TimerEvent: {}
+[16.391555] (-) TimerEvent: {}
+[16.492205] (-) TimerEvent: {}
+[16.592883] (-) TimerEvent: {}
+[16.693628] (-) TimerEvent: {}
+[16.794377] (-) TimerEvent: {}
+[16.895180] (-) TimerEvent: {}
+[16.995875] (-) TimerEvent: {}
+[17.096487] (-) TimerEvent: {}
+[17.197526] (-) TimerEvent: {}
+[17.298122] (-) TimerEvent: {}
+[17.398662] (-) TimerEvent: {}
+[17.499299] (-) TimerEvent: {}
+[17.599889] (-) TimerEvent: {}
+[17.700672] (-) TimerEvent: {}
+[17.801372] (-) TimerEvent: {}
+[17.902145] (-) TimerEvent: {}
+[18.002708] (-) TimerEvent: {}
+[18.103348] (-) TimerEvent: {}
+[18.203998] (-) TimerEvent: {}
+[18.304658] (-) TimerEvent: {}
+[18.405327] (-) TimerEvent: {}
+[18.505943] (-) TimerEvent: {}
+[18.606577] (-) TimerEvent: {}
+[18.707113] (-) TimerEvent: {}
+[18.807742] (-) TimerEvent: {}
+[18.908317] (-) TimerEvent: {}
+[18.973455] (challenge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[19.008722] (-) TimerEvent: {}
+[19.109362] (-) TimerEvent: {}
+[19.209897] (-) TimerEvent: {}
+[19.310457] (-) TimerEvent: {}
+[19.411112] (-) TimerEvent: {}
+[19.511658] (-) TimerEvent: {}
+[19.612182] (-) TimerEvent: {}
+[19.712700] (-) TimerEvent: {}
+[19.735753] (challenge) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[19.787081] (challenge) CommandEnded: {'returncode': 0}
+[19.792467] (challenge) JobProgress: {'identifier': 'challenge', 'progress': 'install'}
+[19.813011] (-) TimerEvent: {}
+[19.822854] (challenge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joseph/software-start-here/src/build/challenge'], 'cwd': '/home/joseph/software-start-here/src/build/challenge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joseph'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joseph/steelhead/install/steelhead_gate/lib:/home/joseph/steelhead/install/steelhead_vision_utils/lib:/home/joseph/steelhead/install/steelhead_object_recognition/lib:/home/joseph/steelhead/install/steelhead_gazebo/lib:/home/joseph/steelhead/install/steelhead_example/lib:/home/joseph/steelhead/install/steelhead_controls/lib:/home/joseph/steelhead/install/steelhead_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/joseph'), ('OLDPWD', '/home/joseph/software-start-here/src/challenge'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/joseph/software-start-here/src/install:/home/joseph/steelhead/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joseph'), ('NAME', 'Joe'), ('WSL_INTEROP', '/run/WSL/25528_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/joseph/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/winfetch:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/NetSarang/Xmanager 7/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files (x86)/NetSarang/Xftp 7/:/mnt/c/Program Files (x86)/NetSarang/Xlpd 7/:/mnt/c/Users/josep/.pyenv/pyenv-win/bin:/mnt/c/Users/josep/.pyenv/pyenv-win/shims:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/josep/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/josep/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/josep/AppData/Roaming/npm:/mnt/c/Users/josep/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '67'), ('AMENT_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/joseph/software-start-here/src/build/challenge'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joseph/steelhead/install/steelhead_teleop/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_pipeline/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_gazebo/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_controls/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_interfaces/lib/python3.8/site-packages:/home/joseph/steelhead/install/steelhead_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/joseph/software-start-here/src/install/challenge:/home/joseph/steelhead/install/steelhead_gate:/home/joseph/steelhead/install/steelhead_vision_utils:/home/joseph/steelhead/install/steelhead_pid_controller:/home/joseph/steelhead/install/steelhead_object_recognition:/home/joseph/steelhead/install/steelhead_gazebo:/home/joseph/steelhead/install/steelhead_example:/home/joseph/steelhead/install/steelhead_controls:/home/joseph/steelhead/install/steelhead_interfaces:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[19.849164] (challenge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.851050] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/lib/challenge/solution\n'}
+[19.854181] (challenge) StdoutLine: {'line': b'-- Set runtime path of "/home/joseph/software-start-here/src/install/challenge/lib/challenge/solution" to ""\n'}
+[19.854528] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge\n'}
+[19.856158] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge\n'}
+[19.857401] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh\n'}
+[19.857640] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv\n'}
+[19.858571] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.sh\n'}
+[19.858757] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.dsv\n'}
+[19.859312] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.bash\n'}
+[19.859666] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.sh\n'}
+[19.859941] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.zsh\n'}
+[19.860395] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.dsv\n'}
+[19.860790] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv\n'}
+[19.861508] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge\n'}
+[19.861947] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake\n'}
+[19.862056] (challenge) StdoutLine: {'line': b'-- Up-to-date: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake\n'}
+[19.862143] (challenge) StdoutLine: {'line': b'-- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.xml\n'}
+[19.869557] (challenge) CommandEnded: {'returncode': 0}
+[19.913471] (-) TimerEvent: {}
+[19.919608] (challenge) JobEnded: {'identifier': 'challenge', 'rc': 0}
+[19.921413] (-) EventReactorShutdown: {}

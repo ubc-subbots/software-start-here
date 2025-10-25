@@ -1,0 +1,16 @@
+/home/joseph/software-start-here/src/install/challenge/lib/challenge/solution
+/home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+/home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+/home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+/home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+/home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+/home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+/home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+/home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+/home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+/home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+/home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv
+/home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+/home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+/home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+/home/joseph/software-start-here/src/install/challenge/share/challenge/package.xml

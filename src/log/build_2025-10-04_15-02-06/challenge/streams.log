@@ -1,0 +1,21 @@
+[0.054s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[0.275s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.757s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.322s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.255s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.262s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.566s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[10.639s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[10.639s]   ament_target_dependencies() the first argument must be a valid target name
+[10.639s] Call Stack (most recent call first):
+[10.640s]   CMakeLists.txt:9 (ament_target_dependencies)
+[10.640s] 
+[10.640s] 
+[10.643s] -- Configuring incomplete, errors occurred!
+[10.643s] See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeOutput.log".
+[10.643s] See also "/home/joseph/software-start-here/src/build/challenge/CMakeFiles/CMakeError.log".
+[10.674s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[10.683s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16

@@ -1,0 +1,58 @@
+[0.059s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake /home/joseph/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/joseph/software-start-here/src/install/challenge
+[1.038s] -- The C compiler identification is GNU 9.4.0
+[1.907s] -- The CXX compiler identification is GNU 9.4.0
+[2.248s] -- Check for working C compiler: /usr/bin/cc
+[2.699s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.703s] -- Detecting C compiler ABI info
+[3.116s] -- Detecting C compiler ABI info - done
+[3.135s] -- Detecting C compile features
+[3.136s] -- Detecting C compile features - done
+[3.142s] -- Check for working CXX compiler: /usr/bin/c++
+[3.594s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.595s] -- Detecting CXX compiler ABI info
+[4.047s] -- Detecting CXX compiler ABI info - done
+[4.066s] -- Detecting CXX compile features
+[4.067s] -- Detecting CXX compile features - done
+[4.107s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.176s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.655s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.885s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.890s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.891s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joseph/software-start-here/src/challenge/include>
+[4.891s] -- Configured cppcheck exclude dirs and/or files: 
+[4.895s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.895s] -- Configured cpplint exclude dirs and/or files: 
+[4.899s] -- Added test 'lint_cmake' to check CMake code style
+[4.903s] -- Added test 'uncrustify' to check C / C++ code style
+[4.904s] -- Configured uncrustify additional arguments: 
+[4.906s] -- Added test 'xmllint' to check XML markup files
+[4.916s] -- Configuring done
+[4.936s] -- Generating done
+[4.942s] -- Build files have been written to: /home/joseph/software-start-here/src/build/challenge
+[4.950s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake /home/joseph/software-start-here/src/challenge -DCMAKE_INSTALL_PREFIX=/home/joseph/software-start-here/src/install/challenge
+[4.957s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[5.075s] [35m[1mScanning dependencies of target solution[0m
+[5.153s] [ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[5.268s] [100%] [32m[1mLinking CXX executable solution[0m
+[5.604s] [100%] Built target solution
+[5.654s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/joseph/software-start-here/src/build/challenge -- -j16 -l16
+[5.700s] Invoking command in '/home/joseph/software-start-here/src/build/challenge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge
+[5.729s] -- Install configuration: ""
+[5.733s] -- Installing: /home/joseph/software-start-here/src/install/challenge/lib/challenge/solution
+[5.737s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/package_run_dependencies/challenge
+[5.739s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/parent_prefix_path/challenge
+[5.743s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.sh
+[5.744s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/ament_prefix_path.dsv
+[5.745s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.sh
+[5.746s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/environment/path.dsv
+[5.748s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.bash
+[5.749s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.sh
+[5.750s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.zsh
+[5.751s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/local_setup.dsv
+[5.752s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.dsv
+[5.754s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/ament_index/resource_index/packages/challenge
+[5.756s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig.cmake
+[5.757s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/cmake/challengeConfig-version.cmake
+[5.758s] -- Installing: /home/joseph/software-start-here/src/install/challenge/share/challenge/package.xml
+[5.767s] Invoked command in '/home/joseph/software-start-here/src/build/challenge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joseph/steelhead/install/steelhead_teleop:/home/joseph/steelhead/install/steelhead_pipeline:/home/joseph/steelhead/install/steelhead_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/joseph/software-start-here/src/build/challenge

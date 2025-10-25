@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target solution[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:36:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #message
+   36 |  # [01;31m[Kmessage[m[K.angular.z = amplitude * std::sin(frequency * time_);
+      |    [01;31m[K^~~~~~~[m[K
+[01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:[m[K In member function ‘[01m[Kvoid SineWaveTurtle::timer_callback()[m[K’:
+[01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:34:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kamplitude[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   34 |         double [01;35m[Kamplitude[m[K = 2.0;  // Controls how sharp the curves are
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/joseph/software-start-here/src/challenge/src/solution.cpp:35:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfrequency[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   35 |         double [01;35m[Kfrequency[m[K = 1.0;  // Controls how often it oscillates
+      |                [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/solution.dir/build.make:63: CMakeFiles/solution.dir/src/solution.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/solution.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
