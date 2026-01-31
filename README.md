@@ -47,6 +47,7 @@ There is a new option, to use Docker for development
      * Second Screen: select "Start no client"
      * Third Screen: check "Clipboard", uncheck "Native opengl", check "Disable Access Control" 
      * Select finish
+* Run `xhost +localhost` (If you're on MacOS and xeyes doesn't work)
 * Run `docker run -it --name ubc_subbots -e DISPLAY=host.docker.internal:0 -v /tmp/.X11-unix:/tmp/.X11-unix hashaam1217/ubc_subbots:1.3` in terminal as adminstrator
 * To open another terminal connected to the same OS, run `docker exec -it ubc_subbots /bin/bash`
 * It should be already installed with all tools neccessary to work with ROS2.
