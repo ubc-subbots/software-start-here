@@ -8,7 +8,7 @@ ROS2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution 
 
 ## Foreword on Macs
 
-ROS2 technically has support for MacOS, but it is untested. We **strongly** recommend either dual booting from an Intel Mac or using a Windows computer to dual boot. If there are no alternatives, a popular option is using a virtual machine and loading Ubuntu that way (UTM is generally recommended.) If you're up for the challenge, you can try installing everything natively on the Mac, but be advised we might not be able to help you that much.
+ROS2 technically has support for MacOS, but it is untested. We **strongly** recommend either dual booting from an Intel Mac or using a Windows computer. If there are no alternatives, a popular option is using a virtual machine and loading Ubuntu that way (UTM is generally recommended.) If you're up for the challenge, you can try installing everything natively on the Mac, but be advised we might not be able to help you that much.
 
 ## Dual-booting
 
@@ -79,7 +79,7 @@ Run `docker rm ubc_subbots`
 See 'docker run --help'."
 You might want to launch the docker app before you type in terminal commands.
 
-# Default Installation Steps in Ubuntu 20.04
+# Steps to Follow in Ubuntu
 ## Git command line tools 
 
 If Git isn't already installed, follow the steps [here.](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
