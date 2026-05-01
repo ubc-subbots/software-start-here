@@ -98,7 +98,7 @@ Gazebo is a simulation environment which we will be using to test our robot's co
 
 # ROS2 Index
 
-The [ROS2 Index](https://docs.ros.org/en/foxy/index.html) is the main source of information about the framework. To get a solid understanding of ROS2 concepts, follow along with all of the beginner tutorials [here](https://docs.ros.org/en/foxy/Tutorials.html). It's reccomended to look through all of the intermediate and advanced tutorials as well as we will use concepts explained in these regularily.
+The [ROS2 Index](https://docs.ros.org/en/foxy/index.html) is the main source of information about the framework. To get a solid understanding of ROS2 concepts, follow along with all of the beginner tutorials [here](https://docs.ros.org/en/foxy/Tutorials.html). It's recomended to look through all of the intermediate and advanced tutorials as well as we will use concepts explained in these regularily.
 
 # The Challenge 
 
