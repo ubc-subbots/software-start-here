@@ -4,7 +4,11 @@ This repository will act as a starting point for new developers in order to help
 
 # Ubuntu 20.04 installation guide
 
-ROS2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution to operate, for our development work we will be using Ubuntu 20.04 preferably dual booted alongside Windows. Developing in linux using a Mac machine is generally not recommended but if there is no option please follow the dual-booting instructions below **using an Ubuntu 20.04 image** or explore virtual box options. 
+ROS2 and our robot's on-board computer (Nvidia TX2) use on a linux distribution to operate, for our development work we will be using Ubuntu 20.04 preferably dual booted alongside Windows. 
+
+## Foreword on Macs
+
+ROS2 technically has support for MacOS, but it is untested. We **strongly** recommend either dual booting from an Intel Mac or using a Windows computer to dual boot. If there are no alternatives, a popular option is using a virtual machine and loading Ubuntu that way (UTM is generally recommended.) If you're up for the challenge, you can try installing everything natively on the Mac, but be advised we might not be able to help you that much.
 
 ## Dual-booting
 
@@ -74,18 +78,19 @@ Run `docker rm ubc_subbots`
 * If you get: "docker: error during connect: in the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect: Post "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/create": open //./pipe/docker_engine: The system cannot find the file specified.
 See 'docker run --help'."
 You might want to launch the docker app before you type in terminal commands.
-# Default Installation steps
-# Git command line tools 
 
-To use Git from the linux command line, follow the install [here](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
+# Default Installation Steps in Ubuntu 20.04
+## Git command line tools 
 
-# ROS2 Installation
+If Git isn't already installed, follow the steps [here.](https://linuxize.com/post/how-to-install-git-on-ubuntu-20-04/)
 
-To install ROS2, follow the tutorial [here](https://docs.ros.org/en/foxy/Installation.html). Follow the recommended Debian installation and make sure to download the desktop version. You'll see warnings that the repositories are unsigned when running `sudo apt update`. This is because the ROS version we are using is outdated, so just append `--allow-insecure-repositories` to the command.
+## ROS2 Installation
 
-Next, you will need to install the ROS2 build tools (Colcon) by running `sudo apt install python3-colcon-common-extensions`. You can check out the full guide [here](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html?highlight=colcon#install-colcon).
+To install ROS2, follow the tutorial [here](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html). Make sure to download the recommended desktop version. You might see warnings that the repositories are unsigned when running `sudo apt update`. This is because the ROS version we are using is outdated, so just append `--allow-insecure-repositories` to the command.
 
-# Gazebo 11 Installation 
+Next, you will need to install the ROS2 build tools (Colcon) by running `sudo apt install python3-colcon-common-extensions`. 
+
+## Gazebo Classic 11 Installation 
 
 Gazebo is a simulation environment which we will be using to test our robot's computer vision and control algorithms. Follow the 'alternative installation instructions' below since the script is deprecated.
 
@@ -104,4 +109,4 @@ Using the Turtlesim package, you will write a node that commands the turtle to p
 4. Create a ROS 2 C++ package inside the repository named "challenge" with a node named "solution" (ROS2 tutorials refer to dev_ws/src, in your case this should be software-start-here/src).
 5. Fill in your node so that it can command the turtlesim node to perform a sine motion. 
 6. **Bonus** Write a launch file to launch a turtlesim node and your node together. 
-7. push your node to Git and let Jake or Logan know that you've completed the challenge!
+7. push your node to Git and let one of the leads know that you've completed the challenge!
