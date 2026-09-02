@@ -1,4 +1,4 @@
- # Software Challenge
+# Software Challenge
 
 This repository will act as a starting point for new developers in order to help them understand some of the fundamentals of ROS2 and Gazebo, and to guide the installation of the Ubuntu OS.
 
