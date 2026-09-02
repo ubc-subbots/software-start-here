@@ -1,4 +1,6 @@
- # Software Challenge
+# This document is now deprecated and has been moved to the wiki of Steelhead as onboarding has changed. It is kept here for archival purposes.
+
+# Software Challenge
 
 This repository will act as a starting point for new developers in order to help them understand some of the fundamentals of ROS2 and Gazebo, and to guide the installation of the Ubuntu OS.
 
