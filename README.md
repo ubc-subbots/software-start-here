@@ -1,4 +1,5 @@
-# This repo is deprecated as projects move to Ubuntu 26.04. Setup is detailed in repo Wiki.
+> [!WARNING]
+> This repo is archived as projects move to Ubuntu 26.04. Setup is now detailed in the projects Wiki.
 
 # Software Challenge
 
